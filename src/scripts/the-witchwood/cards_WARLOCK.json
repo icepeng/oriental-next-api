@@ -1,0 +1,22 @@
+[
+  {
+    "id": "lord-godfrey",
+    "class": "WARLOCK",
+    "rarity": "LEGENDARY",
+    "cost": "7"
+  },
+  {
+    "id": "glinda-crowskin",
+    "class": "WARLOCK",
+    "rarity": "LEGENDARY",
+    "cost": "6"
+  },
+  {
+    "id": "deathweb-spider",
+    "class": "WARLOCK",
+    "rarity": "EPIC",
+    "cost": "5"
+  },
+  { "id": "blood-witch", "class": "WARLOCK", "rarity": "RARE", "cost": "4" },
+  { "id": "duskbat", "class": "WARLOCK", "rarity": "COMMON", "cost": "3" }
+]

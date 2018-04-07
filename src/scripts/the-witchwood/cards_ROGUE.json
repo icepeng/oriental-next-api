@@ -1,0 +1,21 @@
+[
+  {
+    "id": "tess-greymane",
+    "class": "ROGUE",
+    "rarity": "LEGENDARY",
+    "cost": "8"
+  },
+  {
+    "id": "face-collector",
+    "class": "ROGUE",
+    "rarity": "LEGENDARY",
+    "cost": "3"
+  },
+  { "id": "wanted", "class": "ROGUE", "rarity": "EPIC", "cost": "4" },
+  { "id": "spectral-cutlass", "class": "ROGUE", "rarity": "EPIC", "cost": "4" },
+  { "id": "cursed-castaway", "class": "ROGUE", "rarity": "RARE", "cost": "6" },
+  { "id": "mistwraith", "class": "ROGUE", "rarity": "RARE", "cost": "4" },
+  { "id": "pick-pocket", "class": "ROGUE", "rarity": "RARE", "cost": "2" },
+  { "id": "blink-fox", "class": "ROGUE", "rarity": "COMMON", "cost": "3" },
+  { "id": "cheap-shot", "class": "ROGUE", "rarity": "COMMON", "cost": "2" }
+]

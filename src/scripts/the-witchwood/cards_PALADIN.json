@@ -1,0 +1,28 @@
+[
+  {
+    "id": "the-glass-knight",
+    "class": "PALADIN",
+    "rarity": "LEGENDARY",
+    "cost": "4"
+  },
+  {
+    "id": "cathedral-gargoyle",
+    "class": "PALADIN",
+    "rarity": "EPIC",
+    "cost": "2"
+  },
+  { "id": "silver-sword", "class": "PALADIN", "rarity": "RARE", "cost": "8" },
+  {
+    "id": "bellringer-sentry",
+    "class": "PALADIN",
+    "rarity": "RARE",
+    "cost": "4"
+  },
+  { "id": "rebuke", "class": "PALADIN", "rarity": "COMMON", "cost": "2" },
+  {
+    "id": "sound-the-bells",
+    "class": "PALADIN",
+    "rarity": "COMMON",
+    "cost": "2"
+  }
+]

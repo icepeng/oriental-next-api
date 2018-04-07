@@ -1,0 +1,104 @@
+[
+  {
+    "id": "baku-the-mooneater",
+    "class": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "cost": "9"
+  },
+  {
+    "id": "azalina-soulthief",
+    "class": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "cost": "7"
+  },
+  {
+    "id": "countess-ashmore",
+    "class": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "cost": "7"
+  },
+  {
+    "id": "genn-greymane",
+    "class": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "cost": "6"
+  },
+  {
+    "id": "dollmaster-dorian",
+    "class": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "cost": "5"
+  },
+  {
+    "id": "splitting-festeroot",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "8"
+  },
+  {
+    "id": "worgen-abomination",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "7"
+  },
+  { "id": "mossy-horror", "class": "NEUTRAL", "rarity": "EPIC", "cost": "6" },
+  { "id": "muck-hunter", "class": "NEUTRAL", "rarity": "EPIC", "cost": "5" },
+  {
+    "id": "nightmare-amalgam",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "3"
+  },
+  { "id": "voodoo-doll", "class": "NEUTRAL", "rarity": "EPIC", "cost": "3" },
+  {
+    "id": "witchs-cauldron",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "3"
+  },
+  {
+    "id": "gilnean-royal-guard",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "8"
+  },
+  { "id": "scaleworm", "class": "NEUTRAL", "rarity": "RARE", "cost": "4" },
+  {
+    "id": "phantom-militia",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "3"
+  },
+  {
+    "id": "clockwork-automaton",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "5"
+  },
+  {
+    "id": "rotten-applebaum",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "5"
+  },
+  {
+    "id": "swift-messenger",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "4"
+  },
+  {
+    "id": "blackwald-pixie",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  { "id": "ravencaller", "class": "NEUTRAL", "rarity": "COMMON", "cost": "3" },
+  {
+    "id": "pumpkin-peasant",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  { "id": "spellshifter", "class": "NEUTRAL", "rarity": "COMMON", "cost": "2" }
+]

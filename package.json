@@ -1,5 +1,5 @@
 {
-  "name": "oriental-salad-next",
+  "name": "oriental-next-api",
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
@@ -14,16 +14,32 @@
     "@nestjs/core": "^4.5.10",
     "@nestjs/microservices": "^4.5.8",
     "@nestjs/testing": "^4.5.5",
+    "@nestjs/typeorm": "^2.0.0",
     "@nestjs/websockets": "^4.5.8",
+    "class-transformer": "^0.1.9",
+    "class-validator": "^0.8.5",
+    "consolidate": "^0.15.1",
+    "cors": "^2.8.4",
+    "jsonwebtoken": "^8.2.1",
+    "mustache": "^2.3.0",
+    "passport": "^0.4.0",
+    "passport-bnet": "^1.2.1",
+    "passport-jwt": "^4.0.0",
+    "pg": "^7.4.1",
     "redis": "^2.7.1",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^5.5.6",
+    "typeorm": "^0.2.0-alpha.42",
     "typescript": "^2.6.2"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^7.2.6",
     "@types/node": "^9.3.0",
+    "@types/passport": "^0.4.4",
+    "@types/passport-jwt": "^3.0.1",
+    "@types/passport-oauth2": "^1.4.4",
     "nodemon": "^1.14.1",
-    "tslint": "5.3.2",
-    "ts-node": "^4.1.0"
+    "ts-node": "^4.1.0",
+    "tslint": "5.3.2"
   }
 }

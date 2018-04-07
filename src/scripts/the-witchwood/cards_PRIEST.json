@@ -1,0 +1,13 @@
+[
+  {
+    "id": "lady-in-white",
+    "class": "PRIEST",
+    "rarity": "LEGENDARY",
+    "cost": "6"
+  },
+  { "id": "chameleos", "class": "PRIEST", "rarity": "LEGENDARY", "cost": "1" },
+  { "id": "glitter-moth", "class": "PRIEST", "rarity": "EPIC", "cost": "5" },
+  { "id": "vivid-nightmare", "class": "PRIEST", "rarity": "EPIC", "cost": "3" },
+  { "id": "coffin-crasher", "class": "PRIEST", "rarity": "RARE", "cost": "6" },
+  { "id": "holy-water", "class": "PRIEST", "rarity": "RARE", "cost": "5" }
+]

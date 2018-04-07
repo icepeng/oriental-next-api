@@ -1,0 +1,31 @@
+[
+  {
+    "id": "blackhowl-gunspire",
+    "class": "WARRIOR",
+    "rarity": "LEGENDARY",
+    "cost": "7"
+  },
+  {
+    "id": "darius-crowley",
+    "class": "WARRIOR",
+    "rarity": "LEGENDARY",
+    "cost": "5"
+  },
+  { "id": "deadly-arsenal", "class": "WARRIOR", "rarity": "EPIC", "cost": "6" },
+  { "id": "town-crier", "class": "WARRIOR", "rarity": "EPIC", "cost": "1" },
+  { "id": "festeroot-hulk", "class": "WARRIOR", "rarity": "RARE", "cost": "5" },
+  {
+    "id": "militia-commander",
+    "class": "WARRIOR",
+    "rarity": "RARE",
+    "cost": "4"
+  },
+  { "id": "redband-wasp", "class": "WARRIOR", "rarity": "RARE", "cost": "2" },
+  { "id": "warpath", "class": "WARRIOR", "rarity": "COMMON", "cost": "2" },
+  {
+    "id": "woodcutters-axe",
+    "class": "WARRIOR",
+    "rarity": "COMMON",
+    "cost": "2"
+  }
+]

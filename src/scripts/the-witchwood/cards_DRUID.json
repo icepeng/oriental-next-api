@@ -1,0 +1,19 @@
+[
+  {
+    "id": "splintergraft",
+    "class": "DRUID",
+    "rarity": "LEGENDARY",
+    "cost": "8"
+  },
+  {
+    "id": "duskfallen-aviana",
+    "class": "DRUID",
+    "rarity": "LEGENDARY",
+    "cost": "5"
+  },
+  { "id": "gloom-stag", "class": "DRUID", "rarity": "EPIC", "cost": "5" },
+  { "id": "wispering-woods", "class": "DRUID", "rarity": "EPIC", "cost": "4" },
+  { "id": "forest-guide", "class": "DRUID", "rarity": "RARE", "cost": "4" },
+  { "id": "witching-hour", "class": "DRUID", "rarity": "RARE", "cost": "3" },
+  { "id": "witchwood-apple", "class": "DRUID", "rarity": "COMMON", "cost": "2" }
+]
