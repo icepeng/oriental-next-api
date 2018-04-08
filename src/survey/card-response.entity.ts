@@ -12,10 +12,6 @@ import { SurveyResponse } from './survey-response.entity';
 
 @Entity()
 export class CardResponse {
-  @Generated('increment')
-  @Column('int')
-  id: number;
-
   @ManyToOne(type => SurveyResponse, response => response.cardResponses, {
     primary: true,
   })

@@ -4,10 +4,6 @@ import { SurveyResponse } from './survey-response.entity';
 
 @Entity()
 export class ExpansionResponse {
-  @Generated('increment')
-  @Column('int')
-  id: number;
-
   @OneToOne(type => SurveyResponse, response => response.expansionResponse, {
     primary: true,
   })
