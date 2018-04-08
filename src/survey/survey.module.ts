@@ -6,14 +6,15 @@ import {
 } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
+import { Card } from '../card/card.entity';
 import { JwtMiddleware } from '../common/jwt.middleware';
 import { Expansion } from '../expansion/expansion.entity';
+import { CardResponse } from './card-response.entity';
+import { ExpansionResponse } from './expansion-response.entity';
+import { SurveyResponse } from './survey-response.entity';
 import { SurveyController } from './survey.controller';
 import { Survey } from './survey.entity';
 import { SurveyService } from './survey.service';
-import { SurveyResponse } from './survey-response.entity';
-import { CardResponse } from './card-response.entity';
-import { ExpansionResponse } from './expansion-response.entity';
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import { ExpansionResponse } from './expansion-response.entity';
       CardResponse,
       ExpansionResponse,
       Expansion,
+      Card,
     ]),
   ],
   components: [SurveyService],
@@ -34,6 +36,8 @@ export class SurveyModule implements NestModule {
     consumer
       .apply(JwtMiddleware)
       .forRoutes(
+        { path: '/surveys/:surveyId/responses/:id', method: RequestMethod.ALL },
+        { path: '/surveys/:id/responses', method: RequestMethod.ALL },
         { path: '/surveys/:id', method: RequestMethod.ALL },
         { path: '/surveys', method: RequestMethod.ALL },
       );

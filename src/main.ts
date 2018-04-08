@@ -1,3 +1,4 @@
+import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import * as consolidate from 'consolidate';
 import * as cors from 'cors';
@@ -8,7 +9,6 @@ import * as https from 'https';
 import * as path from 'path';
 
 import { ApplicationModule } from './app.module';
-import { ParseModelPipe } from './common/parse-model.pipe';
 
 async function bootstrap() {
   const httpsOptions = {
@@ -22,8 +22,8 @@ async function bootstrap() {
   server.engine('html', consolidate.mustache);
   app.set('view engine', 'html');
   app.use(cors());
+  app.useGlobalPipes(new ValidationPipe());
   app.setGlobalPrefix('/api/v1');
-  app.useGlobalPipes(new ParseModelPipe());
   await app.init();
 
   http.createServer(server).listen(3001);

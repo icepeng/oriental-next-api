@@ -1,35 +1,45 @@
 import {
   CreateDateColumn,
   Entity,
+  Index,
   ManyToOne,
   OneToMany,
-  PrimaryGeneratedColumn,
   OneToOne,
+  PrimaryGeneratedColumn,
+  JoinColumn,
+  Column,
 } from 'typeorm';
 
 import { User } from '../user/user.entity';
 import { CardResponse } from './card-response.entity';
-import { Survey } from './survey.entity';
 import { ExpansionResponse } from './expansion-response.entity';
+import { Survey } from './survey.entity';
 
 @Entity()
+@Index(['user', 'survey'], { unique: true })
 export class SurveyResponse {
-  @PrimaryGeneratedColumn() id: string;
+  @PrimaryGeneratedColumn() id: number;
 
   @CreateDateColumn() createTime: string;
 
-  @ManyToOne(type => Survey, survey => survey.responses)
+  @Column() surveyId: string;
+
+  @ManyToOne(type => Survey, survey => survey.responses, { nullable: false })
+  @JoinColumn({ name: 'surveyId' })
   survey: Survey;
 
-  @ManyToOne(type => User, user => user.responses)
+  @ManyToOne(type => User, user => user.responses, { nullable: false })
   user: User;
 
-  @OneToMany(type => CardResponse, cardResponse => cardResponse.response)
+  @OneToMany(type => CardResponse, cardResponse => cardResponse.response, {
+    cascade: ['insert', 'update'],
+  })
   cardResponses: CardResponse[];
 
   @OneToOne(
     type => ExpansionResponse,
     expansionResponse => expansionResponse.response,
+    { cascade: ['insert', 'update'], nullable: false },
   )
   expansionResponse: ExpansionResponse;
 }

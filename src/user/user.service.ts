@@ -30,6 +30,12 @@ export class UserService {
   }
 
   async findOne(id: string) {
-    return this.userRepository.findOne(id, { relations: ['responses'] });
+    return this.userRepository.findOne(id, {
+      relations: [
+        'responses',
+        'responses.cardResponses',
+        'responses.expansionResponse',
+      ],
+    });
   }
 }

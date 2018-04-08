@@ -16,7 +16,7 @@ export class JwtMiddleware implements NestMiddleware {
         (err, user, info) => {
           if (err) {
             next(new UnauthorizedException());
-          } else if (typeof info != 'undefined') {
+          } else if (typeof info !== 'undefined') {
             let message;
             switch (info.message) {
               case 'No auth token':

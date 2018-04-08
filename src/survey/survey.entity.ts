@@ -12,7 +12,7 @@ import { SurveyResponse } from './survey-response.entity';
 
 @Entity()
 export class Survey {
-  @PrimaryGeneratedColumn() id: string;
+  @PrimaryGeneratedColumn() id: number;
 
   @CreateDateColumn() createTime: string;
 

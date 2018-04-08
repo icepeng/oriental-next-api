@@ -1,4 +1,4 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Param, NotFoundException } from '@nestjs/common';
 
 import { UserService } from './user.service';
 
@@ -8,11 +8,20 @@ export class UserController {
 
   @Get()
   public async getAll() {
-    return this.userService.findAll();
+    const users = await this.userService.findAll();
+    return {
+      users,
+    };
   }
 
   @Get('/:id')
   public async getOne(@Param('id') id: string) {
-    return this.userService.findOne(id);
+    const user = await this.userService.findOne(id);
+    if (!user) {
+      throw new NotFoundException();
+    }
+    return {
+      user,
+    };
   }
 }

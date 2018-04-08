@@ -1,4 +1,4 @@
-export interface CreateSurveyDto {
+export class CreateSurveyDto {
   expansion: string;
   startTime: string;
   endTime?: string;

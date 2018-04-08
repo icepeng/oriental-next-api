@@ -17,6 +17,7 @@ import { UserModule } from './user/user.module';
       database: 'oriental-next',
       entities: [__dirname + '/../**/*.entity{.ts,.js}'],
       synchronize: true,
+      logging: ['error'],
     }),
     UserModule,
     AuthModule,

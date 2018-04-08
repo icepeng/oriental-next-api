@@ -1,18 +1,16 @@
-import {
-  Column,
-  Entity,
-  JoinColumn,
-  OneToOne,
-  PrimaryGeneratedColumn,
-} from 'typeorm';
+import { Column, Entity, Generated, JoinColumn, OneToOne } from 'typeorm';
 
 import { SurveyResponse } from './survey-response.entity';
 
 @Entity()
 export class ExpansionResponse {
-  @PrimaryGeneratedColumn() id: string;
+  @Generated('increment')
+  @Column('int')
+  id: number;
 
-  @OneToOne(type => SurveyResponse, response => response.cardResponses)
+  @OneToOne(type => SurveyResponse, response => response.expansionResponse, {
+    primary: true,
+  })
   @JoinColumn()
   response: SurveyResponse;
 
