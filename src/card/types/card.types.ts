@@ -3,7 +3,7 @@ export type PlayerClass =
   | 'WARLOCK'
   | 'SHAMAN'
   | 'PALADIN'
-  | 'PREIST'
+  | 'PRIEST'
   | 'ROGUE'
   | 'DRUID'
   | 'HUNTER'
