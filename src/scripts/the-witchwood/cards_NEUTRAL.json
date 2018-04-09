@@ -70,13 +70,13 @@
     "cost": "3"
   },
   {
-    "id": "clockwork-automaton",
+    "id": "rotten-applebaum",
     "class": "NEUTRAL",
     "rarity": "COMMON",
     "cost": "5"
   },
   {
-    "id": "rotten-applebaum",
+    "id": "clockwork-automaton",
     "class": "NEUTRAL",
     "rarity": "COMMON",
     "cost": "5"
@@ -93,12 +93,12 @@
     "rarity": "COMMON",
     "cost": "3"
   },
-  { "id": "ravencaller", "class": "NEUTRAL", "rarity": "COMMON", "cost": "3" },
   {
     "id": "pumpkin-peasant",
     "class": "NEUTRAL",
     "rarity": "COMMON",
     "cost": "3"
   },
+  { "id": "ravencaller", "class": "NEUTRAL", "rarity": "COMMON", "cost": "3" },
   { "id": "spellshifter", "class": "NEUTRAL", "rarity": "COMMON", "cost": "2" }
 ]

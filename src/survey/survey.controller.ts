@@ -43,6 +43,7 @@ export class SurveyController {
       createResponseDto,
     );
     return {
+      user: user.id,
       id: created.id,
     };
   }
@@ -62,6 +63,8 @@ export class SurveyController {
       user,
       createResponseDto,
     );
-    return;
+    return {
+      user: user.id,
+    };
   }
 }
