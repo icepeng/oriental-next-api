@@ -1,17 +1,18 @@
 import {
-  Body,
   Controller,
   Get,
   Param,
   ParseIntPipe,
   Post,
-  Put,
+  Body,
 } from '@nestjs/common';
-
 import { Auth } from '../common/auth.decorator';
 import { User } from '../user/user.entity';
-import { CreateResponseDto } from './dto/create-response.dto';
 import { SurveyService } from './survey.service';
+import {
+  CardResponseDto,
+  ExpansionResponseDto,
+} from './dto/create-response.dto';
 
 @Controller('surveys')
 export class SurveyController {
@@ -35,36 +36,43 @@ export class SurveyController {
     @Param('id', new ParseIntPipe())
     id: number,
     @Auth() user: User,
-    @Body() createResponseDto: CreateResponseDto,
   ) {
-    const created = await this.surveyService.createResponse(
-      id,
-      user,
-      createResponseDto,
-    );
+    const created = await this.surveyService.createResponse(id, user);
     return {
-      user: user.id,
       id: created.id,
     };
   }
 
-  @Put('/:surveyId/responses/:id')
-  public async updateResponse(
-    @Param('id', new ParseIntPipe())
-    id: number,
+  @Post('/:surveyId/responses/:id/card-responses')
+  public async createCardResponse(
     @Param('surveyId', new ParseIntPipe())
     surveyId: number,
+    @Param('id', new ParseIntPipe())
+    id: number,
     @Auth() user: User,
-    @Body() createResponseDto: CreateResponseDto,
+    @Body() cardResponseDto: CardResponseDto,
   ) {
-    const created = await this.surveyService.updateResponse(
+    const created = await this.surveyService.createCardResponse(
       id,
       surveyId,
       user,
-      createResponseDto,
+      cardResponseDto,
     );
-    return {
-      user: user.id,
-    };
+    return;
+  }
+
+  @Post('/:surveyId/responses/:id/expansion-response')
+  public async createExpansionResponse(
+    @Param('id', new ParseIntPipe())
+    id: number,
+    @Auth() user: User,
+    @Body() expansionResponseDto: ExpansionResponseDto,
+  ) {
+    const created = await this.surveyService.createExpansionResponse(
+      id,
+      user,
+      expansionResponseDto,
+    );
+    return;
   }
 }

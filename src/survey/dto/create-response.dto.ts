@@ -1,11 +1,4 @@
-import { Type } from 'class-transformer';
-import {
-  IsInt,
-  IsString,
-  ValidateNested,
-  IsIn,
-  IsDefined,
-} from 'class-validator';
+import { IsInt, IsString } from 'class-validator';
 
 export class CardResponseDto {
   @IsString() readonly card: string;
@@ -23,16 +16,4 @@ export class ExpansionResponseDto {
   @IsInt() readonly balance: number;
 
   @IsString() readonly description: string;
-}
-
-export class CreateResponseDto {
-  @ValidateNested({ each: true })
-  @IsDefined()
-  @Type(type => CardResponseDto)
-  readonly cardResponses: CardResponseDto[];
-
-  @ValidateNested()
-  @IsDefined()
-  @Type(type => ExpansionResponseDto)
-  readonly expansionResponse: ExpansionResponseDto;
 }

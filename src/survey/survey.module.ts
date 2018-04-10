@@ -36,6 +36,8 @@ export class SurveyModule implements NestModule {
     consumer
       .apply(JwtMiddleware)
       .forRoutes(
+        { path: '/surveys/:surveyId/responses/:id/card-responses', method: RequestMethod.ALL },
+        { path: '/surveys/:surveyId/responses/:id/expansion-response', method: RequestMethod.ALL },
         { path: '/surveys/:surveyId/responses/:id', method: RequestMethod.ALL },
         { path: '/surveys/:id/responses', method: RequestMethod.ALL },
         { path: '/surveys/:id', method: RequestMethod.ALL },

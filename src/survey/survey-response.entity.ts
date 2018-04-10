@@ -1,15 +1,14 @@
 import {
+  Column,
   CreateDateColumn,
   Entity,
   Index,
+  JoinColumn,
   ManyToOne,
   OneToMany,
   OneToOne,
   PrimaryGeneratedColumn,
-  JoinColumn,
-  Column,
 } from 'typeorm';
-
 import { User } from '../user/user.entity';
 import { CardResponse } from './card-response.entity';
 import { ExpansionResponse } from './expansion-response.entity';
