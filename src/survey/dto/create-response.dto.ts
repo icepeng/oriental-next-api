@@ -1,5 +1,5 @@
-import { IsInt, IsString } from 'class-validator';
-
+import { Type } from 'class-transformer';
+import { IsDefined, IsInt, IsString, ValidateNested } from 'class-validator';
 export class CardResponseDto {
   @IsString() readonly card: string;
 
@@ -16,4 +16,16 @@ export class ExpansionResponseDto {
   @IsInt() readonly balance: number;
 
   @IsString() readonly description: string;
+}
+
+export class CreateResponseDto { // TODO: remove after fix release
+  @ValidateNested({ each: true })
+  @IsDefined()
+  @Type(type => CardResponseDto)
+  readonly cardResponses: CardResponseDto[];
+
+  @ValidateNested()
+  @IsDefined()
+  @Type(type => ExpansionResponseDto)
+  readonly expansionResponse: ExpansionResponseDto;
 }

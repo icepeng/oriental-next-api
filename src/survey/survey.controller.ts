@@ -1,18 +1,20 @@
 import {
+  Body,
   Controller,
   Get,
   Param,
   ParseIntPipe,
   Post,
-  Body,
+  Put,
 } from '@nestjs/common';
 import { Auth } from '../common/auth.decorator';
 import { User } from '../user/user.entity';
-import { SurveyService } from './survey.service';
 import {
   CardResponseDto,
+  CreateResponseDto,
   ExpansionResponseDto,
 } from './dto/create-response.dto';
+import { SurveyService } from './survey.service';
 
 @Controller('surveys')
 export class SurveyController {
@@ -31,13 +33,53 @@ export class SurveyController {
     return this.surveyService.findOne(id);
   }
 
+  // TODO: remove after fix release
   @Post('/:id/responses')
   public async createResponse(
     @Param('id', new ParseIntPipe())
     id: number,
     @Auth() user: User,
+    @Body() createResponseDto: CreateResponseDto,
   ) {
-    const created = await this.surveyService.createResponse(id, user);
+    const created = await this.surveyService.createResponse(
+      id,
+      user,
+      createResponseDto,
+    );
+    return {
+      user: user.id,
+      id: created.id,
+    };
+  }
+
+  // TODO: remove after fix release
+  @Put('/:surveyId/responses/:id')
+  public async updateResponse(
+    @Param('id', new ParseIntPipe())
+    id: number,
+    @Param('surveyId', new ParseIntPipe())
+    surveyId: number,
+    @Auth() user: User,
+    @Body() createResponseDto: CreateResponseDto,
+  ) {
+    const created = await this.surveyService.updateResponse(
+      id,
+      surveyId,
+      user,
+      createResponseDto,
+    );
+    return {
+      user: user.id,
+    };
+  }
+
+  @Post('/:id/responses/empty')
+  public async createEmptyResponse(
+    @Param('id', new ParseIntPipe())
+    id: number,
+    @Auth() user: User,
+  ) {
+    const created = await this.surveyService.createEmptyResponse(id, user);
     return {
       id: created.id,
     };

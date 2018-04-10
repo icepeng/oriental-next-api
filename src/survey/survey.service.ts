@@ -12,6 +12,7 @@ import { CardResponse } from './card-response.entity';
 import {
   CardResponseDto,
   ExpansionResponseDto,
+  CreateResponseDto,
 } from './dto/create-response.dto';
 import { CreateSurveyDto } from './dto/create-survey.dto';
 import { ExpansionResponse } from './expansion-response.entity';
@@ -58,7 +59,7 @@ export class SurveyService {
     return this.surveyRepository.findOne(id);
   }
 
-  async createResponse(surveyId: number, user: User) {
+  async createEmptyResponse(surveyId: number, user: User) {
     const survey = await this.surveyRepository.findOne(surveyId, {
       relations: ['expansion'],
     });
@@ -138,5 +139,115 @@ export class SurveyService {
     });
 
     return this.expansionResponseRepository.save(expansionResponse);
+  }
+
+  // TODO: remove after fix release
+  async createResponse(
+    surveyId: number,
+    user: User,
+    createResponseDto: CreateResponseDto,
+  ) {
+    const survey = await this.surveyRepository.findOne(surveyId, {
+      relations: ['expansion'],
+    });
+    if (!survey) {
+      throw new NotFoundException();
+    }
+
+    const existing = await this.responseRepository.findOne({
+      survey,
+      user,
+    });
+    if (existing) {
+      throw new BadRequestException();
+    }
+
+    const cards = await this.cardRepository.findByIds(
+      createResponseDto.cardResponses.map(x => x.card),
+      {
+        expansion: survey.expansion,
+      },
+    );
+
+    const cardMap = cards.reduce((obj, x) => ({ ...obj, [x.id]: x }), {} as {
+      [id: string]: Card;
+    });
+
+    const cardResponses = createResponseDto.cardResponses.map(x => {
+      const card = cardMap[x.card];
+      if (!card) {
+        throw new BadRequestException();
+      }
+      return this.cardResponseRepository.create({
+        ...x,
+        card,
+      });
+    });
+
+    const expansionResponse = this.expansionResponseRepository.create({
+      ...createResponseDto.expansionResponse,
+    });
+
+    const response = await this.responseRepository.create({
+      survey,
+      user,
+      cardResponses,
+      expansionResponse,
+    });
+    return this.responseRepository.save(response);
+  }
+
+  async updateResponse(
+    id: number,
+    surveyId: number,
+    user: User,
+    createResponseDto: CreateResponseDto,
+  ) {
+    const survey = await this.surveyRepository.findOne(surveyId, {
+      relations: ['expansion'],
+    });
+    if (!survey) {
+      throw new NotFoundException();
+    }
+
+    const existing = await this.responseRepository.findOne({
+      id,
+      user,
+    });
+    if (!existing) {
+      throw new NotFoundException();
+    }
+
+    const cards = await this.cardRepository.findByIds(
+      createResponseDto.cardResponses.map(x => x.card),
+      {
+        expansion: survey.expansion,
+      },
+    );
+
+    const cardMap = cards.reduce((obj, x) => ({ ...obj, [x.id]: x }), {} as {
+      [id: string]: Card;
+    });
+
+    const cardResponses = createResponseDto.cardResponses.map(x => {
+      const card = cardMap[x.card];
+      if (!card) {
+        throw new BadRequestException();
+      }
+      return this.cardResponseRepository.create({
+        ...x,
+        card,
+        response: existing,
+      });
+    });
+
+    const expansionResponse = this.expansionResponseRepository.create({
+      ...createResponseDto.expansionResponse,
+      response: existing,
+    });
+
+    await this.cardResponseRepository.save(cardResponses);
+    await this.expansionResponseRepository.save(expansionResponse);
+    return;
   }
 }
