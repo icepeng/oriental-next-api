@@ -1,5 +1,11 @@
 [
   {
+    "id": "prince-liam",
+    "class": "PALADIN",
+    "rarity": "LEGENDARY",
+    "cost": "5"
+  },
+  {
     "id": "the-glass-knight",
     "class": "PALADIN",
     "rarity": "LEGENDARY",
@@ -11,11 +17,25 @@
     "rarity": "EPIC",
     "cost": "2"
   },
+  { "id": "hidden-wisdom", "class": "PALADIN", "rarity": "EPIC", "cost": "1" },
+  { "id": "silver-sword", "class": "PALADIN", "rarity": "RARE", "cost": "8" },
   {
     "id": "bellringer-sentry",
     "class": "PALADIN",
     "rarity": "RARE",
     "cost": "4"
+  },
+  {
+    "id": "paragon-of-light",
+    "class": "PALADIN",
+    "rarity": "RARE",
+    "cost": "3"
+  },
+  {
+    "id": "ghostly-charger",
+    "class": "PALADIN",
+    "rarity": "COMMON",
+    "cost": "5"
   },
   { "id": "rebuke", "class": "PALADIN", "rarity": "COMMON", "cost": "2" },
   {

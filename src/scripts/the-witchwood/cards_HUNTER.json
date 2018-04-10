@@ -8,12 +8,19 @@
   },
   { "id": "toxmonger", "class": "HUNTER", "rarity": "EPIC", "cost": "4" },
   { "id": "rat-trap", "class": "HUNTER", "rarity": "EPIC", "cost": "2" },
+  { "id": "carrion-drake", "class": "HUNTER", "rarity": "RARE", "cost": "5" },
   { "id": "wing-blast", "class": "HUNTER", "rarity": "RARE", "cost": "4" },
   {
     "id": "duskhaven-hunter",
     "class": "HUNTER",
     "rarity": "RARE",
     "cost": "3"
+  },
+  {
+    "id": "vilebrood-skitterer",
+    "class": "HUNTER",
+    "rarity": "COMMON",
+    "cost": "5"
   },
   { "id": "dire-frenzy", "class": "HUNTER", "rarity": "COMMON", "cost": "4" },
   {

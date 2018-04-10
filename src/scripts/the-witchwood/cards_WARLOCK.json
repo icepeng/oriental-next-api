@@ -17,6 +17,26 @@
     "rarity": "EPIC",
     "cost": "5"
   },
+  { "id": "ratcatcher", "class": "WARLOCK", "rarity": "EPIC", "cost": "3" },
   { "id": "blood-witch", "class": "WARLOCK", "rarity": "RARE", "cost": "4" },
-  { "id": "duskbat", "class": "WARLOCK", "rarity": "COMMON", "cost": "3" }
+  {
+    "id": "curse-of-weakness",
+    "class": "WARLOCK",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
+    "id": "dark-possession",
+    "class": "WARLOCK",
+    "rarity": "RARE",
+    "cost": "1"
+  },
+  {
+    "id": "fiendish-circle",
+    "class": "WARLOCK",
+    "rarity": "COMMON",
+    "cost": "4"
+  },
+  { "id": "duskbat", "class": "WARLOCK", "rarity": "COMMON", "cost": "3" },
+  { "id": "witchwood-imp", "class": "WARLOCK", "rarity": "COMMON", "cost": "1" }
 ]

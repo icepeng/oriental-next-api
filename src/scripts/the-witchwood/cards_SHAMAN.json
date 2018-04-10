@@ -1,5 +1,11 @@
 [
   {
+    "id": "shudderwock",
+    "class": "SHAMAN",
+    "rarity": "LEGENDARY",
+    "cost": "9"
+  },
+  {
     "id": "hagatha-the-witch",
     "class": "SHAMAN",
     "rarity": "LEGENDARY",
@@ -8,10 +14,24 @@
   { "id": "bogshaper", "class": "SHAMAN", "rarity": "EPIC", "cost": "7" },
   { "id": "totem-cruncher", "class": "SHAMAN", "rarity": "EPIC", "cost": "4" },
   { "id": "murkspark-eel", "class": "SHAMAN", "rarity": "RARE", "cost": "2" },
+  { "id": "earthen-might", "class": "SHAMAN", "rarity": "RARE", "cost": "2" },
+  {
+    "id": "blazing-invocation",
+    "class": "SHAMAN",
+    "rarity": "RARE",
+    "cost": "1"
+  },
+  {
+    "id": "ghost-light-angler",
+    "class": "SHAMAN",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
   {
     "id": "witchs-apprentice",
     "class": "SHAMAN",
     "rarity": "COMMON",
     "cost": "1"
-  }
+  },
+  { "id": "zap", "class": "SHAMAN", "rarity": "COMMON", "cost": "0" }
 ]

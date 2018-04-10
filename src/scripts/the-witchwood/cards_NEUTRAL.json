@@ -43,13 +43,7 @@
   },
   { "id": "mossy-horror", "class": "NEUTRAL", "rarity": "EPIC", "cost": "6" },
   { "id": "muck-hunter", "class": "NEUTRAL", "rarity": "EPIC", "cost": "5" },
-  {
-    "id": "nightmare-amalgam",
-    "class": "NEUTRAL",
-    "rarity": "EPIC",
-    "cost": "3"
-  },
-  { "id": "voodoo-doll", "class": "NEUTRAL", "rarity": "EPIC", "cost": "3" },
+  { "id": "sandbinder", "class": "NEUTRAL", "rarity": "EPIC", "cost": "4" },
   {
     "id": "witchs-cauldron",
     "class": "NEUTRAL",
@@ -57,12 +51,41 @@
     "cost": "3"
   },
   {
+    "id": "nightmare-amalgam",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "3"
+  },
+  { "id": "voodoo-doll", "class": "NEUTRAL", "rarity": "EPIC", "cost": "3" },
+  { "id": "baleful-banker", "class": "NEUTRAL", "rarity": "EPIC", "cost": "2" },
+  {
     "id": "gilnean-royal-guard",
     "class": "NEUTRAL",
     "rarity": "RARE",
     "cost": "8"
   },
+  {
+    "id": "chief-inspector",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "5"
+  },
+  {
+    "id": "witchwood-grizzly",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "5"
+  },
+  { "id": "mad-hatter", "class": "NEUTRAL", "rarity": "RARE", "cost": "4" },
+  { "id": "lifedrinker", "class": "NEUTRAL", "rarity": "RARE", "cost": "4" },
+  {
+    "id": "witchwood-piper",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "4"
+  },
   { "id": "scaleworm", "class": "NEUTRAL", "rarity": "RARE", "cost": "4" },
+  { "id": "night-prowler", "class": "NEUTRAL", "rarity": "RARE", "cost": "4" },
   {
     "id": "phantom-militia",
     "class": "NEUTRAL",
@@ -70,10 +93,29 @@
     "cost": "3"
   },
   {
-    "id": "rotten-applebaum",
+    "id": "cauldron-elemental",
     "class": "NEUTRAL",
     "rarity": "COMMON",
-    "cost": "5"
+    "cost": "8"
+  },
+  {
+    "id": "deranged-doctor",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "8"
+  },
+  { "id": "wyrmguard", "class": "NEUTRAL", "rarity": "COMMON", "cost": "7" },
+  {
+    "id": "furious-ettin",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "7"
+  },
+  {
+    "id": "darkmire-moonkin",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "7"
   },
   {
     "id": "clockwork-automaton",
@@ -82,10 +124,35 @@
     "cost": "5"
   },
   {
+    "id": "rotten-applebaum",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "5"
+  },
+  {
+    "id": "felsoul-inquisitor",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "4"
+  },
+  {
     "id": "swift-messenger",
     "class": "NEUTRAL",
     "rarity": "COMMON",
     "cost": "4"
+  },
+  {
+    "id": "unpowered-steambot",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "4"
+  },
+  { "id": "ravencaller", "class": "NEUTRAL", "rarity": "COMMON", "cost": "3" },
+  {
+    "id": "tanglefur-mystic",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
   },
   {
     "id": "blackwald-pixie",
@@ -99,6 +166,32 @@
     "rarity": "COMMON",
     "cost": "3"
   },
-  { "id": "ravencaller", "class": "NEUTRAL", "rarity": "COMMON", "cost": "3" },
-  { "id": "spellshifter", "class": "NEUTRAL", "rarity": "COMMON", "cost": "2" }
+  { "id": "marsh-drake", "class": "NEUTRAL", "rarity": "COMMON", "cost": "3" },
+  {
+    "id": "hench-clan-thug",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  {
+    "id": "walnut-sprite",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  { "id": "lost-spirit", "class": "NEUTRAL", "rarity": "COMMON", "cost": "2" },
+  { "id": "spellshifter", "class": "NEUTRAL", "rarity": "COMMON", "cost": "2" },
+  {
+    "id": "vicious-scalehide",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "swamp-dragon-egg",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "1"
+  },
+  { "id": "swamp-leech", "class": "NEUTRAL", "rarity": "COMMON", "cost": "1" }
 ]

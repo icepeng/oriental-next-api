@@ -16,6 +16,12 @@
   { "id": "cursed-castaway", "class": "ROGUE", "rarity": "RARE", "cost": "6" },
   { "id": "mistwraith", "class": "ROGUE", "rarity": "RARE", "cost": "4" },
   { "id": "pick-pocket", "class": "ROGUE", "rarity": "RARE", "cost": "2" },
+  {
+    "id": "cutthroat-buccaneer",
+    "class": "ROGUE",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
   { "id": "blink-fox", "class": "ROGUE", "rarity": "COMMON", "cost": "3" },
   { "id": "cheap-shot", "class": "ROGUE", "rarity": "COMMON", "cost": "2" }
 ]

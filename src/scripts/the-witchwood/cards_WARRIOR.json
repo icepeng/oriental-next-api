@@ -21,6 +21,7 @@
     "cost": "4"
   },
   { "id": "redband-wasp", "class": "WARRIOR", "rarity": "RARE", "cost": "2" },
+  { "id": "rabid-worgen", "class": "WARRIOR", "rarity": "COMMON", "cost": "3" },
   { "id": "warpath", "class": "WARRIOR", "rarity": "COMMON", "cost": "2" },
   {
     "id": "woodcutters-axe",

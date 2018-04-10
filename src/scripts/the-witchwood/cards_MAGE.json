@@ -5,7 +5,18 @@
     "rarity": "LEGENDARY",
     "cost": "6"
   },
+  {
+    "id": "archmage-arugal",
+    "class": "MAGE",
+    "rarity": "LEGENDARY",
+    "cost": "2"
+  },
+  { "id": "arcane-keysmith", "class": "MAGE", "rarity": "EPIC", "cost": "4" },
   { "id": "book-of-specters", "class": "MAGE", "rarity": "EPIC", "cost": "2" },
+  { "id": "bonfire-elemental", "class": "MAGE", "rarity": "RARE", "cost": "5" },
+  { "id": "curio-collector", "class": "MAGE", "rarity": "RARE", "cost": "5" },
+  { "id": "cinderstorm", "class": "MAGE", "rarity": "RARE", "cost": "3" },
   { "id": "vex-crow", "class": "MAGE", "rarity": "COMMON", "cost": "4" },
-  { "id": "black-cat", "class": "MAGE", "rarity": "COMMON", "cost": "3" }
+  { "id": "black-cat", "class": "MAGE", "rarity": "COMMON", "cost": "3" },
+  { "id": "snap-freeze", "class": "MAGE", "rarity": "COMMON", "cost": "2" }
 ]
