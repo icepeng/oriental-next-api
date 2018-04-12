@@ -68,7 +68,7 @@ export class SurveyService {
     }
     if (
       survey.endTime &&
-      new Date(survey.endTime).getTime() > new Date().getTime()
+      new Date(survey.endTime).getTime() < new Date().getTime()
     ) {
       throw new BadRequestException();
     }
@@ -102,7 +102,7 @@ export class SurveyService {
     }
     if (
       survey.endTime &&
-      new Date(survey.endTime).getTime() > new Date().getTime()
+      new Date(survey.endTime).getTime() < new Date().getTime()
     ) {
       throw new BadRequestException();
     }
@@ -147,7 +147,7 @@ export class SurveyService {
     }
     if (
       survey.endTime &&
-      new Date(survey.endTime).getTime() > new Date().getTime()
+      new Date(survey.endTime).getTime() < new Date().getTime()
     ) {
       throw new BadRequestException();
     }
