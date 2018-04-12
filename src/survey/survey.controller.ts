@@ -33,53 +33,13 @@ export class SurveyController {
     return this.surveyService.findOne(id);
   }
 
-  // TODO: remove after fix release
   @Post('/:id/responses')
   public async createResponse(
     @Param('id', new ParseIntPipe())
     id: number,
     @Auth() user: User,
-    @Body() createResponseDto: CreateResponseDto,
   ) {
-    const created = await this.surveyService.createResponse(
-      id,
-      user,
-      createResponseDto,
-    );
-    return {
-      user: user.id,
-      id: created.id,
-    };
-  }
-
-  // TODO: remove after fix release
-  @Put('/:surveyId/responses/:id')
-  public async updateResponse(
-    @Param('id', new ParseIntPipe())
-    id: number,
-    @Param('surveyId', new ParseIntPipe())
-    surveyId: number,
-    @Auth() user: User,
-    @Body() createResponseDto: CreateResponseDto,
-  ) {
-    const created = await this.surveyService.updateResponse(
-      id,
-      surveyId,
-      user,
-      createResponseDto,
-    );
-    return {
-      user: user.id,
-    };
-  }
-
-  @Post('/:id/responses/empty')
-  public async createEmptyResponse(
-    @Param('id', new ParseIntPipe())
-    id: number,
-    @Auth() user: User,
-  ) {
-    const created = await this.surveyService.createEmptyResponse(id, user);
+    const created = await this.surveyService.createResponse(id, user);
     return {
       id: created.id,
     };
@@ -105,6 +65,8 @@ export class SurveyController {
 
   @Post('/:surveyId/responses/:id/expansion-response')
   public async createExpansionResponse(
+    @Param('surveyId', new ParseIntPipe())
+    surveyId: number,
     @Param('id', new ParseIntPipe())
     id: number,
     @Auth() user: User,
@@ -112,6 +74,7 @@ export class SurveyController {
   ) {
     const created = await this.surveyService.createExpansionResponse(
       id,
+      surveyId,
       user,
       expansionResponseDto,
     );
