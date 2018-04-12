@@ -15,7 +15,7 @@ export class AuthService {
   ) {}
 
   async createToken(user: { id: string; battletag: string }) {
-    const expiresIn = 60 * 60 * 4;
+    const expiresIn = '1d';
     const info = { id: user.id, battletag: user.battletag };
     const token = jwt.sign(info, Secret.jwtSecret, { expiresIn });
     return token;

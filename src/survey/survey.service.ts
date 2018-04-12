@@ -66,6 +66,12 @@ export class SurveyService {
     if (!survey) {
       throw new NotFoundException();
     }
+    if (
+      survey.endTime &&
+      new Date(survey.endTime).getTime() > new Date().getTime()
+    ) {
+      throw new BadRequestException();
+    }
 
     const existing = await this.responseRepository.findOne({
       survey,
@@ -138,6 +144,12 @@ export class SurveyService {
     });
     if (!survey) {
       throw new NotFoundException();
+    }
+    if (
+      survey.endTime &&
+      new Date(survey.endTime).getTime() > new Date().getTime()
+    ) {
+      throw new BadRequestException();
     }
 
     const response = await this.responseRepository.findOne({
