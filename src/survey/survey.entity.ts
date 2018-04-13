@@ -20,7 +20,7 @@ export class Survey {
   expansion: Expansion;
 
   @OneToMany(type => SurveyResponse, response => response.survey)
-  responses: Response[];
+  responses: SurveyResponse[];
 
   @Column('timestamp without time zone') startTime: string;
 
