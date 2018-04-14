@@ -18,12 +18,24 @@ export class ExpansionService {
   }
 
   async findAll() {
-    return this.expansionRepository.find({ relations: ['cards', 'surveys'] });
+    return this.expansionRepository.find({
+      relations: [
+        'cards',
+        'surveys',
+        'surveys.expansionStat',
+        'surveys.cardStats',
+      ],
+    });
   }
 
   async findOne(id: string) {
     return this.expansionRepository.findOne(id, {
-      relations: ['cards', 'surveys'],
+      relations: [
+        'cards',
+        'surveys',
+        'surveys.expansionStat',
+        'surveys.cardStats',
+      ],
     });
   }
 }

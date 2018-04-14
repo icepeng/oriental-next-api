@@ -18,6 +18,16 @@ import { ResponseService } from './response.service';
 @Controller('surveys/:surveyId/responses')
 export class ResponseController {
   constructor(private readonly responseService: ResponseService) {}
+  @Get('/random')
+  public async getRandom(
+    @Param('surveyId', new ParseIntPipe())
+    surveyId: number,
+  ) {
+    const response = await this.responseService.getRandom(surveyId);
+    return {
+      response,
+    };
+  }
 
   @Get('/:id')
   public async getOne(

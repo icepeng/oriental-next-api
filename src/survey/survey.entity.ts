@@ -5,10 +5,12 @@ import {
   ManyToOne,
   OneToMany,
   PrimaryGeneratedColumn,
+  OneToOne,
 } from 'typeorm';
-
 import { Expansion } from '../expansion/expansion.entity';
 import { SurveyResponse } from './survey-response.entity';
+import { ExpansionStat } from './expansion-stat.entity';
+import { CardStat } from './card-stat.entity';
 
 @Entity()
 export class Survey {
@@ -20,7 +22,13 @@ export class Survey {
   expansion: Expansion;
 
   @OneToMany(type => SurveyResponse, response => response.survey)
-  responses: Response[];
+  responses: SurveyResponse[];
+
+  @OneToOne(type => ExpansionStat, expansionStat => expansionStat.survey)
+  expansionStat: ExpansionStat;
+
+  @OneToMany(type => CardStat, cardStat => cardStat.survey)
+  cardStats: CardStat[];
 
   @Column('timestamp without time zone') startTime: string;
 

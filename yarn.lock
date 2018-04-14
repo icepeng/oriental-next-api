@@ -312,6 +312,10 @@ base64-arraybuffer@0.1.5:
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/base64-arraybuffer/-/base64-arraybuffer-0.1.5.tgz#73926771923b5a19747ad666aa5cd4bf9c6e9ce8"
 
+base64-js@^1.0.2:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.3.tgz#fb13668233d9614cf5fb4bce95a9ba4096cdf801"
+
 base64id@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/base64id/-/base64id-1.0.0.tgz#47688cb99bb6804f0e06d3e763b1c32e57d8e6b6"
@@ -441,6 +445,13 @@ buffer-equal-constant-time@1.0.1:
 buffer-writer@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/buffer-writer/-/buffer-writer-1.0.1.tgz#22a936901e3029afcd7547eb4487ceb697a3bf08"
+
+buffer@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-5.1.0.tgz#c913e43678c7cb7c8bd16afbcddb6c5505e8f9fe"
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
 
 busboy@^0.2.11:
   version "0.2.14"
@@ -1360,6 +1371,10 @@ iconv-lite@0.4.15:
 iconv-lite@0.4.19:
   version "0.4.19"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.19.tgz#f7468f60135f5e5dad3399c0a81be9a1603a082b"
+
+ieee754@^1.1.4:
+  version "1.1.11"
+  resolved "https://registry.yarnpkg.com/ieee754/-/ieee754-1.1.11.tgz#c16384ffe00f5b7835824e67b6f2bd44a5229455"
 
 ignore-by-default@^1.0.1:
   version "1.0.1"
@@ -3006,11 +3021,12 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typeorm@^0.2.0-alpha.42:
-  version "0.2.0-alpha.42"
-  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.2.0-alpha.42.tgz#bac2e9859d9a544a5c8bf7aabda0931f8771fc40"
+typeorm@^0.2.0-alpha.46:
+  version "0.2.0-alpha.46"
+  resolved "https://registry.yarnpkg.com/typeorm/-/typeorm-0.2.0-alpha.46.tgz#630cc082832c206a0e73a5bc98de143cb57a8454"
   dependencies:
     app-root-path "^2.0.1"
+    buffer "^5.1.0"
     chalk "^2.3.2"
     cli-highlight "^1.2.3"
     debug "^3.1.0"

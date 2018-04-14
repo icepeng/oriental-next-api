@@ -9,9 +9,12 @@ import { Card } from '../card/card.entity';
 import { JwtMiddleware } from '../common/jwt.middleware';
 import { Expansion } from '../expansion/expansion.entity';
 import { CardResponse } from './card-response.entity';
+import { CardStat } from './card-stat.entity';
 import { ExpansionResponse } from './expansion-response.entity';
+import { ExpansionStat } from './expansion-stat.entity';
 import { ResponseController } from './response.controller';
 import { ResponseService } from './response.service';
+import { SurveyStatService } from './stat.service';
 import { SurveyResponse } from './survey-response.entity';
 import { SurveyController } from './survey.controller';
 import { Survey } from './survey.entity';
@@ -26,9 +29,11 @@ import { SurveyService } from './survey.service';
       ExpansionResponse,
       Expansion,
       Card,
+      CardStat,
+      ExpansionStat,
     ]),
   ],
-  components: [SurveyService, ResponseService],
+  components: [SurveyService, ResponseService, SurveyStatService],
   controllers: [SurveyController, ResponseController],
 })
 export class SurveyModule implements NestModule {

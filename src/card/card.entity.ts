@@ -1,15 +1,8 @@
-import {
-  Column,
-  CreateDateColumn,
-  Entity,
-  ManyToOne,
-  PrimaryColumn,
-  OneToMany,
-} from 'typeorm';
-
+import { Column, Entity, ManyToOne, OneToMany, PrimaryColumn } from 'typeorm';
 import { Expansion } from '../expansion/expansion.entity';
-import { CardClass, Rarity } from './types/card.types';
 import { CardResponse } from '../survey/card-response.entity';
+import { CardClass, Rarity } from './types/card.types';
+import { CardStat } from '../survey/card-stat.entity';
 
 @Entity()
 export class Card {
@@ -20,6 +13,9 @@ export class Card {
 
   @OneToMany(type => CardResponse, response => response.card)
   responses: CardResponse[];
+
+  @OneToMany(type => CardStat, stat => stat.card)
+  stats: CardStat[];
 
   @Column() cost: number;
 

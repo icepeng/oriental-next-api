@@ -39,6 +39,15 @@ export class ResponseService {
     });
   }
 
+  async getRandom(surveyId: number) {
+    return this.responseRepository
+      .createQueryBuilder('response')
+      .where('response.surveyId = :surveyId', { surveyId })
+      .orderBy('random()')
+      .take(1)
+      .getOne();
+  }
+
   async create(surveyId: number, user: User) {
     const survey = await this.surveyRepository.findOne(surveyId, {
       relations: ['expansion'],
