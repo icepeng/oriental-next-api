@@ -30,15 +30,12 @@ export class SurveyResponse {
   @ManyToOne(type => User, user => user.responses, { nullable: false })
   user: User;
 
-  @OneToMany(type => CardResponse, cardResponse => cardResponse.response, {
-    cascade: ['insert', 'update'],
-  })
+  @OneToMany(type => CardResponse, cardResponse => cardResponse.response)
   cardResponses: CardResponse[];
 
   @OneToOne(
     type => ExpansionResponse,
     expansionResponse => expansionResponse.response,
-    { cascade: ['insert', 'update'], nullable: false },
   )
   expansionResponse: ExpansionResponse;
 }
