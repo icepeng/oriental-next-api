@@ -7,7 +7,10 @@
     "start": "node index.js",
     "start:watch": "nodemon",
     "prestart:prod": "tsc",
-    "start:prod": "node dist/main.js"
+    "start:prod": "node dist/main.js",
+    "test": "jest --config=jest.json",
+    "test:watch": "jest --watch --config=jest.json",
+    "test:coverage": "jest --config=jest.json --coverage --coverageDirectory=coverage"
   },
   "dependencies": {
     "@nestjs/common": "^4.5.9",
@@ -33,12 +36,15 @@
     "typescript": "^2.6.2"
   },
   "devDependencies": {
+    "@types/jest": "^22.2.3",
     "@types/jsonwebtoken": "^7.2.6",
     "@types/node": "^9.3.0",
     "@types/passport": "^0.4.4",
     "@types/passport-jwt": "^3.0.1",
     "@types/passport-oauth2": "^1.4.4",
+    "jest": "^22.4.3",
     "nodemon": "^1.14.1",
+    "ts-jest": "^22.4.3",
     "ts-node": "^4.1.0",
     "tslint": "5.3.2"
   }

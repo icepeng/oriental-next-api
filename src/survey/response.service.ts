@@ -48,17 +48,19 @@ export class ResponseService {
       .getOne();
   }
 
+  private isSurveyClosed(survey: Survey) {
+    return (
+      survey.endTime &&
+      new Date(survey.endTime).getTime() < new Date().getTime()
+    );
+  }
+
   async create(surveyId: number, user: User) {
-    const survey = await this.surveyRepository.findOne(surveyId, {
-      relations: ['expansion'],
-    });
+    const survey = await this.surveyRepository.findOne(surveyId);
     if (!survey) {
       throw new NotFoundException();
     }
-    if (
-      survey.endTime &&
-      new Date(survey.endTime).getTime() < new Date().getTime()
-    ) {
+    if (this.isSurveyClosed(survey)) {
       throw new BadRequestException();
     }
 
@@ -89,10 +91,7 @@ export class ResponseService {
     if (!survey) {
       throw new NotFoundException();
     }
-    if (
-      survey.endTime &&
-      new Date(survey.endTime).getTime() < new Date().getTime()
-    ) {
+    if (this.isSurveyClosed(survey)) {
       throw new BadRequestException();
     }
 
@@ -128,16 +127,11 @@ export class ResponseService {
     user: User,
     expansionResponseDto: ExpansionResponseDto,
   ) {
-    const survey = await this.surveyRepository.findOne(surveyId, {
-      relations: ['expansion'],
-    });
+    const survey = await this.surveyRepository.findOne(surveyId);
     if (!survey) {
       throw new NotFoundException();
     }
-    if (
-      survey.endTime &&
-      new Date(survey.endTime).getTime() < new Date().getTime()
-    ) {
+    if (this.isSurveyClosed(survey)) {
       throw new BadRequestException();
     }
 
