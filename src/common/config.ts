@@ -1,0 +1,7 @@
+export const MAX_REWARDED_CARD_PER_SURVEY = 40;
+
+export const POINT_REWARD_CARD = 10;
+
+export const POINT_REWARD_EXPANSION = 50;
+
+export const POINT_REQUIRED_ARCHIVE = 50;

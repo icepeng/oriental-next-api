@@ -1,8 +1,8 @@
 import { Column, Entity, ManyToOne, OneToMany, PrimaryColumn } from 'typeorm';
 import { Expansion } from '../expansion/expansion.entity';
-import { CardResponse } from '../survey/card-response.entity';
+import { CardResponse } from '../response/card-response.entity';
+import { CardStat } from '../stat/card-stat.entity';
 import { CardClass, Rarity } from './types/card.types';
-import { CardStat } from '../survey/card-stat.entity';
 
 @Entity()
 export class Card {

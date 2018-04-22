@@ -9,15 +9,21 @@ import {
 } from '@nestjs/common';
 import { Auth } from '../common/auth.decorator';
 import { User } from '../user/user.entity';
+import { CardResponseService } from './card-response.service';
 import {
   CardResponseDto,
   ExpansionResponseDto,
 } from './dto/create-response.dto';
+import { ExpansionResponseService } from './expansion-response.service';
 import { ResponseService } from './response.service';
 
 @Controller('surveys/:surveyId/responses')
 export class ResponseController {
-  constructor(private readonly responseService: ResponseService) {}
+  constructor(
+    private readonly responseService: ResponseService,
+    private readonly cardResponseService: CardResponseService,
+    private readonly expansionResponseService: ExpansionResponseService,
+  ) {}
   @Get('/random')
   public async getRandom(
     @Param('surveyId', new ParseIntPipe())
@@ -56,7 +62,7 @@ export class ResponseController {
   }
 
   @Post(':id/card-responses')
-  public async createCardResponse(
+  public async saveCardResponse(
     @Param('surveyId', new ParseIntPipe())
     surveyId: number,
     @Param('id', new ParseIntPipe())
@@ -64,7 +70,7 @@ export class ResponseController {
     @Auth() user: User,
     @Body() cardResponseDto: CardResponseDto,
   ) {
-    const created = await this.responseService.createCardResponse(
+    const created = await this.cardResponseService.save(
       id,
       surveyId,
       user,
@@ -74,7 +80,7 @@ export class ResponseController {
   }
 
   @Post(':id/expansion-response')
-  public async createExpansionResponse(
+  public async saveExpansionResponse(
     @Param('surveyId', new ParseIntPipe())
     surveyId: number,
     @Param('id', new ParseIntPipe())
@@ -82,7 +88,7 @@ export class ResponseController {
     @Auth() user: User,
     @Body() expansionResponseDto: ExpansionResponseDto,
   ) {
-    const created = await this.responseService.createExpansionResponse(
+    const created = await this.expansionResponseService.save(
       id,
       surveyId,
       user,

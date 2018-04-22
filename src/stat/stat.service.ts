@@ -1,15 +1,15 @@
 import { Component, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { CardResponse } from './card-response.entity';
-import { CardStat } from './card-stat.entity';
-import { ExpansionResponse } from './expansion-response.entity';
-import { ExpansionStat } from './expansion-stat.entity';
-import { Survey } from './survey.entity';
 import { Card } from '../card/card.entity';
+import { CardResponse } from '../response/card-response.entity';
+import { ExpansionResponse } from '../response/expansion-response.entity';
+import { Survey } from '../survey/survey.entity';
+import { CardStat } from './card-stat.entity';
+import { ExpansionStat } from './expansion-stat.entity';
 
 @Component()
-export class SurveyStatService {
+export class StatService {
   constructor(
     @InjectRepository(Survey)
     private readonly surveyRepository: Repository<Survey>,

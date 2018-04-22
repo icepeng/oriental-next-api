@@ -9,10 +9,10 @@ import {
   OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
+import { Survey } from '../survey/survey.entity';
 import { User } from '../user/user.entity';
 import { CardResponse } from './card-response.entity';
 import { ExpansionResponse } from './expansion-response.entity';
-import { Survey } from './survey.entity';
 
 @Entity()
 @Index(['user', 'survey'], { unique: true })

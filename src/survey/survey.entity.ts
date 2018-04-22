@@ -4,13 +4,13 @@ import {
   Entity,
   ManyToOne,
   OneToMany,
-  PrimaryGeneratedColumn,
   OneToOne,
+  PrimaryGeneratedColumn,
 } from 'typeorm';
 import { Expansion } from '../expansion/expansion.entity';
-import { SurveyResponse } from './survey-response.entity';
-import { ExpansionStat } from './expansion-stat.entity';
-import { CardStat } from './card-stat.entity';
+import { SurveyResponse } from '../response/survey-response.entity';
+import { CardStat } from '../stat/card-stat.entity';
+import { ExpansionStat } from '../stat/expansion-stat.entity';
 
 @Entity()
 export class Survey {
@@ -38,4 +38,14 @@ export class Survey {
   @Column() isPreRelease: boolean;
 
   @Column() status: 'ongoing' | 'closed';
+
+  isClosed() {
+    if (this.status === 'closed') {
+      return true;
+    }
+    if (!this.endTime) {
+      return false;
+    }
+    return new Date(this.endTime).getTime() < new Date().getTime();
+  }
 }
