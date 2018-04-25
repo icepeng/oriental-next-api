@@ -8,7 +8,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Card } from '../card/card.entity';
 import { JwtMiddleware } from '../common/jwt.middleware';
 import { Survey } from '../survey/survey.entity';
-import { UserInfo } from '../user/user-info.entity';
+import { UserPoint } from '../user/user-point.entity';
 import { CardResponse } from './card-response.entity';
 import { CardResponseService } from './card-response.service';
 import { ExpansionResponse } from './expansion-response.entity';
@@ -25,7 +25,7 @@ import { SurveyResponse } from './survey-response.entity';
       CardResponse,
       ExpansionResponse,
       Card,
-      UserInfo,
+      UserPoint,
     ]),
   ],
   components: [ResponseService, CardResponseService, ExpansionResponseService],
@@ -42,8 +42,7 @@ export class ResponseModule implements NestModule {
         path: '/surveys/:surveyId/responses/:id/expansion-response',
         method: RequestMethod.ALL,
       },
-      { path: '/surveys/:surveyId/responses/:id', method: RequestMethod.POST },
-      { path: '/surveys/:id/responses', method: RequestMethod.ALL },
+      { path: '/surveys/:surveyId/responses', method: RequestMethod.ALL },
     );
   }
 }

@@ -17,15 +17,3 @@ export class ExpansionResponseDto {
 
   @IsString() readonly description: string;
 }
-
-export class CreateResponseDto { // TODO: remove after fix release
-  @ValidateNested({ each: true })
-  @IsDefined()
-  @Type(type => CardResponseDto)
-  readonly cardResponses: CardResponseDto[];
-
-  @ValidateNested()
-  @IsDefined()
-  @Type(type => ExpansionResponseDto)
-  readonly expansionResponse: ExpansionResponseDto;
-}

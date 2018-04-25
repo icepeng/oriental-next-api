@@ -51,11 +51,11 @@ export class ResponseController {
 
   @Post()
   public async create(
-    @Param('id', new ParseIntPipe())
-    id: number,
+    @Param('surveyId', new ParseIntPipe())
+    surveyId: number,
     @Auth() user: User,
   ) {
-    const created = await this.responseService.create(id, user);
+    const created = await this.responseService.create(surveyId, user);
     return {
       id: created.id,
     };
@@ -76,7 +76,10 @@ export class ResponseController {
       user,
       cardResponseDto,
     );
-    return;
+    return {
+      id: created.id,
+      reward: created.point ? created.point.amount : null,
+    };
   }
 
   @Post(':id/expansion-response')
@@ -94,6 +97,8 @@ export class ResponseController {
       user,
       expansionResponseDto,
     );
-    return;
+    return {
+      id: created.id,
+    };
   }
 }

@@ -1,12 +1,12 @@
 import { NestFactory } from '@nestjs/core';
 import { ApplicationModule } from '../app.module';
-import { SurveyStatService } from '../survey/stat.service';
-import { SurveyModule } from '../survey/survey.module';
+import { StatModule } from '../stat/stat.module';
+import { StatService } from '../stat/stat.service';
 
 async function saveStat() {
   try {
     const app = await NestFactory.create(ApplicationModule);
-    const statService = app.select(SurveyModule).get(SurveyStatService);
+    const statService = app.select(StatModule).get(StatService);
     await statService.generateStat(2);
   } catch (err) {
     console.error(err);

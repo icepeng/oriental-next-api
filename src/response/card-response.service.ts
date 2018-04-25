@@ -12,11 +12,11 @@ import {
   POINT_REWARD_CARD,
 } from '../common/config';
 import { Survey } from '../survey/survey.entity';
-import { UserInfo } from '../user/user-info.entity';
 import { User } from '../user/user.entity';
 import { CardResponse } from './card-response.entity';
 import { CardResponseDto } from './dto/create-response.dto';
 import { SurveyResponse } from './survey-response.entity';
+import { UserPoint } from '../user/user-point.entity';
 
 @Component()
 export class CardResponseService {
@@ -28,8 +28,8 @@ export class CardResponseService {
     @InjectRepository(CardResponse)
     private readonly cardResponseRepository: Repository<CardResponse>,
     @InjectRepository(Card) private readonly cardRepository: Repository<Card>,
-    @InjectRepository(UserInfo)
-    private readonly userInfoRepository: Repository<UserInfo>,
+    @InjectRepository(UserPoint)
+    private readonly pointRepository: Repository<UserPoint>,
   ) {}
 
   async savePreRelease(cardResponse: CardResponse) {
@@ -45,20 +45,18 @@ export class CardResponseService {
       throw new BadRequestException();
     }
 
-    const userInfo = await this.userInfoRepository.findOne({ user });
-    if (!userInfo) {
-      throw new InternalServerErrorException();
-    }
-
     const responsedCount = await this.cardResponseRepository.count({
       response: cardResponse.response,
     });
 
     if (responsedCount < MAX_REWARDED_CARD_PER_SURVEY) {
-      userInfo.point += POINT_REWARD_CARD;
+      cardResponse.point = this.pointRepository.create({
+        user,
+        cardResponse,
+        amount: POINT_REWARD_CARD,
+      });
     }
 
-    await this.userInfoRepository.save(userInfo);
     return this.cardResponseRepository.save(cardResponse);
   }
 

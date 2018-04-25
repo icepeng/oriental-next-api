@@ -1,14 +1,30 @@
-import { Column, Entity, Generated, JoinColumn, OneToOne } from 'typeorm';
+import {
+  Column,
+  Entity,
+  Generated,
+  JoinColumn,
+  OneToOne,
+  PrimaryGeneratedColumn,
+  Index,
+} from 'typeorm';
 
 import { SurveyResponse } from './survey-response.entity';
+import { UserPoint } from '../user/user-point.entity';
 
 @Entity()
 export class ExpansionResponse {
+  @PrimaryGeneratedColumn() id: number;
+
   @OneToOne(type => SurveyResponse, response => response.expansionResponse, {
-    primary: true,
+    nullable: false,
   })
   @JoinColumn()
   response: SurveyResponse;
+
+  @OneToOne(type => UserPoint, point => point.expansionResponse, {
+    cascade: ['insert'],
+  })
+  point: UserPoint;
 
   @Column() fun: number;
 

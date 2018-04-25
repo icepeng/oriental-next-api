@@ -9,8 +9,8 @@ async function createSurvey() {
   const surveyService = app.select(SurveyModule).get(SurveyService);
   surveyService.create({
     expansion: 'the-witchwood',
-    startTime: new Date().toUTCString(),
-    isPreRelease: true,
+    startTime: new Date().toISOString(),
+    isPreRelease: false,
   });
 }
 

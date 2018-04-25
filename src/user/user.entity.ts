@@ -3,11 +3,10 @@ import {
   CreateDateColumn,
   Entity,
   OneToMany,
-  OneToOne,
   PrimaryColumn,
 } from 'typeorm';
 import { SurveyResponse } from '../response/survey-response.entity';
-import { UserInfo } from './user-info.entity';
+import { UserPoint } from './user-point.entity';
 
 @Entity()
 export class User {
@@ -17,8 +16,8 @@ export class User {
 
   @Column() battletag: string;
 
-  @OneToOne(type => UserInfo, info => info.user)
-  info: UserInfo;
+  @OneToMany(type => UserPoint, point => point.user)
+  points: UserPoint[];
 
   @OneToMany(type => SurveyResponse, response => response.user)
   responses: SurveyResponse[];

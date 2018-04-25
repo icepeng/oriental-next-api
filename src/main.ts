@@ -12,8 +12,8 @@ import { ApplicationModule } from './app.module';
 
 async function bootstrap() {
   const httpsOptions = {
-    key: fs.readFileSync('./secrets/key.pem'),
-    cert: fs.readFileSync('./secrets/cert.pem'),
+    key: fs.readFileSync('./secrets/server.key', 'utf-8'),
+    cert: fs.readFileSync('./secrets/server.crt', 'utf-8'),
   };
 
   const server = express();
