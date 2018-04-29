@@ -21,11 +21,6 @@ export class ExpansionResponse {
   @JoinColumn()
   response: SurveyResponse;
 
-  @OneToOne(type => UserPoint, point => point.expansionResponse, {
-    cascade: ['insert'],
-  })
-  point: UserPoint;
-
   @Column() fun: number;
 
   @Column() balance: number;

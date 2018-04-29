@@ -8,6 +8,7 @@ import { Repository } from 'typeorm';
 import { Survey } from '../survey/survey.entity';
 import { User } from '../user/user.entity';
 import { SurveyResponse } from './survey-response.entity';
+import { SurveyResponseFactory } from './survey-response.factory';
 
 @Component()
 export class ResponseService {
@@ -16,6 +17,7 @@ export class ResponseService {
     private readonly surveyRepository: Repository<Survey>,
     @InjectRepository(SurveyResponse)
     private readonly responseRepository: Repository<SurveyResponse>,
+    private readonly responseFactory: SurveyResponseFactory,
   ) {}
 
   async getOne(id: number) {
@@ -33,20 +35,10 @@ export class ResponseService {
       .getOne();
   }
 
-  private isSurveyClosed(survey: Survey) {
-    return (
-      survey.endTime &&
-      new Date(survey.endTime).getTime() < new Date().getTime()
-    );
-  }
-
   async create(surveyId: number, user: User) {
     const survey = await this.surveyRepository.findOne(surveyId);
     if (!survey) {
       throw new NotFoundException();
-    }
-    if (this.isSurveyClosed(survey)) {
-      throw new BadRequestException();
     }
 
     const existing = await this.responseRepository.findOne({
@@ -57,10 +49,7 @@ export class ResponseService {
       throw new BadRequestException();
     }
 
-    const response = await this.responseRepository.create({
-      survey,
-      user,
-    });
+    const response = this.responseFactory.create(survey, user);
     return this.responseRepository.save(response);
   }
 }

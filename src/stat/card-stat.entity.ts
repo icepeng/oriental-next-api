@@ -1,13 +1,27 @@
-import { Column, Entity, ManyToOne, JoinColumn, PrimaryColumn } from 'typeorm';
+import {
+  Column,
+  Entity,
+  Index,
+  JoinColumn,
+  ManyToOne,
+  PrimaryGeneratedColumn,
+} from 'typeorm';
 import { Card } from '../card/card.entity';
+import { CardResponse } from '../response/card-response.entity';
 import { Survey } from '../survey/survey.entity';
 
 @Entity()
+@Index(['surveyId', 'cardId'], { unique: true })
 export class CardStat {
-  @ManyToOne(type => Survey, survey => survey.cardStats, { primary: true })
+  @PrimaryGeneratedColumn() id: number;
+
+  @Column() surveyId: number;
+
+  @ManyToOne(type => Survey, survey => survey.cardStats)
+  @JoinColumn({ name: 'surveyId' })
   survey: Survey;
 
-  @PrimaryColumn() cardId: string;
+  @Column() cardId: string;
 
   @ManyToOne(type => Card, card => card.stats)
   @JoinColumn({ name: 'cardId' })

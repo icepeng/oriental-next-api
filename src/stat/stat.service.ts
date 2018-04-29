@@ -6,7 +6,9 @@ import { CardResponse } from '../response/card-response.entity';
 import { ExpansionResponse } from '../response/expansion-response.entity';
 import { Survey } from '../survey/survey.entity';
 import { CardStat } from './card-stat.entity';
+import { CardStatFactory } from './card-stat.factory';
 import { ExpansionStat } from './expansion-stat.entity';
+import { ExpansionStatFactory } from './expansion-stat.factory';
 
 @Component()
 export class StatService {
@@ -22,80 +24,9 @@ export class StatService {
     private readonly cardStatRepository: Repository<CardStat>,
     @InjectRepository(ExpansionStat)
     private readonly expansionStatRepository: Repository<ExpansionStat>,
+    private readonly cardStatFactory: CardStatFactory,
+    private readonly expansionStatFactory: ExpansionStatFactory,
   ) {}
-
-  calculateCardStat(cardResponses: CardResponse[]) {
-    const power = [20, 40, 60, 80].map(
-      value =>
-        cardResponses.filter(cardResponse => cardResponse.power === value)
-          .length,
-    );
-    const generality = [20, 40, 60, 80].map(
-      value =>
-        cardResponses.filter(cardResponse => cardResponse.generality === value)
-          .length,
-    );
-    const responseCount = cardResponses.length;
-    return {
-      power,
-      generality,
-      responseCount,
-    };
-  }
-
-  calculateExpansionStat(expansionResponses: ExpansionResponse[]) {
-    const fun = [20, 40, 60, 80].map(
-      value =>
-        expansionResponses.filter(
-          expansionResponse => expansionResponse.fun === value,
-        ).length,
-    );
-    const balance = [20, 40, 60, 80].map(
-      value =>
-        expansionResponses.filter(
-          expansionResponse => expansionResponse.balance === value,
-        ).length,
-    );
-    const responseCount = expansionResponses.length;
-    return {
-      fun,
-      balance,
-      responseCount,
-    };
-  }
-
-  getCardStats(survey: Survey, cards: Card[], cardResponses: CardResponse[]) {
-    const cardResponsesByCard = Object.entries(
-      cardResponses.reduce(
-        (obj, cardResponse) => {
-          const item = obj[cardResponse.cardId] || [];
-          return {
-            ...obj,
-            [cardResponse.cardId]: [...item, cardResponse],
-          };
-        },
-        {} as { [card: string]: CardResponse[] },
-      ),
-    );
-    const cardMap = cards.reduce(
-      (obj, card) => ({ ...obj, [card.id]: card }),
-      {} as { [id: string]: Card },
-    );
-    return cardResponsesByCard.map(item => {
-      return {
-        card: cardMap[item[0]],
-        survey,
-        data: this.calculateCardStat(item[1]),
-      };
-    });
-  }
-
-  getExpansionStat(survey: Survey, expansionResponses: ExpansionResponse[]) {
-    return {
-      survey,
-      data: this.calculateExpansionStat(expansionResponses),
-    };
-  }
 
   async generateStat(id: number) {
     const survey = await this.surveyRepository.findOne(id);
@@ -123,11 +54,23 @@ export class StatService {
       .where('survey.id = :id', { id })
       .getMany();
 
-    const cardStats = this.cardStatRepository.create(
-      this.getCardStats(survey, cards, cardResponses),
+    const cardResponsesByCard = cardResponses.reduce(
+      (obj, cardResponse) => {
+        const item = obj[cardResponse.cardId] || [];
+        return {
+          ...obj,
+          [cardResponse.cardId]: [...item, cardResponse],
+        };
+      },
+      {} as { [card: string]: CardResponse[] },
     );
-    const expansionStat = this.expansionStatRepository.create(
-      this.getExpansionStat(survey, expansionResponses),
+
+    const cardStats = cards.map(card =>
+      this.cardStatFactory.create(survey, card, cardResponsesByCard[card.id]),
+    );
+    const expansionStat = this.expansionStatFactory.create(
+      survey,
+      expansionResponses,
     );
     await this.cardStatRepository.save(cardStats);
     await this.expansionStatRepository.save(expansionStat);

@@ -16,6 +16,7 @@ import { ExpansionResponseService } from './expansion-response.service';
 import { ResponseController } from './response.controller';
 import { ResponseService } from './response.service';
 import { SurveyResponse } from './survey-response.entity';
+import { SurveyResponseFactory } from './survey-response.factory';
 
 @Module({
   imports: [
@@ -28,7 +29,12 @@ import { SurveyResponse } from './survey-response.entity';
       UserPoint,
     ]),
   ],
-  components: [ResponseService, CardResponseService, ExpansionResponseService],
+  components: [
+    ResponseService,
+    CardResponseService,
+    ExpansionResponseService,
+    SurveyResponseFactory,
+  ],
   controllers: [ResponseController],
 })
 export class ResponseModule implements NestModule {

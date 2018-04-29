@@ -5,7 +5,9 @@ import { CardResponse } from '../response/card-response.entity';
 import { ExpansionResponse } from '../response/expansion-response.entity';
 import { Survey } from '../survey/survey.entity';
 import { CardStat } from './card-stat.entity';
+import { CardStatFactory } from './card-stat.factory';
 import { ExpansionStat } from './expansion-stat.entity';
+import { ExpansionStatFactory } from './expansion-stat.factory';
 import { StatService } from './stat.service';
 
 @Module({
@@ -19,7 +21,7 @@ import { StatService } from './stat.service';
       ExpansionStat,
     ]),
   ],
-  components: [StatService],
+  components: [StatService, CardStatFactory, ExpansionStatFactory],
   controllers: [],
 })
 export class StatModule {}

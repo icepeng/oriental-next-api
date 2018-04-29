@@ -78,7 +78,6 @@ export class ResponseController {
     );
     return {
       id: created.id,
-      reward: created.point ? created.point.amount : null,
     };
   }
 

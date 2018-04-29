@@ -1,13 +1,11 @@
 import {
   Column,
   Entity,
-  JoinColumn,
   ManyToOne,
   OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { CardResponse } from '../response/card-response.entity';
-import { ExpansionResponse } from '../response/expansion-response.entity';
+import { SurveyResponse } from '../response/survey-response.entity';
 import { User } from './user.entity';
 
 @Entity()
@@ -17,16 +15,8 @@ export class UserPoint {
   @ManyToOne(type => User, user => user.points, { nullable: false })
   user: User;
 
-  @OneToOne(type => CardResponse, cardResponse => cardResponse.point)
-  @JoinColumn()
-  cardResponse: CardResponse;
-
-  @OneToOne(
-    type => ExpansionResponse,
-    expansionResponse => expansionResponse.point,
-  )
-  @JoinColumn()
-  expansionResponse: ExpansionResponse;
+  @OneToOne(type => SurveyResponse)
+  response: SurveyResponse;
 
   @Column() amount: number;
 }
