@@ -70,15 +70,14 @@ export class ResponseController {
     @Auth() user: User,
     @Body() cardResponseDto: CardResponseDto,
   ) {
-    const created = await this.cardResponseService.save(
+    const result = await this.cardResponseService.save(
       id,
       surveyId,
       user,
       cardResponseDto,
     );
     return {
-      id: created.id,
-      reward: created.point ? created.point.amount : null,
+      point: result[1].point.amount,
     };
   }
 
@@ -91,14 +90,14 @@ export class ResponseController {
     @Auth() user: User,
     @Body() expansionResponseDto: ExpansionResponseDto,
   ) {
-    const created = await this.expansionResponseService.save(
+    const result = await this.expansionResponseService.save(
       id,
       surveyId,
       user,
       expansionResponseDto,
     );
     return {
-      id: created.id,
+      point: result[1].point.amount,
     };
   }
 }

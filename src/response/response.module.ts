@@ -8,26 +8,14 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { Card } from '../card/card.entity';
 import { JwtMiddleware } from '../common/jwt.middleware';
 import { Survey } from '../survey/survey.entity';
-import { UserPoint } from '../user/user-point.entity';
-import { CardResponse } from './card-response.entity';
 import { CardResponseService } from './card-response.service';
-import { ExpansionResponse } from './expansion-response.entity';
 import { ExpansionResponseService } from './expansion-response.service';
 import { ResponseController } from './response.controller';
 import { ResponseService } from './response.service';
 import { SurveyResponse } from './survey-response.entity';
 
 @Module({
-  imports: [
-    TypeOrmModule.forFeature([
-      Survey,
-      SurveyResponse,
-      CardResponse,
-      ExpansionResponse,
-      Card,
-      UserPoint,
-    ]),
-  ],
+  imports: [TypeOrmModule.forFeature([Survey, SurveyResponse, Card])],
   components: [ResponseService, CardResponseService, ExpansionResponseService],
   controllers: [ResponseController],
 })

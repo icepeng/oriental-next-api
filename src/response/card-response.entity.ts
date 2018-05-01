@@ -1,18 +1,14 @@
 import {
   Column,
   Entity,
-  Generated,
+  Index,
   JoinColumn,
   ManyToOne,
-  PrimaryColumn,
   PrimaryGeneratedColumn,
-  Index,
-  OneToOne,
 } from 'typeorm';
-
 import { Card } from '../card/card.entity';
+import { CardResponseDto } from './dto/create-response.dto';
 import { SurveyResponse } from './survey-response.entity';
-import { UserPoint } from '../user/user-point.entity';
 
 @Entity()
 @Index(['card', 'response'], { unique: true })
@@ -24,21 +20,22 @@ export class CardResponse {
   })
   response: SurveyResponse;
 
-  @Column({ nullable: false })
-  cardId: string;
+  @Column() cardId: string;
 
   @ManyToOne(type => Card, card => card.responses)
   @JoinColumn({ name: 'cardId' })
   card: Card;
-
-  @OneToOne(type => UserPoint, point => point.cardResponse, {
-    cascade: ['insert'],
-  })
-  point: UserPoint;
 
   @Column() power: number;
 
   @Column() generality: number;
 
   @Column('text') description: string;
+
+  applyData(cardResponseDto: CardResponseDto) {
+    this.power = cardResponseDto.power;
+    this.generality = cardResponseDto.generality;
+    this.description = cardResponseDto.description;
+    this.cardId = cardResponseDto.card;
+  }
 }

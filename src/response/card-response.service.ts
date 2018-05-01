@@ -1,7 +1,6 @@
 import {
   BadRequestException,
   Component,
-  InternalServerErrorException,
   NotFoundException,
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
@@ -13,10 +12,8 @@ import {
 } from '../common/config';
 import { Survey } from '../survey/survey.entity';
 import { User } from '../user/user.entity';
-import { CardResponse } from './card-response.entity';
 import { CardResponseDto } from './dto/create-response.dto';
 import { SurveyResponse } from './survey-response.entity';
-import { UserPoint } from '../user/user-point.entity';
 
 @Component()
 export class CardResponseService {
@@ -25,39 +22,14 @@ export class CardResponseService {
     private readonly surveyRepository: Repository<Survey>,
     @InjectRepository(SurveyResponse)
     private readonly responseRepository: Repository<SurveyResponse>,
-    @InjectRepository(CardResponse)
-    private readonly cardResponseRepository: Repository<CardResponse>,
     @InjectRepository(Card) private readonly cardRepository: Repository<Card>,
-    @InjectRepository(UserPoint)
-    private readonly pointRepository: Repository<UserPoint>,
   ) {}
 
-  async savePreRelease(cardResponse: CardResponse) {
-    return this.cardResponseRepository.save(cardResponse);
-  }
-
-  async saveAfterRelease(user: User, cardResponse: CardResponse) {
-    const existing = await this.cardResponseRepository.findOne({
-      response: cardResponse.response,
-      card: cardResponse.card,
-    });
-    if (existing) {
-      throw new BadRequestException();
-    }
-
-    const responsedCount = await this.cardResponseRepository.count({
-      response: cardResponse.response,
-    });
-
-    if (responsedCount < MAX_REWARDED_CARD_PER_SURVEY) {
-      cardResponse.point = this.pointRepository.create({
-        user,
-        cardResponse,
-        amount: POINT_REWARD_CARD,
-      });
-    }
-
-    return this.cardResponseRepository.save(cardResponse);
+  isRewardRequired(survey: Survey, response: SurveyResponse) {
+    return (
+      !survey.isPreRelease &&
+      response.cardResponses.length <= MAX_REWARDED_CARD_PER_SURVEY
+    );
   }
 
   async save(
@@ -66,9 +38,7 @@ export class CardResponseService {
     user: User,
     cardResponseDto: CardResponseDto,
   ) {
-    const survey = await this.surveyRepository.findOne(surveyId, {
-      relations: ['expansion'],
-    });
+    const survey = await this.surveyRepository.findOne(surveyId);
     if (!survey) {
       throw new NotFoundException();
     }
@@ -76,31 +46,36 @@ export class CardResponseService {
       throw new BadRequestException();
     }
 
-    const response = await this.responseRepository.findOne({
-      id: responseId,
-      survey,
-      user,
-    });
+    const response = await this.responseRepository.findOne(
+      {
+        id: responseId,
+        surveyId,
+        userId: user.id,
+      },
+      { relations: ['cardResponses'] },
+    );
     if (!response) {
       throw new NotFoundException();
     }
 
     const card = await this.cardRepository.findOne({
-      expansion: survey.expansion,
+      expansionCode: survey.expansionCode,
       id: cardResponseDto.card,
     });
     if (!card) {
       throw new BadRequestException();
     }
 
-    const cardResponse = this.cardResponseRepository.create({
-      ...cardResponseDto,
-      card,
-      response,
-    });
+    const saveResult = response.saveCardResponse(cardResponseDto);
 
-    return survey.isPreRelease
-      ? this.savePreRelease(cardResponse)
-      : this.saveAfterRelease(user, cardResponse);
+    if (saveResult === 'Add' && this.isRewardRequired(survey, response)) {
+      user.point.increment(POINT_REWARD_CARD);
+    }
+
+    return this.responseRepository.manager.save<[SurveyResponse, User]>([
+      // TODO: change to entityManager after nest v5
+      response,
+      user,
+    ]);
   }
 }

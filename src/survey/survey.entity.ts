@@ -2,6 +2,7 @@ import {
   Column,
   CreateDateColumn,
   Entity,
+  JoinColumn,
   ManyToOne,
   OneToMany,
   OneToOne,
@@ -18,7 +19,10 @@ export class Survey {
 
   @CreateDateColumn() createTime: string;
 
+  @Column() expansionCode: string;
+
   @ManyToOne(type => Expansion, expansion => expansion.surveys)
+  @JoinColumn({ name: 'expansionCode' })
   expansion: Expansion;
 
   @OneToMany(type => SurveyResponse, response => response.survey)

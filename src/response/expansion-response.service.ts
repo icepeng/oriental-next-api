@@ -5,10 +5,10 @@ import {
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
+import { POINT_REWARD_EXPANSION } from '../common/config';
 import { Survey } from '../survey/survey.entity';
 import { User } from '../user/user.entity';
 import { ExpansionResponseDto } from './dto/create-response.dto';
-import { ExpansionResponse } from './expansion-response.entity';
 import { SurveyResponse } from './survey-response.entity';
 
 @Component()
@@ -18,8 +18,6 @@ export class ExpansionResponseService {
     private readonly surveyRepository: Repository<Survey>,
     @InjectRepository(SurveyResponse)
     private readonly responseRepository: Repository<SurveyResponse>,
-    @InjectRepository(ExpansionResponse)
-    private readonly expansionResponseRepository: Repository<ExpansionResponse>,
   ) {}
 
   async save(
@@ -36,20 +34,28 @@ export class ExpansionResponseService {
       throw new BadRequestException();
     }
 
-    const response = await this.responseRepository.findOne({
-      id: responseId,
-      survey,
-      user,
-    });
+    const response = await this.responseRepository.findOne(
+      {
+        id: responseId,
+        surveyId,
+        userId: user.id,
+      },
+      { relations: ['expansionResponse'] },
+    );
     if (!response) {
       throw new NotFoundException();
     }
 
-    const expansionResponse = this.expansionResponseRepository.create({
-      ...expansionResponseDto,
-      response,
-    });
+    const saveResult = response.saveExpansionResponse(expansionResponseDto);
 
-    return this.expansionResponseRepository.save(expansionResponse);
+    if (saveResult === 'Add' && !survey.isPreRelease) {
+      user.point.increment(POINT_REWARD_EXPANSION);
+    }
+
+    return this.responseRepository.manager.save<[SurveyResponse, User]>([
+      // TODO: change to entityManager after nest v5
+      response,
+      user,
+    ]);
   }
 }

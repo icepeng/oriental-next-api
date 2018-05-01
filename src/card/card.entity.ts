@@ -1,4 +1,11 @@
-import { Column, Entity, ManyToOne, OneToMany, PrimaryColumn } from 'typeorm';
+import {
+  Column,
+  Entity,
+  JoinColumn,
+  ManyToOne,
+  OneToMany,
+  PrimaryColumn,
+} from 'typeorm';
 import { Expansion } from '../expansion/expansion.entity';
 import { CardResponse } from '../response/card-response.entity';
 import { CardStat } from '../stat/card-stat.entity';
@@ -8,7 +15,10 @@ import { CardClass, Rarity } from './types/card.types';
 export class Card {
   @PrimaryColumn() id: string;
 
+  @Column() expansionCode: string;
+
   @ManyToOne(type => Expansion, expansion => expansion.cards)
+  @JoinColumn({ name: 'expansionCode' })
   expansion: Expansion;
 
   @OneToMany(type => CardResponse, response => response.card)

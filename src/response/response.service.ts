@@ -33,19 +33,12 @@ export class ResponseService {
       .getOne();
   }
 
-  private isSurveyClosed(survey: Survey) {
-    return (
-      survey.endTime &&
-      new Date(survey.endTime).getTime() < new Date().getTime()
-    );
-  }
-
   async create(surveyId: number, user: User) {
     const survey = await this.surveyRepository.findOne(surveyId);
     if (!survey) {
       throw new NotFoundException();
     }
-    if (this.isSurveyClosed(survey)) {
+    if (survey.isClosed()) {
       throw new BadRequestException();
     }
 
@@ -58,8 +51,8 @@ export class ResponseService {
     }
 
     const response = await this.responseRepository.create({
-      survey,
-      user,
+      surveyId,
+      userId: user.id,
     });
     return this.responseRepository.save(response);
   }

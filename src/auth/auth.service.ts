@@ -2,7 +2,6 @@ import { Component } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as jwt from 'jsonwebtoken';
 import { Repository } from 'typeorm';
-
 import { User } from '../user/user.entity';
 
 // tslint:disable-next-line:no-var-requires

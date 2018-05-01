@@ -1,15 +1,12 @@
 import {
   Column,
   Entity,
-  Generated,
   JoinColumn,
   OneToOne,
   PrimaryGeneratedColumn,
-  Index,
 } from 'typeorm';
-
+import { ExpansionResponseDto } from './dto/create-response.dto';
 import { SurveyResponse } from './survey-response.entity';
-import { UserPoint } from '../user/user-point.entity';
 
 @Entity()
 export class ExpansionResponse {
@@ -21,14 +18,15 @@ export class ExpansionResponse {
   @JoinColumn()
   response: SurveyResponse;
 
-  @OneToOne(type => UserPoint, point => point.expansionResponse, {
-    cascade: ['insert'],
-  })
-  point: UserPoint;
-
   @Column() fun: number;
 
   @Column() balance: number;
 
   @Column('text') description: string;
+
+  applyData(expansionResponseDto: ExpansionResponseDto) {
+    this.fun = expansionResponseDto.fun;
+    this.balance = expansionResponseDto.balance;
+    this.description = expansionResponseDto.description;
+  }
 }
