@@ -21,6 +21,7 @@ export class UserService {
     const user = this.userRepository.create({
       id: info.id,
       battletag: info.battletag,
+      point: 0,
     });
     return this.userRepository.save(user);
   }

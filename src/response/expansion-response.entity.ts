@@ -5,7 +5,6 @@ import {
   OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { ExpansionResponseDto } from './dto/create-response.dto';
 import { SurveyResponse } from './survey-response.entity';
 
 @Entity()
@@ -23,10 +22,4 @@ export class ExpansionResponse {
   @Column() balance: number;
 
   @Column('text') description: string;
-
-  applyData(expansionResponseDto: ExpansionResponseDto) {
-    this.fun = expansionResponseDto.fun;
-    this.balance = expansionResponseDto.balance;
-    this.description = expansionResponseDto.description;
-  }
 }

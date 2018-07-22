@@ -12,6 +12,7 @@ import {
 } from '../common/config';
 import { Survey } from '../survey/survey.entity';
 import { User } from '../user/user.entity';
+import { CardResponse } from './card-response.entity';
 import { CardResponseDto } from './dto/create-response.dto';
 import { SurveyResponse } from './survey-response.entity';
 
@@ -23,6 +24,8 @@ export class CardResponseService {
     @InjectRepository(SurveyResponse)
     private readonly responseRepository: Repository<SurveyResponse>,
     @InjectRepository(Card) private readonly cardRepository: Repository<Card>,
+    @InjectRepository(CardResponse)
+    private readonly cardResponseRepository: Repository<CardResponse>,
   ) {}
 
   isRewardRequired(survey: Survey, response: SurveyResponse) {
@@ -66,10 +69,20 @@ export class CardResponseService {
       throw new BadRequestException();
     }
 
-    const saveResult = response.saveCardResponse(cardResponseDto);
-
-    if (saveResult === 'Add' && this.isRewardRequired(survey, response)) {
-      user.point.increment(POINT_REWARD_CARD);
+    const existing = response.cardResponses.find(x => x.cardId === card.id);
+    if (existing) {
+      existing.generality = cardResponseDto.generality;
+      existing.power = cardResponseDto.power;
+      existing.description = cardResponseDto.description;
+    } else {
+      const cardResponse = this.cardResponseRepository.create({
+        ...cardResponseDto,
+        card,
+      });
+      response.cardResponses.push(cardResponse);
+      if (this.isRewardRequired(survey, response)) {
+        user.point += POINT_REWARD_CARD;
+      }
     }
 
     return this.responseRepository.manager.save<[SurveyResponse, User]>([

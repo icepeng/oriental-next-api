@@ -13,9 +13,19 @@ import { ExpansionResponseService } from './expansion-response.service';
 import { ResponseController } from './response.controller';
 import { ResponseService } from './response.service';
 import { SurveyResponse } from './survey-response.entity';
+import { CardResponse } from './card-response.entity';
+import { ExpansionResponse } from './expansion-response.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Survey, SurveyResponse, Card])],
+  imports: [
+    TypeOrmModule.forFeature([
+      Survey,
+      SurveyResponse,
+      Card,
+      CardResponse,
+      ExpansionResponse,
+    ]),
+  ],
   components: [ResponseService, CardResponseService, ExpansionResponseService],
   controllers: [ResponseController],
 })

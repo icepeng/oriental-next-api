@@ -1,5 +1,4 @@
-import { Type } from 'class-transformer';
-import { IsDefined, IsInt, IsString, ValidateNested } from 'class-validator';
+import { IsInt, IsString, MaxLength } from 'class-validator';
 export class CardResponseDto {
   @IsString() readonly card: string;
 
@@ -7,7 +6,9 @@ export class CardResponseDto {
 
   @IsInt() readonly generality: number;
 
-  @IsString() readonly description: string;
+  @IsString()
+  @MaxLength(2000)
+  readonly description: string;
 }
 
 export class ExpansionResponseDto {
@@ -15,5 +16,7 @@ export class ExpansionResponseDto {
 
   @IsInt() readonly balance: number;
 
-  @IsString() readonly description: string;
+  @IsString()
+  @MaxLength(2000)
+  readonly description: string;
 }

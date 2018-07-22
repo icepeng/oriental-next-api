@@ -77,7 +77,7 @@ export class ResponseController {
       cardResponseDto,
     );
     return {
-      point: result[1].point.amount,
+      point: result[1].point,
     };
   }
 
@@ -97,7 +97,7 @@ export class ResponseController {
       expansionResponseDto,
     );
     return {
-      point: result[1].point.amount,
+      point: result[1].point,
     };
   }
 }

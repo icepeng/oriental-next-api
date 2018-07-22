@@ -4,10 +4,11 @@ import {
   Index,
   JoinColumn,
   ManyToOne,
+  OneToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
+import { Archive } from '../archive/archive.entity';
 import { Card } from '../card/card.entity';
-import { CardResponseDto } from './dto/create-response.dto';
 import { SurveyResponse } from './survey-response.entity';
 
 @Entity()
@@ -26,16 +27,12 @@ export class CardResponse {
   @JoinColumn({ name: 'cardId' })
   card: Card;
 
+  @OneToMany(type => Archive, archive => archive.cardResponse)
+  archives: Archive[];
+
   @Column() power: number;
 
   @Column() generality: number;
 
   @Column('text') description: string;
-
-  applyData(cardResponseDto: CardResponseDto) {
-    this.power = cardResponseDto.power;
-    this.generality = cardResponseDto.generality;
-    this.description = cardResponseDto.description;
-    this.cardId = cardResponseDto.card;
-  }
 }
