@@ -15,4 +15,12 @@ export class CardController {
   public async getOne(@Param('id') id: string) {
     return this.cardService.findOne(id);
   }
+
+  @Get('/:id/responses')
+  public async getRandomResponses(@Param('id') id: string) {
+    const cardResponses = await this.cardService.getRandomResponses(id);
+    return {
+      cardResponses,
+    };
+  }
 }

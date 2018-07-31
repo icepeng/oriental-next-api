@@ -1,0 +1,38 @@
+[
+  {
+    "id": "crystalsmith-kangor",
+    "class": "PALADIN",
+    "rarity": "LEGENDARY",
+    "cost": "2"
+  },
+  {
+    "id": "shrink-ray",
+    "class": "PALADIN",
+    "rarity": "RARE",
+    "cost": "5"
+  },
+  {
+    "id": "annoyo-module",
+    "class": "PALADIN",
+    "rarity": "RARE",
+    "cost": "4"
+  },
+  {
+    "id": "kangors-endless-army",
+    "class": "PALADIN",
+    "rarity": "LEGENDARY",
+    "cost": "7"
+  },
+  {
+    "id": "crystology",
+    "class": "PALADIN",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
+    "id": "autodefense-matrix",
+    "class": "PALADIN",
+    "rarity": "COMMON",
+    "cost": "1"
+  }
+]

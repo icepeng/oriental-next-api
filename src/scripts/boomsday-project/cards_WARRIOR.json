@@ -1,0 +1,44 @@
+[
+  {
+    "id": "supercollider",
+    "class": "WARRIOR",
+    "rarity": "EPIC",
+    "cost": "5"
+  },
+  {
+    "id": "beryllium-nullifier",
+    "class": "WARRIOR",
+    "rarity": "EPIC",
+    "cost": "7"
+  },
+  {
+    "id": "dr-boom-mad-genius",
+    "class": "WARRIOR",
+    "rarity": "LEGENDARY",
+    "cost": "7"
+  },
+  {
+    "id": "the-boomship",
+    "class": "WARRIOR",
+    "rarity": "LEGENDARY",
+    "cost": "9"
+  },
+  {
+    "id": "omega-assembly",
+    "class": "WARRIOR",
+    "rarity": "RARE",
+    "cost": "1"
+  },
+  {
+    "id": "eternium-rover",
+    "class": "WARRIOR",
+    "rarity": "COMMON",
+    "cost": "1"
+  },
+  {
+    "id": "security-rover",
+    "class": "WARRIOR",
+    "rarity": "RARE",
+    "cost": "6"
+  }
+]

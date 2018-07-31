@@ -1,0 +1,26 @@
+[
+  {
+    "id": "spider-bomb",
+    "class": "HUNTER",
+    "rarity": "RARE",
+    "cost": "3"
+  },
+  {
+    "id": "boommaster-flark",
+    "class": "HUNTER",
+    "rarity": "LEGENDARY",
+    "cost": "7"
+  },
+  {
+    "id": "fireworks-tech",
+    "class": "HUNTER",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
+    "id": "cybertech-chip",
+    "class": "HUNTER",
+    "rarity": "RARE",
+    "cost": "2"
+  }
+]

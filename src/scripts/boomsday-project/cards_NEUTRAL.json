@@ -1,0 +1,110 @@
+[
+  {
+    "id": "weaponized-piata",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "4"
+  },
+  {
+    "id": "faithful-lumi",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "1"
+  },
+  {
+    "id": "whizbangthe-wonderful",
+    "class": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "cost": "4"
+  },
+  {
+    "id": "seaforium-bomber",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "5"
+  },
+  {
+    "id": "mechathun",
+    "class": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "cost": "10"
+  },
+  {
+    "id": "emp-operative",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "5"
+  },
+  {
+    "id": "zilliax",
+    "class": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "cost": "5"
+  },
+  {
+    "id": "upgradeable-framebot",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "arcane-dynamo",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "6"
+  },
+  {
+    "id": "wargear",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "5"
+  },
+  {
+    "id": "giggling-inventor",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "5"
+  },
+  {
+    "id": "star-aligner",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "7"
+  },
+  {
+    "id": "replicating-menace",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "4"
+  },
+  {
+    "id": "mechanical-whelp",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "6"
+  },
+  {
+    "id": "augmented-elekk",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "3"
+  },
+  {
+    "id": "missile-launcher",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "6"
+  },
+  {
+    "id": "galvanizer",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
+    "id": "omega-defender",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "4"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "demonic-project",
+    "class": "WARLOCK",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "omega-agent",
+    "class": "WARLOCK",
+    "rarity": "EPIC",
+    "cost": "5"
+  },
+  {
+    "id": "void-analyst",
+    "class": "WARLOCK",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
+    "id": "the-soularium",
+    "class": "WARLOCK",
+    "rarity": "LEGENDARY",
+    "cost": "1"
+  },
+  {
+    "id": "dr-morrigan",
+    "class": "WARLOCK",
+    "rarity": "LEGENDARY",
+    "cost": "8"
+  }
+]

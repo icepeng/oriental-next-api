@@ -10,9 +10,10 @@ import { Expansion } from '../expansion/expansion.entity';
 import { CardController } from './card.controller';
 import { Card } from './card.entity';
 import { CardService } from './card.service';
+import { CardResponse } from '../response/card-response.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Card, Expansion])],
+  imports: [TypeOrmModule.forFeature([Card, Expansion, CardResponse])],
   components: [CardService],
   controllers: [CardController],
 })

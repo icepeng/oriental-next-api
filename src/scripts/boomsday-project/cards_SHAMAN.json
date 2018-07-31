@@ -1,0 +1,50 @@
+[
+  {
+    "id": "the-storm-bringer",
+    "class": "SHAMAN",
+    "rarity": "LEGENDARY",
+    "cost": "7"
+  },
+  {
+    "id": "thunderhead",
+    "class": "SHAMAN",
+    "rarity": "EPIC",
+    "cost": "4"
+  },
+  {
+    "id": "omega-mind",
+    "class": "SHAMAN",
+    "rarity": "EPIC",
+    "cost": "2"
+  },
+  {
+    "id": "menacing-nimbus",
+    "class": "SHAMAN",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "eureka",
+    "class": "SHAMAN",
+    "rarity": "RARE",
+    "cost": "6"
+  },
+  {
+    "id": "electra-stormsurge",
+    "class": "SHAMAN",
+    "rarity": "LEGENDARY",
+    "cost": "3"
+  },
+  {
+    "id": "voltaic-burst",
+    "class": "SHAMAN",
+    "rarity": "RARE",
+    "cost": "1"
+  },
+  {
+    "id": "storm-chaser",
+    "class": "SHAMAN",
+    "rarity": "RARE",
+    "cost": "4"
+  }
+]

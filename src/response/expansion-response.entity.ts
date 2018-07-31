@@ -11,10 +11,12 @@ import { SurveyResponse } from './survey-response.entity';
 export class ExpansionResponse {
   @PrimaryGeneratedColumn() id: number;
 
+  @Column() responseId: number;
+
   @OneToOne(type => SurveyResponse, response => response.expansionResponse, {
     nullable: false,
   })
-  @JoinColumn()
+  @JoinColumn({ name: 'responseId' })
   response: SurveyResponse;
 
   @Column() fun: number;

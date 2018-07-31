@@ -1,0 +1,50 @@
+[
+  {
+    "id": "unexpected-results",
+    "class": "MAGE",
+    "rarity": "EPIC",
+    "cost": "4"
+  },
+  {
+    "id": "astromancer",
+    "class": "MAGE",
+    "rarity": "EPIC",
+    "cost": "7"
+  },
+  {
+    "id": "celestial-emissary",
+    "class": "MAGE",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
+    "id": "lunas-pocket-galaxy",
+    "class": "MAGE",
+    "rarity": "LEGENDARY",
+    "cost": "7"
+  },
+  {
+    "id": "meteorologist",
+    "class": "MAGE",
+    "rarity": "RARE",
+    "cost": "6"
+  },
+  {
+    "id": "cosmic-anomaly",
+    "class": "MAGE",
+    "rarity": "COMMON",
+    "cost": "4"
+  },
+  {
+    "id": "stargazer-luna",
+    "class": "MAGE",
+    "rarity": "LEGENDARY",
+    "cost": "3"
+  },
+  {
+    "id": "shooting-star",
+    "class": "MAGE",
+    "rarity": "COMMON",
+    "cost": "1"
+  }
+]

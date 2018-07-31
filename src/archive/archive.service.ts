@@ -1,17 +1,11 @@
-import {
-  BadRequestException,
-  Component,
-  NotFoundException,
-} from '@nestjs/common';
+import { BadRequestException, Component } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Survey } from '../survey/survey.entity';
+import { POINT_REQUIRED_ARCHIVE } from '../common/config';
+import { CardResponse } from '../response/card-response.entity';
 import { User } from '../user/user.entity';
-import { SurveyResponse } from './survey-response.entity';
 import { Archive } from './archive.entity';
 import { CreateArchiveDto } from './dto/create-archive.dto';
-import { CardResponse } from '../response/card-response.entity';
-import { POINT_REQUIRED_ARCHIVE } from '../common/config';
 
 @Component()
 export class ArchiveService {

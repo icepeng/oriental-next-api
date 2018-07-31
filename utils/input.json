@@ -1,0 +1,3241 @@
+[
+  {
+    "miniGUID": "087",
+    "class": "ROGUE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/afbf757e71ed10036d1fa47d4e4210588e926a55782dd8daaea959e843b26e09.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f265e632259e76065d2de917ef25fe49fa985dd87151f651b24a1a769451645.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/de6b29e0fa37213db0bf30a54a5c21776d16c8ef06c1c89679cd1b77944c4fa8.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d9fb623d9041b5fd8edb1a3a911f92aff04e7142ca8522a92334510332775453.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21a85894f5e655664281d67a8baf18cce6dac2c938707c4ff56f780076c521ed.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c2d816fad5c8160d78bf19a1ec3ae07e17999b3ea9a320fa74c099873b4c17ad.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d3175f3eba631febdd423b4ca6d06550f59345787cc2ca4dd70505dbadcdd906.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b91e282d6f3ddf30898dc87e6e67e9abff81bbc4f5a0613ce2e53c3a36bbcf1.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/998ee3e3e01774da484bf46bf5fc863db871336def78d230951764d1459713a7.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8fc5fcc3604e72544ac8735963f5b5ce3ad9ce629315b89708bd34810ecae503.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c62a15fe50760ca8bae51fae09ef0fc76251cf5789f0c5b7bb3bd26d6bef322.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb9fecd7ffde16aa46e43c1ed6ddd5a366bc72a74cfcc5b4de41b2caa55c4726.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c6d84dffc2bbe49e065f6d76aaefd1cecef608917560240f2e5a825308f1044.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37a4a7f31f036eb694e22412686f8b4abedab33c9b34ed430770d707a0b5e38a.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e1ab235b6de8ab41b8c1e9f886fb052a0e06ce1c766564e99048e192ed91bf6.png"
+    },
+    "cardNameSlug": "AcademicEspionage",
+    "cardRevealTime": "2018-07-26T19:04:06.000Z",
+    "id": "0",
+    "unixTime": 1532631846
+  },
+  {
+    "miniGUID": "242",
+    "class": "ROGUE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dfabd473e0f53885619868fe47d573f1b36339a7d6870fa4d66d72106fea2522.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb0764d0ec660e018ff84d611a14fa94be5ddda85366c99c8448d7ff4015ea14.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf27eb37e70c39f39f0d11ba79f87cc43b23a88f7d74113265dafb6faa14d987.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c453d4565433292da3bbb965616f852ab7bca7872e2f991072d5f7bc443c10aa.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d4abbf782d6c5e112a7561c2ce40d3a0cce9c61221040ea898e62c9e84097a6.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/45f0da79a556741fa63e93c817cd90b2610f9fa5e6923319e1b672e3c1ab9de0.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f14976980ac69b4ccdb762eb70bced66cc7581832a70d57010e6b6ddc64889e9.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/192f2e3cd9eb02dfcf6894dfd17c4b93e6d7b512327c292792e785f5ed61aa95.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/247b6904a7b76c0600d031d8f739d98249f7e70de91c96bf2b9056fa1b9b2252.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd7d6b3c1116ed772b216cae730aa6335dc950a0ded28b0c839c7d473e65c840.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/829f7decc779cd3aa730f61e2c379d0cd58837deb7e1e5707c221314af99ed1d.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62ba43d72b2c52e4b605fcd6d5f312a74b5800bbb89eac174fb22b097c9e5a46.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84a0b0a747b7d4d2f59da66ffd9db70a37b11a90a8f2c8d489ded5f9d6bd387d.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1e53eae46398ca4ed2da4d5efd6a089d6612b2f96e91dcfb1a304802347e056c.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8a847940cb3d6b11e4f73089f93fdf68d27d7d227e965593d997511955710ce8.png"
+    },
+    "cardNameSlug": "MyrasUnstableElement",
+    "cardRevealTime": "2018-07-06T20:15:28.000Z",
+    "id": "1",
+    "unixTime": 1530908128
+  },
+  {
+    "miniGUID": "243",
+    "class": "ROGUE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/52df630c86a6933ba5593342fc43222999cb54970f47ff26725de2c108759dab.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84926acca8a26df1238efd13c8b9f89bbfe196344bd47fe4ac312109c5e9d3b0.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/627434e93d2299f54c405dd937be04ab701f0fab17b656d29be1f43237657f73.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7dc25b0388b478003c0934e4cfb51d5b48be3d39c76025f3d487b69c5e8c6bcf.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7575d75e30dedbbcd28cb8b1a979ddd48876f8c1cf27222a5bb523df9bf2d6a1.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d9157cb76d4a970ff8958e6ca1aa55710cfedeeb710bd52ce28757e27182b50.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc56ceabe130fcf3f2cb564417fa5d30553a016e64188e7a9d646fd04c6a6623.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/35aad6596d5018b950fcb0989c9d322de54da21911cbb8edf5492aa099682537.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc92239b8f34d8f2b503b978d6d108dd9b5016df0e322dabe60412361502b12e.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2a9f4601a4cd581e52137d952890fda3793d9c4cda988492d894dc24b412095.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69bbc63a384b3fc005e6e83ffbdf66204f7d4acf96324b2a327b43bfd28eb204.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57bfcae598280af2a352f8644ab9bb7a30773d9dc411d81b839b11fc41ddb8ff.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8a0443510b31c965ba7d8c19492b7982009d252c9a383fc703423d16995e2ddd.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/96bb9d25f2c6d23f4264d067e691cc0f8a9f63ce383f2d349f9bd59cd8a7a0ce.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/661d8adaf967d2f77363796fe436dc667850b8c491c81fb3f0361e50d63c7f47.png"
+    },
+    "cardNameSlug": "MyraRotspring",
+    "cardRevealTime": "2018-07-27T21:25:10.000Z",
+    "id": "2",
+    "unixTime": 1532726710
+  },
+  {
+    "miniGUID": "245",
+    "class": "SHAMAN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/46c69e02135043ce17b04fed3e3a05789085d2cb1753e6e35d9aea5fe3389681.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0adb56cd5413ee39bc80e881681a7b8e3d8b778b62369b44800b74285198d46e.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f4d654889c573ae6fa2af3ddf0ea73def8fbfe2ccc1f310059a45f0a4d9bd1f.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/27c4977af6289e83a0d02ffb019c16b7115badbf1723e11a0f8a70175d79465e.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c68d8862c556c47f0d4f0a38e33fdb1f7e291e4b17c2b16d8c8268e5d325f5ec.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0c974c18bd1c7d2877283a136e8551e7a919012d2337243b48451544eb2d19f.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3cc63af7f1609fb3c4aafb7d8071c77d473f0b83a5399ca622ac07877a96888.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d4f18f1411996f88044617c896433d6e6a05ff9cae763c086768503655cd137.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ba3b0feeb012120925e0686c91c550645055be9c8dbe127878c0c111596d4bbe.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d219eb6be6526d9e4c5a6cb0c9fdc2dd129e034158a5e47a2acff3fc3acd586c.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e10af74951635f1e14512467210a51103b6174d2d2e16255d440b315d77be9c.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/797e3ad6f54f552fab931c14b34e09ada32a04c8e2e7502337041f987a83f0d7.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/571051ed112260e09ffbbb366bd45ed7e4e4747302bf25c21e6ef12d4d145bc5.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fb9c2b71643e84833a79ac29894ca3cc198be714a53bef59c4ff272992d2b14f.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4e6272d02e4cc80ac083829d3232850969a8b333cfb39c694b24290571ac46b.png"
+    },
+    "cardNameSlug": "TheStormBringer",
+    "cardRevealTime": "2018-07-31T16:29:22.000Z",
+    "id": "3",
+    "unixTime": 1533054562
+  },
+  {
+    "miniGUID": "401",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c365c8da45701c9f9b347aad7924fd48a79b34506bdca09c421505016e6d9b7.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81fde9fb5316957112e4a85b3b55962d082decce480f8125fe561b53a487a9e8.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c01421b364c4252523240602d29e04e51368b482f18d09cebc7ecd93f48138a3.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b52006a530619b8d2c6e42362da05f3a5746b94536ae391bf243d4715e228113.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e423a8d17c2cfef06790cc5084dbef343e234b7814916e53b7c7fe4b9aebcbd.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a862129072080a2e23e65edd824c943279130b648a8ca92b4a0421b6557f6383.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ccbbbd4cf0f5efedaec4a6278ee255c221754b8f2ed9cec06b29db7a77d8c630.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7344ab7b45ab6b3577e18189aa2d289ff7547328cae713b71f758cea7bd07963.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd18976b3116988a23256d17c20ad8a64768781038c5cdc1fc133891979a15ce.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7d373ee9f354907c4c14707dcabbdb948387a4b872e6e39b41945f53a898bc3.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a239f762572bf70e7b5325a6beabbdc9fc1b4b59e7f497c1664d26359217a0db.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/61337ace3f796eaeb5eb6e76dbebf52bfff0d63c0917d65f5d581a47f8d349ad.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a303e2d90bc1cfbf226a18f077d15546750c12d1a05952710e267ae417cb3b1d.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf606b480e9de663d39d08550f8d0ebeea7aea73ea809fa60d9c600f0bdda52f.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d64b1456c45b936aa5ca3914bc84a9cf6870263c0d2406ff733435132bd512a.png"
+    },
+    "cardNameSlug": "WeaponizedPiata",
+    "cardRevealTime": "2018-07-23T17:44:24.000Z",
+    "id": "4",
+    "unixTime": 1532367864
+  },
+  {
+    "miniGUID": "404",
+    "class": "DRUID",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae1a28bb725f662f3378b10e3b743540eb021110ade0633592e32af6bae7b0c0.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1f4b57325b1e2e69837e3933831970e52d737f4f560dd5ff457a62d4adad0996.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ccca3845761016a126d778187e484b67f8579aaacada0ac7944399478f0cc29d.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cdfc5781ae796e6cdf145d4cd783c49f015b77d5228b1180c3d61ba7ee279550.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/669d67e51b50b850d12ac625c0559c5f7e692d4e6ee75140bb90d231fce479fc.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0e0605382e35e45f90367d16ce2c36653eeda044c19aee37009c9c1d3eff2ef.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e363ac0b872dfb7cc7186f5f827037d113252f55caf498a3f1cd072184e174a.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75efe9f7bc9589584887bfe671f5919c9e8128cf9f9cadd76eaded82329a1487.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5025497fce2fda617d9ec42e27f3214a81e2df2afdc50f0652b1f802ff2d842.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f1f09044bdd99433dcb1b2ca3f17b7e8599ce16102ece5c5c0cc76c62f877e96.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf8421b2b2d2bad6c5ced623248a1c2b78d52ddd92d4e7d04f7e44577c5af5ff.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c0708d6217638670d2f21fa3e65fc61b5dc6efa840ce20a4e053409168e11ae.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be9e43a715513cfb4ac2480d297f0478f93a079a8ff429bec2acca0b184c7863.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b4accb2f42ec6d9c80439e73473d59f18296b188bddcccb613335ab791e0594.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/52566bf123fdc1a7138be089504f6391bb3c3e0b20e7db9a1c7ad26bc4f6c2af.png"
+    },
+    "cardNameSlug": "JuicyPsychmelon",
+    "cardRevealTime": "2018-07-30T15:10:54.000Z",
+    "id": "5",
+    "unixTime": 1532963454
+  },
+  {
+    "miniGUID": "406",
+    "class": "WARRIOR",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7089d9f7e837366a6a5351fa8018b687262d2303e2a330c5b77a5933e3dceb45.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01e770e25f9e37c3675b03a056c49fbbb328caf07e12fbc1253818324334b379.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c48ccddba1addde25a0adcb71e488e607327c96192f8e50a723db28725b3d63.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6be7d2aadd51d9c63916a9130157f347b84a91bf7060e829222997347888f53f.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/402dd8801efd70e81ec9b62af32f048442d8dd8bbdc97eee41fbbca4c6d95c88.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee465e8250017a6cd1ab741f411f4fd703af6c36fb24c22081c42c9a234e6d11.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c9560dcb803824846ba8f05feb3108040da7c804c07ef42a4fbd54501abf60c.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c600e41c3300d22164b291c0dd13d9f235e41b35552fab696915bf153bb8301.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb6b336544ea443f3dce99908cf9f9eba0ee92f7b4701181b3300f9ec06907d4.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e14341a4d8962c4bf90f9a934f407fa5664b87836594b996bea6f6e1f0ed035.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf8c9cfaac878f36994e8691db5087aedb312cc87ac66e34cebc5c79bce6bf3f.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/91c80887bdd451c11c1284317cf5ae006f0c07f1d616cffe4abd8043f0d37d17.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01073048e04c7b0af8a3d56f5fce38a0ac19339f3b963d1cf8a1ef817d739392.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d409d9bc042f40a3fae36602ed48dc0c1d5fab8a7ae9b1c3acaef5272f03c7bf.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/27a3856f854ff16e287918f6bd4c3a1e2675cfbe07cbaee010bec6816f79b82b.png"
+    },
+    "cardNameSlug": "Supercollider",
+    "cardRevealTime": "2018-07-19T17:34:57.000Z",
+    "id": "6",
+    "unixTime": 1532021697
+  },
+  {
+    "miniGUID": "407",
+    "class": "SHAMAN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f5fd59448d55020cfdb6091dd7accca091ea55ca077efd9d5411b3110621d6a.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5641fd4b199cbb6f03e2acd2a0d939461d1de7a3784e4503e533e8f26792fcec.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e3808aeed58445bdf4c09709c543145616c5cc6dd2fc7a2f3841d6a3472144ac.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/41477d326e29e0119bdd1fe39a121495d4a20c71d9839c0755d46c950cf39a50.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/126e1fc85f57911fb2fef2c60933fef0d369198c946f7de8b2397a3afb9e5a2b.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b9b6acff717e0e105e856a13c76cd909abba61f0b6e57e61d838fca5fee2050e.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e85dd43f5eaa9a88187dd6abaf8e68ddf8fe7605280b550a65922bd5ac5452c.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cd2e593eb95ebee08962b25e33ac9a40544b1b1dd25712994fca3a5e16b220f.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4b660590df333ae3d24558765a0e0cc0a47e8c8c586da331bce4ee62bccc629.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/df62d5384fa61860b21eb3d0ab2c5e79493d272357f21066d51a0e9fb64f0405.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b5e584c7ebaf08c184f1a1c29f93fdf8abfb627bdca38962616d9d443e138c4.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5d6cbf0c1de819b353010f5b0ea292c107b48c0ead1ec5e6449d4f5c1bc469b7.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ce6d27884351dccf60b591109dff8723fc40728bc9082f40998e63248b57b9b.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/70b7929d6d785b8db19d9caab96f554a65cdd024d62fd64a676f8977dc8df503.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/38f89b30a1b6f19e6e07af628c66d89077c8b109808e782f21fc5a9656b1185f.png"
+    },
+    "cardNameSlug": "Thunderhead",
+    "cardRevealTime": "2018-07-30T15:11:50.000Z",
+    "id": "7",
+    "unixTime": 1532963510
+  },
+  {
+    "miniGUID": "529",
+    "class": "PRIEST",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0db7b92a03784cfe234b783c9100e571650104cfe2dc17d83a9a3db113fc1fd8.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/26d946a7bbce446bd79c47394cec9a44280ee974998606efad3e2100df0057db.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f9ffdf25219bfaaa5f236cbec8d5cf3ae1018a20619406128b8049999be97fe6.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7f30b872278c20b7c38b7d91a6bbf0a47720df7eea15f0db0f4708ce1ca7f5ca.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d71e8355fdc18d07b7e04d16cb6cdbe916e8a300cde63e188490cbc7d7dbc19.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ad7281850a76c63563e26384f4e959ebead58f6e4877b78e73e2e7c1d84094b8.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9ed85ce80f4795895467acfbd11288caf00eb348150d75aeddc34815ce7b3c7.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e6a7cd6d5bad3137a499cbb659a0413c64142fe9050dafaaaf15922c14eb889.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00d0aca53b8ce4864e3ad7a339723037f40fff1fa748c86ebcba3cf13d75b348.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/96ca14abd61bab482209409cfd3a0ed1beca2827923461266f1ad88f56bb14b9.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d06a72c46d6386da606be9ae202571e460e72867c5b5d3ed970962f899e58a5e.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/378f31b6fe0a045e7083a9c2d2b70ded74133e8bdece6c81acdfb1aea6560dcc.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ff731cccb300a9cbcb133fef3ea8e6f1c346a227941bb1a8a8759db739eb113.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8077a5ce926672e12dc5ded6fba7480003a6aefa5b1cb80718671a9ee0e9d083.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/770413ced69c4f92ab75af32fe154a2793d6999d76e418dcd1a94529589ac342.png"
+    },
+    "cardNameSlug": "PowerWordReplicate",
+    "cardRevealTime": "2018-07-30T15:11:05.000Z",
+    "id": "8",
+    "unixTime": 1532963465
+  },
+  {
+    "miniGUID": "236",
+    "class": "PALADIN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e7f2621928952199ad1b122a26e374d7efdd07e96977dca9772a234d24ce94b0.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e58511c3999614c5b5144aa84bab9b3c76f3624fce625ecd39ad866273a9c1bc.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c0cdd0f449d0d17c6d35f72b2e24ca30d2ea5385a45d8251fd44598439fb3eb.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2e1ddc21d0e5b0e33f4e35d112f16d9892fce8a9490fbd372e08cc5fd53f0726.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a5dfce79dd6f7d8dda93ea1338b88046e41c2c6a9d70cd5a677023dbb27fafc.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aed4ee436983e2740e8efd8df9740277dd1eb5bd469001c8388df93a96228052.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a7e2df4b59ad8451b8f7385a3179ef2a0d00899d01a470ffa82c1c544abe0c7.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/333af83beddecab70c2be15b1e1b61654afc3fb07aca30455d1e35d0b8059f83.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e0d1197b9eaf4e535c609d5859729df37c585ec1221b4c283aa091629c8be43.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a470ddce749c90eed3a5d6cda853a6f499115b95018fe0b7cac2d19ac0da89c6.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c79654995280bb7d45f09455aa75aa47ad43dfee4a88b78bf12094856fa9d153.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e5c72a2f71eabe7aba181354dd2e4bc09a70874cfe7796cba7ce2d302037a1a.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e505c001f5628023119d8e81d1bfe2fad4c1f0e9d71f0e56e20622c2bebe059d.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0463b6ae8a760346ddb0581a039e087619b9cea79f4807851460aa71715b6bb.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf58a7f4e85fb6459ed3435d95360df432fc3f948c8afc81825579fd0be6a99f.png"
+    },
+    "cardNameSlug": "CrystalsmithKangor",
+    "cardRevealTime": "2018-07-27T16:45:00.000Z",
+    "id": "9",
+    "unixTime": 1532709900
+  },
+  {
+    "miniGUID": "234",
+    "class": "PALADIN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/290fea40bf0c819b639f65abdd6018f5466db78df56e44686e647dba11b44f99.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23296dc0553e9e00e44b866cb9100c54671a12f41b53bb7b6fbf0cfe9c75e375.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ca0571d4e6f89660ebdf10640242de809468a3357a01dd735f278c0e888ad22d.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5375e025858a22664241395725655e48b369b910b3efb98e2cc39ad09d1eb56.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/728a749b239b248be79efd27b7076a8292699d9130c2dc65115c64bd27e82012.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/901baeda26d3071ae3912a81d9049c820050bb48ce95c7350b96aaf7b608f292.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f0785d81694c4e43420132e9436d1bc71ef7e8d655f3f7aeda927dc9437df452.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6eeb20d41f4a968b0033c273e2099977849e97477d65caa78cab78b1725cf244.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a38665333934f4a6c6538c5bb2131cacec5be548490d9c541c26343f80fe834b.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/44cf92618e2fc1439259ed105e236d899055539d8e3fc07f17bfd77be357833a.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4692a938972a6f0c63926d9d6a426eb9c44436a853a44a4dab81a1d496e97e0d.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d521738aee0b3999d7d5f401ed6600f72641b2401b00f902a626aed0f6bc3088.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb54ab5ab169012b77ce8ff083d59bcd0ce376dd928c5ad4975c501dac088360.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b727d78f95cfe5b7726e57b4cd7de4d83308bcb0f4728d674c530a40b32cdfa6.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7920e2cf942a75779be26a6abd16e9679354afeb299d642120e1e073c848dc04.png"
+    },
+    "cardNameSlug": "ShrinkRay",
+    "cardRevealTime": "2018-07-27T16:48:17.000Z",
+    "id": "10",
+    "unixTime": 1532710097
+  },
+  {
+    "miniGUID": "237",
+    "class": "WARRIOR",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd09e54b8e9a952a86a37afa0837d87e31e70c99d377045425a4aba81ad19d08.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae4693b92fe6f7151dc685850341a78fd1a917d5cf9e6466bd470e8e5e29c212.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/039cd3e4f83454a007e8fa65dcba30551887ff34443bdeb3565743a114c0e647.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e21a67dc69c71a25cb909dcd67cb963437b98af5cb7034925c8f287c8942c30.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae6f46792ebe449e3cc78e31f223986ee7c16ef6e35cbfe8705e236c8b18cffe.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7de0f31ba218c9bcb2fd6d14f01568e5f16ff24e5d4719defd82e7193bac5515.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/edfbb29ebd0d4341fb223dfc3ac7820ca63b9f5634f444fba02180c994da433c.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d803834fd23b2f3506a02f07488399592869bc8ad0c32f17ea1e1bec575e3e7.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/514fad6bf1fd469c769f4de7064b1aaa480fdeee5c5b4ef02d13b92939d95c04.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/55b97c2ebc3516cfe922f9919d71f9fe69dd4dbba01ce2042255cdc14580c6df.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f4f8f25488dbda43fb657bd6e9c8bbe48c7c2d21c677e0976c736c8dd1c6ccd4.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c67eef7cd2fd59e35fd0738657afaab7b6c82fda570568e27f53b3640bed122c.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bffe5842d53dedcd8d2aa0ccb636e35a0c03e21ca6ea628ec1c13c1603cb92e9.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7f6ecb99a74afb2baeabd1283c44b05ed96f44fea7ba18b8a52d50ddc3bcc9a.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/42d37089e937eaf59b3866d395928f1a14faee03f50fe655d3f6aa00faf9702b.png"
+    },
+    "cardNameSlug": "BerylliumNullifier",
+    "cardRevealTime": "2018-07-17T17:13:01.000Z",
+    "id": "11",
+    "unixTime": 1531847581
+  },
+  {
+    "miniGUID": "523",
+    "class": "DRUID",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c05062975c35ceff1297639e5436bf50f384c5e0f0626e07266713ebfa34de26.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ecea35dc2cb33cf71502be2ceee93fde5bcde3d55ceb85978b13ffc86581b170.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da2d4b9d19dea221fa6b12e5d06e184e91f2f04e06c00ece4b353a0c9d9b4e41.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4fba5d530f6e3167d560eb28d33f5c3dc37b457cb40825a090ea427e5a614fd.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be6c568b1d5aa5dcbc98c8f5d522112052dfa65c2d322a30ccf0379dd1c946d7.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/714c9a09fc129b3154aab984021bc93e10d3de7ee4b92e2db798ff9a8eaddc24.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e949173a404f277b1344b8f346d8f098b2c94ad2c0b0c6327e3b30223de5b91.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f3b1afdbf95eaed9de82ad9f7fb0ea618fae2b3dbec4203fc5a176de300dae7a.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78349a1e8d6026a590fb5f61742d77f025550a59c3b8bc8a1c7e278800cfc95c.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/878bb57b65c97d0b4b990e8a50294ce8b7865cbeb7f49c708d8be8239708ed58.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03556c51beb1e4c7553de60b0621d94902282167a243d10ff6aadc79ba8bef40.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/65c345e3530a18c50f1c9bdf3356dc5e3eb3fe72bd9333afac16e1ee16e95926.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/875098d59264d2d97fc9b95d3d8b977a14a24a46df0f1f1f434e4c80a9cd2e15.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/031b58f51f6a6acbb8d4c1196c2803c9c75fce704fbf9482b0ac0c1ce608a50e.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63b754372f478cd4867ab166530b224e2a4d8737ca3253ab1611fe0189e0692c.png"
+    },
+    "cardNameSlug": "Mulchmuncher",
+    "cardRevealTime": "2018-07-19T19:12:45.000Z",
+    "id": "12",
+    "unixTime": 1532027565
+  },
+  {
+    "miniGUID": "079",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5155c0d9b1c001e859fe078b0ef9a7916b6c5e96a1304d0dff603076215595b0.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83d127bc25d6574cae69734a55056e728707ddc710fae3434fad4b7bf3e44707.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78253ab733f3f08b4b2cd2afc615f580e18d92b669284b1e8c53979acb7769ab.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d47bb32bcfbd8a788f28c032d3f773e0d8ec02161e7a6b08c49e46a290ce006e.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c6716ee725b5f481620c73fb16f67fde7b86c97c3aac21c7e15c5e5c97a4dcc.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c95716ed842ced34ad5cb07dae27ba69fa386660115163a4aa2017dc81232641.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4eb2302f1e04c8e0e7412074bf6ab49009afc2b83bf6ac71fad467422247abd8.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/431e1fe30ca4e37aac8b4d5ac83c9c64192ac2f38b083a335c177b5a2186ede1.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/70d9aee68be44ef57c9d97022878f9c904d9d6bcdf5b7d04acae0983f0e9983d.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/beec9578e1574742bd5c785ffc7605acbc38f1a00da9731f4f98451ae731cf42.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b12a1a18232d47e9b673ec68d77c66aa5c71127915c413e85b502ce0f3ea8110.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/220a135700510e1c0efc15e2b06c9f8015bce3fc6949533c7cb2271c2e3c3c22.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/300ecabe7293680f4586ef95e41d578102fc0fbc27d0512916303aa1326c50df.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e19bc47ce7ee2161e240ad16a78ae03fb94acdfe65dc7b87162a225866b8e62b.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0cd575e9a4a981b9d99ef59e8893f6921afdd95b83fa8a3efc2d95becc415172.png"
+    },
+    "cardNameSlug": "FaithfulLumi",
+    "cardRevealTime": "2018-07-23T17:43:21.000Z",
+    "id": "13",
+    "unixTime": 1532367801
+  },
+  {
+    "miniGUID": "911",
+    "class": "PALADIN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ff06b03d843515f1d4c71a2f186ec39dd0fb7b1aa818e25db336c25cee0102a.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b4d959a8ad8affef40b16b16b4e6e7ded0f3fae8265ca1019edda56888d7e10e.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f460e301b45c66f8cd238f695b445cdc3b41c316fe43f3f2fdf992a4217e8895.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69b45a943116f81b6a31dc149c5b7625fb4a0781c5c02844a918c558a7fb3b54.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6c78ea4300a5365cbd3dfe1bf544c50f55ab53c6dd33d7a00c0e3b5c65117ef.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d0497ba4a2095e3d255a4d65ef54b6fe95194426dc7d539db44b88b5c5e2668.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ea5350aa57599a9102ee18473d3c7b93f91ffc1209230237a4a7edb5b4c825b.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a23bbdd2e2fe7f3266b100ccc2a57dbf94975c22cd90d643684f1857753105e7.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c00e2f050a9cb54bc8d4bf2f4f8bde9bc3f755101d18dd4ce304c859e9d43d05.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f43063104e9d075491b3905d87d8b8cdbca6be99ab02862e742536aca1f2f42f.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94b6b9144881b90bfbcf25e97a88af0f74ff83b8d003f30a01ae8e47be74a8f5.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9c434ee7778aa77a739e16839aafa30ba0249c6647eac1113d239580c02f1256.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc9a08572c236461c01c8156a44745048427286f49c34b6415ddc54aefae2b7f.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bca2953d783572912edd049a354cae82bf7238de401f931b25325c6f2e8c78c9.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/584a3a4fe8b4cec119d68f78ddfe4f3a4304def1477a5c9a1da6d06cec9b2342.png"
+    },
+    "cardNameSlug": "AnnoyoModule",
+    "cardRevealTime": "2018-07-18T17:05:12.000Z",
+    "id": "14",
+    "unixTime": 1531933512
+  },
+  {
+    "miniGUID": "238",
+    "class": "WARRIOR",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ac5f6dd9fa78493c42af021509d344c66666746e8cb05122ee2cfce8bbda189.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/866f12d8460daa7d8248d0c94618dc7b4c641c83130ed80771fbff523671e0c2.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/585a187042cbbf59f28979c3ad60506abc0bb5e198a528619ef4e118c0fcd0de.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f3fe980b115064a1a6c320dd331757433c3e30ed3adce14b3b5dafaf6e134ee4.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/901b5a77d94d5e099f06aabc8c5be79d24d00a4486d04097c0fc7bf5042817d7.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e534ac659a9c3da59e34e71f3808f219e06097ba6f237bb3c373c5153aad32e.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3e4bee8fcca4ef509f795b2938861357bde262fb6a905c6d61a31c50c6632381.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1fcee1cb1d1ba2d9ddbe7ae48ec8e200fea50f008147ba34dd2b0e1f37343fe.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1f644a22eb91499a12cae6d7e5529eda6655ef28f417a67a99c6784a16614a2b.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/737f88994c41814dcdcb6492823e804e725e2b94426c5d6ef3652462e3e09a88.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9734abdb2e4edc24f3c85450c765dc825a2cb39badcffb4b8f31b2e0ee857b2.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6647290c48736d9b909c8b756154e668d620847e797518b6bb1b9a90d2279bf6.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e911bfed0b3ee63f870c9d1accfc00f789baa120eec85ecea52fb9b760058d9.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aa514e22f5afef48921d4f1e5ceaf0730c054743b68cca7eb0e846293dbac9d7.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4447739f677ae977dd577f48f1dd66de24cbbaced972dbb40002f6f69915dd7.png"
+    },
+    "cardNameSlug": "DrBoomMadGenius",
+    "cardRevealTime": "2018-07-23T17:45:56.000Z",
+    "id": "15",
+    "unixTime": 1532367956
+  },
+  {
+    "miniGUID": "912",
+    "class": "PALADIN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/db8bb36395466effe5cf2e77717b265a5d9898d734c8321d8c05d17e42dad466.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aca7a729099c8e589d20993d023b5047035af9125a64499bf7fa7e11ec51798f.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5274e0b2e32f32886b27868a6a7dfaff350a975eb0ea3bd59a3e10afcfa59a89.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62d7d5598164c4b43ad4084b71f1c6b34b9d227925044f23df1d348acf9a2a65.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d76a287c3d4f6ef808c968d9d3f890c77b857fe19dbfc596490f61986c80d0f.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a00695c744a57e794fc54d940d7898b72d7b9cfed50a9cda487900df41e1a70.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af36b5be428f9c4ce31f4e9953cea69e1af8ad50bce6a1d306958c3eff52b64e.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a85c577b146c5e369be12a35ac229c0b96bcde92e1858a89e57d8bbc4f14ae0.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b200628e24294130d0ae5779ee328f1b6c5be3b7c88de87015f1646fbc13609f.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77ead4aae02e8073c80220e3858c5909bae8c3e88931d79f96bb74ac367e4199.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9277b4955bdbd4db481c81e5e92a7a400a1e32f71fec34a84a3004ba0a63f77a.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6bd895f8f26eb71d4c8737a10f81def9c9b6c38c1618f1c75ff096d5d6c85c01.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd76c321ba206850861beea6ba7f0cff4f3f7ab67b6a2acd05dcf209e383389c.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/edcf45a543827d2d5487fe30b50ea1ffb91743864b19dc99edb7f9514d76227f.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed5b2362876b84a98e536f7da1f0d0fc43ba718036c30dfcb259f6360e32136a.png"
+    },
+    "cardNameSlug": "KangorsEndlessArmy",
+    "cardRevealTime": "2018-07-23T17:41:27.000Z",
+    "id": "16",
+    "unixTime": 1532367687
+  },
+  {
+    "miniGUID": "913",
+    "class": "WARLOCK",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83070e81ba907b7e274b5aad5b709d7eb25283cd24e5a3c1cceb52ee982b9f37.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c5841d79c68847269a8da46bb152dcee6a3a114c898885edf67d3d62abc66dfc.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81dbf61e3d42370df9860d81b2300446091c68a4651eb8315d5afe8f943b0b0e.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac8421ec78961c7aaf2516a2bca9fc02d569f22f5f58a53fe4df16bb7fbeed19.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b34308ab73ba7437555f359d264201ffba4fc00c51325cb02d2fc19a842a883f.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c613834711f51a5d08d517e7e466e2a963ca2cabc35e7b4eecc93bbfa959ccdc.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01b52542bf0bc77618eba4ee1deefa3be14ccc54d607fbb217bbd7a07ea31772.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b672d879e4bb2556ff69c17aeffbe558c71d4f947cb18f992dbfd4a1f977bde.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e21566b2435bc6f06b17d8ba70e4e55840ee0a9810613f6142dabed81eda4d7e.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aad9971dca052257b60c272cf2c9f43697b6941407cd44b729a98e9620ef0379.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/266475428b2a29de74b6666946b75af3bdc401bd6b54fc29850f44b52233918c.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ba88ffa293a3fb8e289fe65e7e157062902ff75cd61eaf602f80579a098d02ef.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01c0ad31be30e93b029f1081035578ecc95164c4077a75fcf63ba35743f17457.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/498e70002bf652641ca00b9386d8758e42c12c28cc8257d2af3a0d621a5d3955.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fae9724b77d22eadc7916b9a2c9d8a0b8b5b8e638d70514ec65359daccbce207.png"
+    },
+    "cardNameSlug": "DemonicProject",
+    "cardRevealTime": "2018-07-23T17:44:47.000Z",
+    "id": "17",
+    "unixTime": 1532367887
+  },
+  {
+    "miniGUID": "914",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fae0b710bdbe4536850b2489152a435317f96ad4be03de88fea8d1a61a2012fe.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d36712bca4d691d0fadd7878b7f219a90f8344ca80860340092eb8588f0ce30.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b779368d142951897497b4c2979c3e67a616c510268aecf2f16da4245a7b936.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2034d6ecc42bd4fd19bcc3b412f31fc776c2000f403a43935f797e41295f4d40.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a5bae33bcdbb9e33566339bce0f2e113b5fa00c170d50d108466bed33771fe1.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69e486bded6604141c79f5fd208be3a01443c72f2add80875ddd3daf84d56be3.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/05629d6fc3593559f5be307c05c8f3efb7a1e59076dd0545487958fcaadff034.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/009c9ce8946c32696c1e19376de8da02a4a7e0fd0ec6208b4612484cf985067e.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8469184b7df52b1f02f8ba5378230ea467d972dc8f103ed1d5d638df46d1a260.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/392df995469ff24d587063bf903c469bf5a380891129ca7c4ac89b01302c9c61.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cdf2fe5e52d8326744e4601d92d1dc89f1cd517f8e35b2c0699242222070a01b.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a803c23cd6368e0d9029825601f411b47c2f40ccc630bd7aa33902ce3981fd30.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/721a6d00242047d74b6417420775a54e4f364bda2ea7b362647c9d7322d6283c.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fe584d5c3b77806304d9799f0ae312fdd9f1a96ff39c02fc56583684da3d2ec8.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e8514f4f57d119914d3257f6b510d990fa514a9a9b6b44459bab61303d12e00.png"
+    },
+    "cardNameSlug": "WhizbangtheWonderful",
+    "cardRevealTime": "2018-07-19T17:35:11.000Z",
+    "id": "18",
+    "unixTime": 1532021711
+  },
+  {
+    "miniGUID": "511",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e89a7dac4ac8e1b57967300c983128630cdb108c935c0628a3a4e90efbfc601.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/29a6078b721c83f86e0eff6442066c4dc1d2e6f79d15e83a7fa29a0a8674f0c5.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78e4d85e0d7e0a8e13ff4dad9816889380793580a05b5bec4070e7d15221049e.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15460e3a0a19b97145c8faa495280c302c2cbf90ee1b7016bd39527735295c4d.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b89cde49ee3761207bf4e3462c497b183883b8f735f981cee64bf8e289b8dbc4.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/80c306905c359612295cadda27b8cde66427c10a046692b4416817634425a7e1.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b8855adc7ded927ef836a0a01204fa8baed6178843c581b976e8e3394048d99.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23de71854179fc7b29be7ca413b01cd95f904cbfe6545160f38a180ef899edde.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57621141d6323a4b6b6de149f630f91b0455717e5c3ec035078981f7f5e98c8f.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1399cc7fc118d862cd088f4eccfd0b6e075f5a7f8ac361849b1f8b044959ad4b.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9207a2f28a0297f689241ab8a5a7078906b2a705edba4fc84e7c67e725a37e1.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f860e7bfa0709aa33c7be15fde1cc30580a8e1a6529163b367ce6a8f824a9ecc.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5921ebba0d4184d5eb8bf56162fa66af8f0c023ba7a66e582811f6ed7e17c886.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67800b417f4b80761c50bd94dcd89b110ce1d4b1e34db6704f2332d3df435cf1.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/004b6e02d91a7b6bc8985515c900a9f1b86b9d1a2a1bb652aab80f439235bef5.png"
+    },
+    "cardNameSlug": "SeaforiumBomber",
+    "cardRevealTime": "2018-07-31T14:31:31.000Z",
+    "id": "19",
+    "unixTime": 1533047491
+  },
+  {
+    "miniGUID": "423",
+    "class": "DRUID",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4a3c6141a7390b78553a948acf40c0dfecef3adc91ae85d2abeacbc06a4bd3c8.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e61934d386e1ec85d7bd1c159faa01d45c1374c238a0b527808220e23f0a726.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eaeb25c8dd5f1d1bcfca21d913e63c7cf406539bf0bd74cbd6bfe3e33213e085.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fabaa3d8cd5c00b1251270f50cc4821210f60dfbe1f51fa69608e13fef99caf2.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/abf4c56fecea75450f44f39db082229a9595746acc69a21b8dbb773808459002.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5de23e087c330e73714ed4bcfefd881d239089689a6173eb84f6d768970ed5f6.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/26863edf11e4c9391015ea0a85b319b504b993a08287b485cf0ca996c3d04577.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6f54a4173e2b4a0f6f458d38d63f924ce298348fb40d61ae11b9f167983935c.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/de988f37d0cf4d1471ec935c30321d0c9cc33d5746685f009c8ef06d13c34ab4.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dbd455e064786f1f31d09820147140baab3f645290f608a6bd81199137c2fc43.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/57a4f886ce71a323715ae7d1d2ac321f3cba33a4b15d55159b6f4f94c0cf3169.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b1a4026fb1fb1a8fb8addce8c20c661662601449c9414637be01e9487d54dab7.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89608e98a65186a1a1515bbb91f1d08ea5cc469b2136f6b60420936fc1c28366.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/baeccef79c63a2a29f8f396f63b088f320890813201f53f231b08ba5b877fc88.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1b120f26f7ff21d519e3ad635c93d68a56c0c319e37e5018b4705bde2da6c98e.png"
+    },
+    "cardNameSlug": "DreampetalFlorist",
+    "cardRevealTime": "2018-07-30T15:13:53.000Z",
+    "id": "20",
+    "unixTime": 1532963633
+  },
+  {
+    "miniGUID": "420",
+    "class": "DRUID",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f395c39da9e1170414862dcc33d69f6336269beac21ce6ed424709011817f06f.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/11f40892f1d903d67171826679e5eb9becc05acd8f8ff6d4ed7c3e96d452c840.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d795d3a3812199abe5a849decc8ec1cd71e3233a025a8e12a49f3ec3c179494.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0247c6dd09a5db8fe4aac32036403b5c1c9f1e649bdcc947b32e0e3d74e972e.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/252eaed20580905e2ca31460087e5feac54a2c479655c7bcfe000cd062f4f21c.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b9b54635516bcab6dcfbfe134d467706bea00bca6d0f664d424f84bb17de8d4.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1228b0ff5b2e666d13b9de851f65a52eaf4e0269087939ad099b1ae7bb9a394d.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1c8fb8d03bacdac008b26e7f367204a9f12c4b471a2effb2264ca63fe3849ec.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eeb419db3a65b2ef2af9b57501d50eb785a9e315b3573183471bf56375edb204.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ceba948ad845e6eeb13315720cec7e0b1e7d40e9474161df5cae1345c2c0a1e.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c720c5a4b4c6740ecad7b402fc290e8dc0a415b9b52f2671d62f357e4095321.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/392d8e57dfac4a49264bebbb730f2f0cf798c8b7e7af0dd5e3722972edf9cebc.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/10ad7b9b824e2726a1931e88b5fd060084f0bdc35c9e9e78e3e9d30efdc542c4.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed2ba94269996877e0c260f0b0119227aae7408011634dd58b1de36b133e5983.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0b112fbc37dfacd5b73d7d4fc4dd1ca98fc93fbb41691877ce6791bf0bdb1c3d.png"
+    },
+    "cardNameSlug": "Landscaping",
+    "cardRevealTime": "2018-07-19T19:12:34.000Z",
+    "id": "21",
+    "unixTime": 1532027554
+  },
+  {
+    "miniGUID": "424",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6fec77e63bea35fe4e70d206e5116144322b0c470fb2993596b06eec15822c86.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd0a45295d1582e1fe426ecdd509fc39086c5c6d3aaec155f25e34d3316a3faf.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5721a48fd5c7d5e17a613cf59210cf7edf75e1632481377f0a252b14ef42aa22.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ba207e6dac36144e6022fe83b259111c42b054c94ca36b08de68f38dad8d1c4b.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1b21f7c3ca7cf78364d6e1369e4973193b6a2db692e22bb88ed548ade8588367.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/edc5a066b5e124c8f6da408ce7e74970811d7c5b445dee6b915cacb2fbbec3c5.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd91142c63ec84703b990d88a25967648bf5e7311fb166b58de98c7b25f4bba4.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/41bcf109ddab95f1e55fea905d2a5383f62c96ce8374f227421a629e873c0a87.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9439ee24817c6408fd6cd5fc9a0a865abecdb3e6ba2ea20579764cb1bc969407.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1f1449a0efce32a747f7827ee163c5719f9a9e7302e48a908712632f2b842832.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4d085522bc973723a078e2fe1df8fa3251bd777e9b27e54307799b1c8faf3847.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bfe0a91d98645b2215822fc3c34dc488ecc25717fdef154b12b631f126d273bc.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4faa8f8bae7107edbf8eac1568570158f66381b2ca4f359ef8f45aed4e344ad.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16532faf88995fe5c21ce72658ef9efd95f0d243e4005c2130ad51e57ee3dfab.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d0257e533c03ea9e088e4d1f0ef983eeb01f118c7bd5d93a9836cbfe81f2c43.png"
+    },
+    "cardNameSlug": "Mechathun",
+    "cardRevealTime": "2018-07-30T15:13:11.000Z",
+    "id": "22",
+    "unixTime": 1532963591
+  },
+  {
+    "miniGUID": "540",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/acf7cd9eeee3096dc0902d23c10c259129d1aaa2901078efc6c35faff9c054c0.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8554b47c05dd18ac5555b198c1b2dc6c2693fa6e49acea981898d41cad37dc90.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/27a7b520f1559a2837b5ccb4dbce383e29b345a2b58184a60c53a55c7ff625d7.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b28465bc02c1ab8682e7a9af8f71ad06351e2814514e7f08958fdfa7789808d.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a196b153a0b69058c539ac3bc720743aa2ed93873a26eafcd39380e89ccc16f4.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c1d5a0be370e787eddcebcc3a1617e79307cbde409ec386f133f4047d3040a96.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a5fc01a9e0c775d65e258b2607e1f820a02782e5074f46a41c14ca6e04a9019.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b1ceff1b77b4ae74b60f6e6b0c0d7259c9a8819c055ab71b050baa830007e52.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/139769676d42322a4a41782597c8fa88fbfbdce799158d9675074f45011d35f0.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3cb95771b0b1e609a66c598a90904aba77aed701e4bc20baf16421b9ecc9759a.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21f68ff2d9fadcaa86a16cf415cf0e445e905613d1019658a618be4d565d7e99.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cee8cc7d0c49a4adca43a82151014d8d808ab8460928f6239c03956ee7fa3a4d.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/07fa3aae8eb392485cd9b7a22784f3e773ec80931080b21b0796750cfd109f3d.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/171ebc4461da44e2580aff9729367b7e456cb44d06e3878b9297935bf51435fc.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ee2d7e929187327639003854ba91016b8743f579f8e86382df4cdf2fa99cff68.png"
+    },
+    "cardNameSlug": "EMPOperative",
+    "cardRevealTime": "2018-07-30T23:28:48.000Z",
+    "id": "23",
+    "unixTime": 1532993328
+  },
+  {
+    "miniGUID": "543",
+    "class": "SHAMAN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/012b055cdd50e00a5e8b7f9af2392be4bd0509694acf6c051c3242fa95b461dc.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75dac66e3a2545b6e832049725c8599e6b74d945115a54cba852131e5d1e6968.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/35946ae300e3fb4c1df88964e9f1889d512243fc905ee8e5cc3954b2657c21d9.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9538830387c1e38d55426c82aac143681bbdea8c2fa7e4f79c3e1c6076420ca9.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49ea3115cb67b07276deb6f91e7f1820415be57b960d6b5a603b79c2c47aa6a4.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9b495480658210a2ac8bb88010c1d5f1a9d2b71e09ed900132b2bce87cb7458.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d98049b7d4f8e0b1f839553c197122af4bd18adaf82d4f4a1cc72791e6436305.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1747c0be91973104c0462e215ca9609bae95898f13edd0868cb392b0a889358.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c0c6771bd124dc9da67739ef5e36ba2bf4c969b62d6a46b1e82802bf55d2dd96.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3a121017b35308cc80a0353a39e63df3a1a01c5100bda615eb771db0965fa38.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/46d0426589589a418ff7afb663e72b356eee20f7d09650f2dcc177e6bbe84f7a.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ecbef694e9a03dade5feae212cde3187ffaf4f60a0522c473ce06b3bab741976.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d95f16f4fa8be6a1d090e889f8ccd5b98cfc0e42c742dfb32e6019142789ed6.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/45199620788458bbfc515ce130051896512b5e8712ace5e37b42daaf6544ca04.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1f0f562aad6dfefd79e82ca6985560d272f874faa40510fba6f83c4dc7b77d1c.png"
+    },
+    "cardNameSlug": "OmegaMind",
+    "cardRevealTime": "2018-07-30T19:09:34.000Z",
+    "id": "24",
+    "unixTime": 1532977774
+  },
+  {
+    "miniGUID": "548",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a8ff06a69e0e7244cd01eef0d90230fbbb39748249811eb8ea35e3a350604d40.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2916ab55eb4c187c4aad7afbefba79d0e32c8cc4c28dcfa89bad32a921c2329d.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ac2b58b9d297cc33b9f0c73dc85db91c84f6ac649f8f23fa7362ebac94f1219.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e50ff84b6be15c9e706ccc73e754c70af9dc567824e34f7b7191fd1e3aaba052.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8de02a736e6d690aab0dbb505850bf18b095bd2b8bd8a6e2fb0e150cfe1c70e7.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c1cc46ce454ab1e0d0044315e4e6f725d73c7fc37d4f05ed6d8b77f88040463.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/086b9957085d76613bb49225fe970d7165cba4beeab0b2e7d43c1c7f2b8108c6.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/722d869fdab26b502cb6647973a838bd9b31fef04f1443982a964f9c5cd2eba4.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a932308d21b23142fdcf1f48915be42b4084ef2d475ea5407405bc9c35b1cd03.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/93432c6b98ee73365bd4867bbd9ff08476b95727aa4113face36cf642ba77340.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ea01cf4198964ed1c4e42405d82d5cdaa4898d089b2b676ec8c272f5521d50f9.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/500b60a0d8761e47107f5be4d66235a8d48d01d0dfc6689c9ccc23c2820cca8b.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb74d1606d9786805309d9aef4378e3ad0add2db95cac659fb9ac901689caedf.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15b8c68345d933185af94ae0b09b8b4d717d3d6d0d13f82d5eeefdaf06c7351b.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66e97a270dfbe98e6c28843c7f015a87054d63d3099fc4dc4554082a4bb5e0a8.png"
+    },
+    "cardNameSlug": "Zilliax",
+    "cardRevealTime": "2018-07-17T17:13:06.000Z",
+    "id": "25",
+    "unixTime": 1531847586
+  },
+  {
+    "miniGUID": "309",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01204b3b01f024a26195db13de4b1dc642cdc27e9bbb04bc64fdf6f3ef291852.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cde977baa201d1747f95eb17687ebaaa8d1e9717228641887449edaf7f02451.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4d036d9fbf54f6cfe4c6940e1fdab177d0d7ce7ad9d8c82f4b07de16778ad88e.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/02ba3c75fa7ab1aef491868242dc6647681fe8390c6018fb05e36e02548a0a3d.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a52126674f1a7a75640bcd16a3f5b0308f85f6983341cbcb7e25a128c5fff38.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/839ba1fc6518c7cf655c549104ca2284b406e3ff1484a9efb77678cf2847ded3.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/77ba3eebada0dd93b931240502319403f8c5abb7cb3f4fbe3c3e397c7105ea2a.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78bce6072eaca4fd4f615233dde699aef643504a723b7214267c062e885aa7d0.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f66a575d954f355512028e352a00eb2cb57bfdee10bdcb87826416828a2ebd06.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/983de067753816b2de3f879b53e28070368198aa746061f87777469c6ad8a7ed.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d0a47f16ac4bc13506639200422dbad641a8c297df58a206df8c2a20e8798027.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ec86334b3ba31026e8815dbef54caf33a1f9ca698f21dbdec93c83c2b77c1ab.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/47802be5f17ff3eaa4a16e95f9d2296e2724f9a90a71135a43ed852a1a3a32d9.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/317f2dddd14e74c94825b2a4892b187ee7a29cd43060168a8415177f9e8df2ac.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/badd8c6b5fa33a711d7cc518e57e05d8fc1feef42d0015bfa5e3b2985a3f0d82.png"
+    },
+    "cardNameSlug": "UpgradeableFramebot",
+    "cardRevealTime": "2018-07-17T17:12:40.000Z",
+    "id": "26",
+    "unixTime": 1531847560
+  },
+  {
+    "miniGUID": "254",
+    "class": "MAGE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e894e7fa179cfd0fffac311ada9c63a3600ab2c44f8d2bb09973168fa6509351.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/54cbff3cfe5b09b9285e6f582cd499793af4de60d49448f79cb982fc97c1b111.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2d2e2c6f586b34541997e2907b2381e5b141cfeef5d32bab5ad7729c7036e3a.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4bc5137e4d79d78b2ac18f75d7a7cb74b02680ff9ce57dc7020da673a992581.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/33473ec520167daa4b7bfac71e3a40a7ebcaac8e392bff44d160c9eef40f7e61.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7606de8fd9894065a4327274bd454e13d96f27079903d36a4502719b4bacd96.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/939dec049a226f610dc45f493363fedf070e81b5bbbbcb07aadb8512cea60aa1.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f23f2afe606b86e9251d414cec3a58459769525fcc86e8f2f1dd12d48f1e18d6.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63019dd84af792866f44806b538a01ce7b5b29f24a8e065d79c4361433963800.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1b101d909f969a19a8e3692bf5ed911cea700bf87a1b1078a42423ce08019c9d.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ede2766b969ec06200271e316c0768a939b52acda2272fa817afb8d586ab3368.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af20e1abdb0905c8ef627d6a771f7a09f3018569a8888ee9f7ef3c8f4e4fd55b.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/11b684d02cf8d130ca91e94dec92bab7f2ab2a19fcbd187db865a163d5c1b03b.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc3330bb46acaabc944b61c115b227dbb4773268bbbf9288fc514296866535c2.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e7dc9c2601c156d562c47f2893e603fa71808007a46149da19d96423ceab6eda.png"
+    },
+    "cardNameSlug": "UnexpectedResults",
+    "cardRevealTime": "2018-07-23T17:45:25.000Z",
+    "id": "27",
+    "unixTime": 1532367925
+  },
+  {
+    "miniGUID": "251",
+    "class": "HUNTER",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c92a6b96b2e5bb9bb3023820707a2ba0507e6e371a650c05534d926e9d497ba.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/04a4be96048ed176697252ec1cf5d8f7448243990bb13aad4318e3dc00dfa6bc.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aee462ac31d95a7eef16df5942d9220b4551d2e723f80124dee90093e514ed0a.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/08a4c47ace4456eebfe5d40d882b74613b5ed6483b9a13e6e06da4918e182c7a.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ec8dbc99e70279df5b1b4d3341e94134f14d778f6f8f8c5a211d74d9e9d16955.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15491a14bb448f68404e63e5c72b90089b2b14af82bf54ffb6edf372057382fc.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9934f91382f1cb57d3cf7befc7872fe7ee18dc7d8cb25f5952489ad69f71fc01.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf641c704b0fc44edf7fba5af99172af2e8cdb82dd5abad85f020f02a4a65bd1.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3788072df927deafa53adeedd87305b88e6b36ea6068b2222afabe121bae394f.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/65976e21761f52c098b96a4b40b92661d990d87749663eb43aab06789383a9eb.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/12af805468a20faf6a6747a313ad28a8607ef4f5d968b52dd22fe89c0d4dc0fe.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d733fcd2c3c73d9b284715ea7a1122561e09ba6a890b9cb1f5c113b02dcacf2.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5ff8bb51ea5270e3be356e8863f36388ff321cc2dfd8cb1d7b116acd4e849bd.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/df160ebf96b9c1c5641c06c1a59618cd8cd16681c37158ff647e29c536bf05d9.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/463cd548c7d272396ab870900a152e9cac8993486029e7ec05a1aedb6d44f1e3.png"
+    },
+    "cardNameSlug": "SpiderBomb",
+    "cardRevealTime": "2018-07-06T20:14:47.000Z",
+    "id": "28",
+    "unixTime": 1530908087
+  },
+  {
+    "miniGUID": "256",
+    "class": "MAGE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b1f666df4a9d956a255bd2d9659b26acad5e3bdf1c9c7b36ba9fbe96c77c28c5.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3e8655b2ccdcda1b35dc3de28393f5306ccc20c0954ba10f4b855a87093157db.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f5de8e79dea23e55b156d1eec8e0a96a456c1e9dfdbcea035e9fd4ccf754d8a.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85ac7c2c450563976f44f9836bd357c6f3dc54671568a79db2fb5cfa99bdc6e6.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e0b0b2dabeaefca059ebce13a10b457d56cd5515ab90ff66299c3f05f049f98.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2bfb58154d8ba6d0c0c8c88462a90bc84a2906ce796277492c218ee51284abb0.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f630bac6f53c5027592c8cdd9da6465cd0a25233fb9c7c3fafe84b4e57411ed2.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bde0a199e8efd9e6bc9001174f40d7fbd50f3fd090dbcd2a500adbad8d2c2a15.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e7870f16e56c58c697295fd71c49a6f827352f4b3d0762031ad3aea62f03ef07.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c02428bfe6b7b470619c34fb437ad3ff33c16a054248e29fd2e1cbb407686478.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a01483d4d160bd1ce52d1858d3aab515140efe36e74703e745a0b49496d3f6d5.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c6cd71d03e97b477073f4a42fac89f4fa69cad3711e67a67a65d24cea913362e.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/41a907551d4cf26180d25f20537ea77e292b61a0f09c1ca5707af3f1e0842b6a.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3cae0d4e1b00ba8b71917d911e358485bbd9529d9515da37b15facf346925c3e.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d79ed214443d02c0ffef01b5f7ac9e989c9a953dd4e7754ae4de67158aa207bd.png"
+    },
+    "cardNameSlug": "Astromancer",
+    "cardRevealTime": "2018-07-24T15:09:58.000Z",
+    "id": "29",
+    "unixTime": 1532444998
+  },
+  {
+    "miniGUID": "531",
+    "class": "MAGE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3009e5f9912250e4f09fc3f4fa1c29aa8a7340273ec901dedfec8c227316f167.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dbb4ecf96f5de637cbd700d5ea70abbf3f1157e2a2797f42d1737b3de6719775.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b78a8efb19914655304e462a8070e1d25951c054f253d62ce4c6fa5cc49df93b.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7942084d68f34ef205da2fbe5e86072c8e54b7bf54fcf3feb38a8db5756e491f.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bd0e2edf85f04e5147c4f599b101063a123a23932af89068789bccd46370d558.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a2c464acc98a91157ae95812b6e72c3f04026ccf3ad508c4592238c8e04835ff.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d57c5094b41e71419b7ab35e44a95709152c6082d0f2600f8d0b7cc7878df8b.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2ba955244b6b97f756ecf4d0bd1a49966852202547c603194dc1bc022846de3d.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3e469658106c8143fea74ef4cdc75d960a39755407f80a1c4e80561e67a99af8.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3fa644d4510d441d72858f79bf677aecfa9ce66b715cea3fd491412bbf415e08.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b8200905e2ee8c294615abc247604561e6f7797b490c61b041217ba86736fb5.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3655bd00ad5fce1abeec32f55b279f3922b46e7df35376d3911742e3cd64baa8.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4674f69c542334e3ee48a1d65fae950b67a2c0b693d54c7ce752f79476da63b0.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6e877d151eb832fb7644808c70b8e7074fde4fe67eada2c1a1b0a574dce048c2.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e69345ed12f14008ea7528347d855c1e9711033372735cc830e070ba02ae7a3d.png"
+    },
+    "cardNameSlug": "CelestialEmissary",
+    "cardRevealTime": "2018-07-24T15:11:44.000Z",
+    "id": "30",
+    "unixTime": 1532445104
+  },
+  {
+    "miniGUID": "257",
+    "class": "MAGE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a47a2d20f95707b3f2acdcdc43ce16c22a0f5d1dc6e0bbe0e6acc0559bb3cce.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a250dcbc759c24ff49ecc59754f0f6ff8dba9827d60191d109e47e44c7a9b913.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/08a03a81908f6059e9054cdf9e35cf28aabf2f24152c196b6be7b216e1b1b2d4.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e71aadd0f2f4584a2ab7460888549c2457e549ff4f9b546f5a66f11a6cd78c2d.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/47e38cb859dfc6e57218b4c3ea429f829df21c746e59756a791583b692a2fbac.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a6774c2dc885011c2f989765f66724109c22a960428d81dff6f00d17e038b8f.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d82102a65e499bf8c75bf85a6adbe10c5bb60f5517b22b6e1c84c37fe4a1bde.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/38397328582a2af3f66e3591f1d3a971147ae8488a89161a165789fe887f3564.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43cdb8c41257ba34d416fa881f2a4ee7444b663793a950b03b974c17fc8db8eb.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e53259cbae70866dcf8118221c66c128ae5a483e699ca609df0829d130a80a88.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6432887f67a94558f63a6f113cf441d6058c9299930bce252bb37825a7460edc.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39e53a853a8642d873baea789b173fbdb8f086ff609d0eeb4248fa887c094be9.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3be1789da37546f79b999b1ee53425aba369dcfd2e86182b6a4c67ed61eb0dd2.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3f85130f82990297fb4920900d783ddadf78225fe74e93af8e3c53600bf169e0.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e91ed98106070a5609bc03ff90d4d4e9316a2e4ba518eac57f5696ef2b28e8f.png"
+    },
+    "cardNameSlug": "LunasPocketGalaxy",
+    "cardRevealTime": "2018-07-31T14:31:51.000Z",
+    "id": "31",
+    "unixTime": 1533047511
+  },
+  {
+    "miniGUID": "533",
+    "class": "SHAMAN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84379ad07db273dde226ecb949f1ab5c8cc34222ec1fc772e5edb6d2be624949.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/165e67cc744820c80acf9c3010bce247825423130f52d37aa717d276b25e9787.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae5161e4eb36afe2869e2f38756126eb11d3de1b2ea31b988899ef16047f5252.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f27e06b6aaf202a54b9a93191781eafeb82c22b9dc56c95f4fba5124f852a03.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d758fd6ab785b2f2d78ef40739811c33a0326693098dd5726c5113501cdb6bb.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d47b5bea0dcff7326c24b3c8bbb878add050a18f230499c9d26ab4792616e5f.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/34cb76e550a374fab5f0a6ff6430e1b1ec14d7768e7840b56e000f3e5a420200.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94158dfc32653b4f4c0479fe56d45589cba2fd74bb8736f5fbe2ea7d63effd98.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c62912e76c34b785e242a600fb829dc0c25280be92a72c65216bfe4e1c96108.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e70a840ec64bd6c26893ba2aaa43900234b74e55b3b5392bb2950e8edd61742d.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/140c817ad6963ba5069ad60284834d0aa47483b8f78cccefda78e1647b052722.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c743c47acba16b4e1fe0c70c09b8a52414c79c7d22b7e19b2cb7a9518c348376.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6fecd4cb778d4573775823b00cc2d6bb676d36fb70fcb46819d3d1cd61300fb.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/41494f7b159095f67d997a2b97774e34dff3f6c6d8f23d894007b85f8cef0e20.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb834323643bc26a025d3f842268ceb2d82977070cf682a6a8b647eb63daf4ba.png"
+    },
+    "cardNameSlug": "MenacingNimbus",
+    "cardRevealTime": "2018-07-16T20:35:48.000Z",
+    "id": "32",
+    "unixTime": 1531773348
+  },
+  {
+    "miniGUID": "258",
+    "class": "PRIEST",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e46fda47d731b7643061df470cb68bd2a637531d85891e1f21c2528994e3e469.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9e45299cd4e8056179273af43ba1fbd5a459bae8e9ad83c54fa8c401a4143cf.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ea6e3b1709808184d04d82f337bad59ccd879a139a3977cee337f67a413146e7.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a26e95d5d35163203d4840708d3890edf4c72a0cb24f36c88611e0a9b264f71b.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/22b7fe7699d801a03e225a3f2f6ff93f204b9e5e4df3461b8ffa0526e332afe4.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78f84a1efaf757cb1d04ab4784ed85772e591466de2d9c85c3f870aa0e90a01a.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8608ab1fdac76b759b85428e8c111755ba790246f27a47228f722c539a9aad9a.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b746c55bbf984ad9c86976b16d1f79827b56355b160365b01954355631230cd.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ccb6b82c29e082ca07532b3d314421d05f035f9ebde47461e59b901906c5894.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4cd4247d93269311ad48d7aa491d9d9492d333bf8ae2d29c0992dfd97458b8cf.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dbf9f5a4cde981a78f12e9e67725fe68d0ceebc851b6ad930be6016fc955049f.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf5613e171559fdb248ffb803d24deacd9024b8c3b303fd2579fcca1af0a1c43.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/83d60a4986e65eb8d2b7998bef3219a4097969b6aeed564ae8d170945101ea4b.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af1056f9bc4304f21d7becbf63908e2629ccc8dc9fae703ef7fbd4d77a4a9909.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/08e4e1309724d59375616aa04e98902a8b8c2c3f52ebacff442950b998b82168.png"
+    },
+    "cardNameSlug": "ZerekMasterCloner",
+    "cardRevealTime": "2018-07-27T16:48:00.000Z",
+    "id": "33",
+    "unixTime": 1532710080
+  },
+  {
+    "miniGUID": "536",
+    "class": "WARLOCK",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8002033c9584a3e3053f7e40f73cfae1b201f020d3a0652ccb9a10b5881d2035.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67c4e1ecaa5c3aa08fb0d1548feb327067fadda7fdd4eb0513a4d49c078d0a56.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/75b558c6509b047e577f451238d8cf05aab087568e7d12c721d564042d72843f.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17e46b016d6843a8dc70dfee9b382849ef121eaec517566dce82e87d79f5ac3d.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f88a1f552684e872291dbddc3f5a7b0264fa652e950ee52b4202e783dbf1b30.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd40f528d05eb9d5955a38a3bcb82cea250dc62a9b68390a862823f14964be12.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d2a5c44fc8d036c7e74c4d98ec90947843838ad34b866198f94689fc7a94c5c.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78cf93232c9c7bf9cc176674e73358547eafadf0d31313a70844f246ba9eba16.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/01893e42a7e8a91e14780686461412a96b12fd587ec17efeec5a052792a4e842.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b03d24c1d1c12cba588d7e91aa670599b38d54b934583c5022178ceb5e91b8e.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e5bab4216df334c849a0cb95a3b901a030ed4feab38d365c7042cc0c0c9e8a91.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/32d3b63e6a2c7537dc6df854eb14e7fcf95970715beb17d4f7155e64d3a177bb.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6232a18aa3e8653ab8ea15c4fa1306d571b9d5f9e860547a28c7d1fd4f837186.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5bff1a316771c2acf50f70f8fbeb374a1e70d49766670d7370cfeae2550c74a2.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89aedf40f4321b1f1e30a706c12224bc35e0ee3acacef5f2edabe749b2e213d0.png"
+    },
+    "cardNameSlug": "OmegaAgent",
+    "cardRevealTime": "2018-07-23T17:43:43.000Z",
+    "id": "34",
+    "unixTime": 1532367823
+  },
+  {
+    "miniGUID": "539",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b678093d949e14e9da190815e96fbd5495e6c7e1311b9048a12eec462c019465.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14fc40f4c08a7c85525524c046a80c62ff007ef41a0fc4d930754f0ab98b1085.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dfffb03942c48af256519ef3c66b52ddd9aad59471f52dea0e3ca79bb7a775f5.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/40c971c1a3803f102b3f69f4915fa339048dfd292598a3f8248f2faa494ae28f.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d69c21de2c8384a2aef3ce5c598e68e1c4c6fc7fd677d241f82fe2a5322b990f.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d1295b784859422cd9d47a2f173ae7a3ff4e3af4e5f9692bf4a0aa1bf2c0c45.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e90674645a1402f82b205b6cda3f3f43579d23218a227bc99b737831d62be8fe.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8bfff98cce5fa286a4ac3b49ecb6f7bd6febae47be6eab08e76f51a599a926c7.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/786babd42df22313a66e98e6670fa6f01778f4318a455c23c6c649b759b44bb1.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4b7ba018edd1a5455f7c349677d94791f8c99ecc0d49f321ff861c092d9abfe2.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a159a0a4d8f7ab2022fe1a1326a3902d97e22a2075bdf7c9010e097999cd2890.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1ca8f39cd62d240b99ac13fdb681234e5a9df7f03de020a67469d2fe98e2ac20.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/96eb1a48dc827801bb4a18eb6ca0a68d8ad30e19e815c6a4bc426a07ba2bd9c7.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/959d2cf8be2bc0661348f80ed3832813b137118540d2c17aae9edf7ef18e6556.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/13d8c2a6a4299d191bd8fc9b44aa964893442c4d5dd7f91f61cc13962af52517.png"
+    },
+    "cardNameSlug": "ArcaneDynamo",
+    "cardRevealTime": "2018-07-30T15:14:46.000Z",
+    "id": "35",
+    "unixTime": 1532963686
+  },
+  {
+    "miniGUID": "099",
+    "class": "SHAMAN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b021c6464b2cb08a17b32cbf61dea651d669118bd468324075f6c4ba7ec9dd44.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8b944aa381cb5d353fa550ec754c47f58aaa4c9c6e0561466c32f480c3aadb3.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/78ef0481bb925e6defd541855ee58c09e30f679d22585c29b27c48c13a97b164.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aea4ac3f6acea8ea58808a7fca47b6a54e63b8d5bc8927df13259ba63688c6b7.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/31801a6f22bdcbabde3dc738df3cb5df3855bd18df94d809f3698f474517fbbf.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/119884258da70b1b84949996931b914dcae2d4dc0ceaf21e5751586c34e1bb96.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/65e62b386b0297e26c401b4d51f7b0496308f3b69737147d81c527262c37b0ae.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b02250397a69a6504680861e4f51e7718cc4f39c8993fb2bfffe8993f45545e.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0a2e68b792d12aab7c154dc52dd190385ce9a1195e9beef8d1bcf95e35d75ae2.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/88bfe247bd5818d3f6c1904110a06e847bc2ca7b87c2dfd2b7691bc2fd847426.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/21dbe569d6435dfd3beaa9dd052ac289069ae092c693bd8eb7eda1563ad42a9b.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/87f63ee9ba3a61c2b070e6f957fa283fef74258e9ee887ada4a42a2d0588a6ec.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/08bdaf69ba6ddcc190afacd81d6112575b2f37b3318c108afaf98a5a2a56735a.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c3ff86a4e4b4ed8c2905653df2d399ef6b1affd74882f25abd93694688351653.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5cfa7db4be11581882683e15c3516918e0bf9412f9b959dcdd6ee180c43c87fb.png"
+    },
+    "cardNameSlug": "Eureka",
+    "cardRevealTime": "2018-07-26T18:15:46.000Z",
+    "id": "36",
+    "unixTime": 1532628946
+  },
+  {
+    "miniGUID": "283",
+    "class": "ROGUE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b985468fcc425caf33bf5a63bc8fefa73a6a4e7bb7a74c36116328c4e2bddb41.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc6ce9d6348aee828505b79a668a205c6c2aa541a8173065e72f3cb9bf67da25.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63278c173b1cf57c519660f79a0fe05a96470c75c6dce86d1ebdd2e006f7eeb7.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/49da42f0087e19acc3719f56689e17358ff2917c29cd511e8c3e407f4c0cd3bb.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af0872ec37bb58c3272f8e33459dba18abb8590009d4320c309c2029708cbb14.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e1dd3c393fab150b9370ed95aeff62f326fa5e66bcee09c0cab95fdd279858c.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aa4bdad04748940229022f3459af990bbc73c8375c2de301d2c9669306a81ccc.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/46c98caad469e6523b970867b4f3962f7da4876c2643b4e17a4a711307508793.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e61f6b101d9dde8e36cf7404598468d1bdb5e130e3fc378d1e3ee7ee3528281c.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c2bfe0ef38fe8a0bb701be2b9ac9c839943cd3572cc115ac449ec6da3d191c48.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7aa6a4bcc0e3c6856ca5ac0d20c72328b21b32458fb518c6b7055a4bbf143657.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/588f1e6a77fe87aa6f96cf04ea2006d1f45f7932ea5bc63c6c4fb1ae1a14f906.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bbdf9bf7161cb642df70bf5194e0dc9cc2d62958f88531754978f1c9cf513b0a.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c8395f02b45e93c39fb820283cf2cc379706f54637ba1fb3c1741e830551750f.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/82dea94e186eae02ae5625859192b1b4ee9acd51836406e97bef0ba50cf6acff.png"
+    },
+    "cardNameSlug": "PogoHopper",
+    "cardRevealTime": "2018-07-25T15:37:26.000Z",
+    "id": "37",
+    "unixTime": 1532533046
+  },
+  {
+    "miniGUID": "563",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fa2237c301b7364f7d6066cb545c6d74cd17533f7d384a330dd2c22d3556b17a.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2089c3574d80272c48dfa659c09b607fd127ec616295c88ee9d78d138e54de3f.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5abb7c30b0dcfe76d77c40e445d17b6b6e351e6f31cc7fbf2d938fce36443fb7.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/69906d486a57b54a277ebdce3ba2de184e39f2f1ab23c2afb04f310c8ad6ccbe.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/216252efdf2b710ccd2274f545ee07148a0360e7990b1b5c3ecb5ed9135a4afc.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4358dee71461c05abd4b0bca0cbe2e52c5e253079d9e92d527444d298d16d0a9.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/45f51e5bc540c7817bbc7ec197da3ccedbe2948694755ae19c24bb27cf31443c.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a33fe7aa4d0633246a29ef747344f63781f07dae4ea069328f834eb392bb9a74.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c687e811ee94d5290e09dd3c0e82315e90e541551404afc191d9f782b3bd2dbe.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d9488a27349df5826a457181bc6ab9d597d43b3d88aef1d0f5c5e01d9aadc7c1.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/34eb559cba144695db55715e405372c62797412c18a120a139b51eb4d7059e13.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c6e75c270c33d7a067561ab543f2e00770877c41a76a48688e2e8f8a82fd9447.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/965bfcc0d765ac2d55e18bcc49645ec84604c9e80f36644fc538f695fd883f5e.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3cfdae3d2bf47ab8995b4a6966dda87551d8415dacedb7ec2eb0c9c14012e5d2.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e72b307695649e6c80fde38d16ef0bc9815783abf555c4b43cc047de48e96f1c.png"
+    },
+    "cardNameSlug": "Wargear",
+    "cardRevealTime": "2018-07-17T17:12:21.000Z",
+    "id": "38",
+    "unixTime": 1531847541
+  },
+  {
+    "miniGUID": "288",
+    "class": "ROGUE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/acf0ce5d04ff70454a7b5040fb1f51954035f8a3e192986c5e41b68992b6c8fd.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb2054885cd0702419f217219a3e69ba689401f57dff898bd7ae05001ce59276.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/13f4e8e4bbadb091468ebe2aedb5315ff636556e11998d89dab2bb47fcbae9f5.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43f7daef084d446ceedb17c2f20b9c71c2e4abe46bd0a93aecdc41e608b7fcb6.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/02e90ac5b6e4b43a888af480fa2dd5c3d515fc0bff33d27918b86bd0836289f3.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cc770473c98c5b9d82818033258f3e35c5d1686b3e9ea8c974c74d45dc23cef2.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ad3a9e7094b07b7b30a14ccb7a76d410915664e11a41c6c00120246e57c0e47.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb354e7466f14e0e3fa811044c207f37b9648b7122e71afe0a338f8442532cd5.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1570c88fa1099301145a71b25190d4c8739a46e0fc82756ecdedd4c0ca0ed0ac.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ab02f2602c1e7d2ddb6c59b76f2a618194e55f19a19cfe72a5161ba757eb1f76.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9dfa523e6c2c36f73e99c7d4177c2ec1b12dcb5edd5d45e69680b501d191a0f2.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/40396be0d6d207450e4dabc9c77b9590aeccda4f55b52c656ee760e9fdab9226.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/80297c67aa3e5b90c88e98c576e976b6bbedaff67dad6f202901ad75c9d0bd48.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/978813686c36043452fc3f6dc52246a203592a7941a05730d3e7625e5735720b.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ffe3c349dcf4b33a852e590b6bb3015c5ca1a3b6cdd37245710767fa911acc2c.png"
+    },
+    "cardNameSlug": "LabRecruiter",
+    "cardRevealTime": "2018-07-23T17:43:53.000Z",
+    "id": "39",
+    "unixTime": 1532367833
+  },
+  {
+    "miniGUID": "411",
+    "class": "SHAMAN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1f2184c51a96faf2e3bd9367e74ba85395f584dc4d32ae5a7ec6a6b898772ec.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0220bdb5bd7f3b234fdc90e472c413ff26071bfabbc3af1b82632084d399ad78.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/32a432e1d0c0fb3588a78894049abdbf4a3b3a9bb2ba47b5e405780973a6deb4.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/18ef70ba6d76dd4f07b41afbee8a7573e0e752e0f10a6cbb4e6c736e6de96b6a.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d6cf94efe6d1477b943f5972241e3a90b78a7cd803ba8841c51a805943f4b5cf.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c37add60e06f4d9bb77a431d7759ad630249dc1cf2f506b42d86c22773c16124.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/654b0987192a5b1018af80cf0c497a94a2666bbccb91a45f23c5f21dbc68bedf.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f216c2a6892baec0ba6a45ae6847b68f8dfaa2a3cd70a9ee892e71347666d01c.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/283afefa27553a69d209acfb1edf8463f0996bb4ba4167c7d3b656942745010f.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7dc0e1bb06a23472243dcc1c54526e9852e7960e2e53c24015b8e21bd181d5ee.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eca072bc008a7215d7bd4b96dc2fdd33a7a20eaf5eb8570a1de6baefada347da.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c03fd814b8dfdbdf860e2769d8345368e42c095d6429096ac0384faa13436495.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b5ed9f4ddd40960ab579dcdc5099929e88d93bcd1940a0489afbc0ee0cc5c817.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ae25f12094bc275819f04a468c5459e1a88633da1cbf1c4a7ae9a0b0a757c34.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cccab530e3292092453e2a199d5e5feb2440de8facef25e00e8d6f137eaa511a.png"
+    },
+    "cardNameSlug": "ElectraStormsurge",
+    "cardRevealTime": "2018-07-06T20:15:14.000Z",
+    "id": "40",
+    "unixTime": 1530908114
+  },
+  {
+    "miniGUID": "419",
+    "class": "DRUID",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/568b35d093a4641b3461317fee94972ffd6b4374bb2a2be05479b997cacaf916.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c7c69d01336dfaf95736ddc3b7d21e5693bf9d583f702007d48ad3bbe610fb66.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/823145c7335ccac385f54dcace3f6ce7c77081b6a84897143f42dee087c3782a.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0bf2385b746a6ecb01b6ac5a3a10fefa5ac46b3b9791732cc249ee6255171a32.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a830af7410b20d5e837b2fe4215625428576757f58bc80838bc381027bd1e702.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1c46dfa081715abfac8af44796e055034f3b8e5e0a48b873fc92ff7f63254c0.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c18c734f5a785c74f7dd9a949a335ebe08033a077315847cef2f83464715dbf6.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/73e975d608f2aef988c673a574d9c5ac060091566e005e363bf9a4eec5bfa90e.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e7962a2e158d80d0cd5e1b1717762f8492354b7a69f07fb4587ff2f1a192f54.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5b9f4695410255bbe0e426aa763a06ad6e48d0fba72a4258fc867a17158527e.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f85332e04d519f2fdfc3d5378266c5994d655f35d7979d9b892d4db592a254d.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aec5cd000f6e77e165184967a87f386fecff6d97d317668bae7244d196788771.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7558f71a047463de9eea1f7d08ae06b3ae1e6f4e61421dc0b1cdd09bfd6d8509.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/080b6d18a2522efc54a0724037eb470a04f46dd90e9ed5abb2e0adae03bb46c0.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e858157167e3770a70bddac08ce6cd9d307c0d5ad112fe239677d9f6aeb67171.png"
+    },
+    "cardNameSlug": "Dendrologist",
+    "cardRevealTime": "2018-07-19T19:12:24.000Z",
+    "id": "41",
+    "unixTime": 1532027544
+  },
+  {
+    "miniGUID": "443",
+    "class": "WARLOCK",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e14fb174e7ee109661bb7c3ce22f1bf3249ed9b421cf5ef1e41838f423def3c.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/294992e89f8017ab395d3af9f9f002a7846ae180677182c1f1e2d372dc41fa76.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bc1afe7cb2e8c793d33affac75c09e92dbd968f1500f453d037914e78afd3ad9.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/986228743530643c0042342bad1ca64d45734d52c318ee45e94849f4678d5585.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1071043d378d951dc0bba6af0dda4a700870c71911c40c0bb4e6264e45608116.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7c429e194970bc89b1a66ac3bdd14873f6454967bc4ff1e864b25479f6f476e.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/413d57147c3252ea27bb3271d38641cf9937faf41c87695b37a3ebfb7657881d.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c51eb0edd2dbeb704fa1b28e51c00c279b30c5fde057c490780db74a0f74e90f.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30f910744d129cea4facdb7a1457b3fde76502ebb321f3dbd64b83918830549b.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b3521888807ab68c87a9b33234f69ffecafd4800e747529286b1a504678e4b33.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c1762e31eac172b3ee510b4a689919e7e4b973e6be54f314316e3f6e5aaef8cb.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a403526c3bce62de13493577d5f2191ff0547ab1d7406e86b9927b04c7cd111f.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0fbe037c22895555bd2cf55ee349a539a74e8c9134fd690c3b07a96058fb9d45.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ae7a7132e6bb5ccef5eed467010416e37b14b54b25795e3a5e78622d7890b27.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b72eb00c9536072737315f2aa9fe782cb229eb436728791f9c2eac0d1b23aa05.png"
+    },
+    "cardNameSlug": "VoidAnalyst",
+    "cardRevealTime": "2018-07-31T14:31:08.000Z",
+    "id": "42",
+    "unixTime": 1533047468
+  },
+  {
+    "miniGUID": "565",
+    "class": "ROGUE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b08537f370f009ec894d52c12bccd6e24c3d823437d56da438b7bab76b625cc5.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7c202ebf69df9dae601ab826a2e1521f133bee781ec834efba2af93e686128ac.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd5ef43162de6987d905652a5b4d1a35dd5d381761591816059ae448a3a71d8b.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/274d7214775a79ef932ee85895a3f36ee697b794620fb9059bde369d450eb83f.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb4917329dbe1b3a1a0cb29778ea8bddc4e7b8ccee281cc86425e7402a2e0029.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e5f0b051a9ad49e8aa45316ab9e9e50cf0706d4603da111cbb49bf82cfd7a42.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a38849bafb1e1f586830945225913a2b56aef29a28a8e9cd68090bc5785ac608.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c3c8cbdf80d5708c1d4ab4e7a85b12f38ea4c43daa587d2ff4ed4cf19d0881c.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5287a9d505f9fa50616c305068bb3c2f38992f0284233bb4c8bce13b66e8143f.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aaba4b06f44d2b7999d8a40971848b5c9b763e4903752ff4bc02d349866b4984.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/413a3fc2f7db60526fad971bcd50ea17bf0c8ffe0f8cd0f055efcf76bd9bf1ec.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4d6a448245264bfb4cf0511ae10d1837ea0449abd084f6b7c816aba5e9baecef.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/998d4cd3dd7041ea16c94a503d0678772cd5ad17860c0c035c26dae00b891b2d.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cefbecf3176bc164d7fe9dd7487d7b804acc7921c7d7ed14a8f8bd5f25b782b7.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eda034de84a701d31c2bcdd68a13c935c73ebff681d4fe86084b1ab76df63ae2.png"
+    },
+    "cardNameSlug": "BlightnozzleCrawler",
+    "cardRevealTime": "2018-07-25T15:36:23.000Z",
+    "id": "43",
+    "unixTime": 1532532983
+  },
+  {
+    "miniGUID": "286",
+    "class": "ROGUE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/64570c65049b6bced6fc9af0608b0384d74c3ffc14b16e4acbbeb7863c67d37d.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf33e5e41d90afc38ad043bfe5837278616e14d4f96bb645268cb59223d76869.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/975fa701cecc6c0a8120cd0cd97494b5fe41ea7273d5db781c03779a31f92e92.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2945d81379cdf4776a80b0c21c4946836a65d6c6b476a88f8edaa87bc9b7b9a6.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ce64570147c8009e607f76bc9e98ebfcd4ae9abb32578936ec5a8dfd4ba71407.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2130baec635ad28f640b40decb4b84c21b3240fcbe6f4e355ae7c33e44927b1f.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/826763abe49c394d586be4c8bafa7d18cf0e29611c45c2f1f57fef04ad6097d6.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/403ec67203e14934b5b5d8bfadae805d97e186bfc9e53d6c2314f961cb275790.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9a0e92965b59f207c1919c63ae40b1104f7f1fd70308d8789f2d25daa6513695.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a4ae1a2ab7811006c67bd23915b335e7f5c6c3004eb56554f432727f9b6ebc4.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f5b706cdd3473e4618b77a91457ff5e64c1f92fa1ecb899524402d24b26c4e88.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/780def843c011ea6885666b00458eb8d8341e50eb01a2eccdc2fca5af9bcc3ee.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fbd63ca81f54c8e7bfe792580fc4e46522bb62d1b7e13496815f932343af8691.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c82a7a3082469772e842412ac93f55c1ed4371cb45cf7058e7cf0513590239c.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d3b3b9081f08a4da5a64736815021449c7ffc01eb76336edc25e6c247e4bfd74.png"
+    },
+    "cardNameSlug": "NecriumBlade",
+    "cardRevealTime": "2018-07-30T15:11:34.000Z",
+    "id": "44",
+    "unixTime": 1532963494
+  },
+  {
+    "miniGUID": "567",
+    "class": "PRIEST",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb142bc30e9cfc1f7c5ca0472a7d95ed0c7d795710b297ba38c6ddf33df228a1.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/82129f9ad1faacd0477dfb587a44ea6a5745c5b7088aca1c283a94d848618949.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bd9daafa59e94eca4592dbecc3ec9c553453fb2d910ce1c194d9d264840d3ae5.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/80aec56cbc4dadbc03f7e9389814afba2bf4454f877d72bc7e115c4d5f2e5ff0.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76d79205e863758d6bc78c7f6ad6b5e687b4581b4011f285bcb956258a92f67d.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5a1ef512fd32e5682137d3bc269eafdd6fa88f03c42c946c85404a21cf65a5b0.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4cf4653b184265a43fd9e8243b136514e68814d5a31c1a0fdf75c0af6097041b.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f5f00b0385aaeaa0edf734209c76a67fd4b747d8cfd48d2e926cdd8406fbf1ce.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4efa0d641264bbd5d8dc9f02e9c5bbb686ce518f7fb2b4a66003e707910e2c4a.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e6a7e8ebc194df28d3bc5779e8391001225c9d82eceae816b91938e646a430c0.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c05703a186ff261478be9557217a138c1b387215f2f9206e7e452702b02f768.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8edc9e30ce5c9cdfa3e1811bfa1a7bf963871607f638f0b400127744f6d1d342.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e5da1b197ef266f8204379e3041277ac8a64bb82fc5c2619e22d66978efb53dd.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0313eab4419cc9f09f9955cd3d19520e115229342408342b6b30afed2406c2e4.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e74343a03878b2c1f33e0941108165af11b9da605c31facc666503eb22ec6fc.png"
+    },
+    "cardNameSlug": "ZereksCloningGallery",
+    "cardRevealTime": "2018-07-24T19:15:16.000Z",
+    "id": "45",
+    "unixTime": 1532459716
+  },
+  {
+    "miniGUID": "566",
+    "class": "PRIEST",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/680659aeb3a1b61c2183ac4d0036619d5fc06e85a8af9e919ee5d8aa0ca8fffe.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc3241de2a7342f522cfa111161f8546c88d11104cddb6fbf255de16882c2b34.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9889e31bd5ab8a294cf80ab533d6703aad67dc2db21be29767b21b6afa5d5742.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a5efdc62a82ac8360e3a83a7c6ec266ce2f342a42b198351a3c4c05891a94bda.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a0e8dfd886569d47633ca638e9b2782a5c9eea9f3b67af2393602b0a49de54a.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b8e5a6c7c4bc19f947fb53d607d04866adeac53c59aa9e731b3b7aa48270173a.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/864cae8407bcf9af9b1c7ff0ee54b4b5872b5371590bc14214222f1c7c94be41.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a674a65b80b46cbd9361a46ae95e0f8aba54b987bca1707d5e8fab524df5a0f1.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/712f4e39029746176441ffc91c80aa2423365d39fe304fc75d88af6e3cde6930.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4bf0193cbef5ece02f69a6818be98ee06587bc66420ce6bc1ecd6c69336818e1.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9f736bf32394ca64757ad106a990d944d59a06d3ced9535d2e1c4a94b1a14cfc.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/56df96032cc94017ee34ab4eb9bfdd3952ab0a006290578b1e3f95a986c66d80.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b392d11f5d2ec8d17bc0948329cc2528f876c2534e9874575376b5f9bdbb2345.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81685d9f83358386267027cf5314cd6374db50e89449541a7207783a58051df1.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2b0b6c7febf330a869bcfe132f835d58d19113e458f1005b2c0cb1958b875b7.png"
+    },
+    "cardNameSlug": "RecklessExperimenter",
+    "cardRevealTime": "2018-07-23T17:42:37.000Z",
+    "id": "46",
+    "unixTime": 1532367757
+  },
+  {
+    "miniGUID": "601",
+    "class": "MAGE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6015523d02484a5a23d67839f857d1c8e72e6a75489332e5e64999c7e228f9f7.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a6891d90015800e61c7bdb0c9f8e0b79d9faaf25a3d21c5e1b401e952b79d3ed.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/037ba67c0c1d64bea48762cd986cca225983ed54a136700f7f7857b102f82c8c.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d66a6eb47fe0b773e39e3dd0c2338dd1e0014121873b9c551b1f0051c35474d8.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/851f11b9dbd65492694646a60add0b8ffd6267bbd508d6ef9e7f3d177256b21e.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/33e5f1f635d5d31260a9760a1c75dd23b03f70a9fa9cad3be2e5a89fc53866b7.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/316135051412f43925b3bafc6b7ba3f73d4547248953f23e5e7e8f3f37516eec.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5202c6140cd59d41220644f0b36132850a6b466764981eec02748372f6526b58.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d9a456a1dfd9564cf2c53a44728f768bdfff50643615627853517d6179f91df2.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/218e72028370b6fdee07cdf39b49f45e232d6c800ab1e0acafdd74955f9f94a2.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8b649a7495e99b840ddd46a86296dcb2c83a5239159670f39db79a9b357fc1b.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f952e276d9184c9e9394d0120f14d6a8feb91db37d1d2a7948f46a9d27cfb383.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/be7607bb00176e277ef0fa09e8dfc84b537085681a65afa7778adb5eb25d0af9.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d50c0cbece95eacf6a7892a10a262297267677f42f5f5bb9042d87bfcc8a83bc.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d33a23f6b0be24452518e7d60551a55b3e2dd16f238c622965720c5b3256fd4.png"
+    },
+    "cardNameSlug": "Meteorologist",
+    "cardRevealTime": "2018-07-31T14:32:33.000Z",
+    "id": "47",
+    "unixTime": 1533047553
+  },
+  {
+    "miniGUID": "568",
+    "class": "WARLOCK",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/001a237db839bfa7492e272ff0aa8d1fd243c4951818255505c8e522d97c54aa.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ace9b062826c3f845dafa75e2deeaad99e0b71953266d7ca9758530e721ddf65.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d7719d0a18a9a37465c4685d72dc64c1a76ca24c741b57c78bf43c4b05e0cb2.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/986583eb2f7e0abe035d8a5b00d1d19ffe8b1d08f5258baf016752a662a463ee.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4e591959669cc907824fce286f347d3415a957aa801ef8725f2743c69f75d352.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63e78fb290a6aa6e00b87f56a324981fe52aa6def7949f86838a1507bc2e03cb.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8c5fbb88fa387ddebad6f245ad1c4f4aa0940e6406bae54144ffaa7662e6c131.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76ea9a5e38a4090da2ccead48b45d10b00bbf5343d2f08c582c7d40c15d23fd0.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e0ea6f9d0c94a69b8d1d8b9509f9e16d50997ebba65c8a9e134b96f6f660f73f.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cdd19ff5303815952d87aaa68a0aa040c5f368e7fa8a45492bad9206eded9207.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d81c5e5d912b459f48b90c7e291d5a877f2d8847483afbca7a4a0764c0a65ee7.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/08cbd20548914efbaa6a5062856fb22b7a0c63795acb52b3e3bba572693c5670.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/93977e684f841f69a916d44a3555318f74d9ac8b4813ccad37891abdd07b5367.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2918ecba2d1830b49b2702be3d990ef8d71645862137a749261551dd3f1ba273.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17a6e9261c4a74bfe81896dfa5400a5fad6fffb2e8318f6e8c17b90305181845.png"
+    },
+    "cardNameSlug": "TheSoularium",
+    "cardRevealTime": "2018-07-30T15:14:27.000Z",
+    "id": "48",
+    "unixTime": 1532963667
+  },
+  {
+    "miniGUID": "604",
+    "class": "MAGE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/29297ff4349e079f8cc2cdae46c76bc4afda85a70b2446877694dfe1acd91c25.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7345261847fb2bda090d914c1a27f0171379a51352d1cabc54cba5ee6e017d1a.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dfa6a67f9c18d6c1b87afe3a6791460bf43047dc8919a044b8f114880c9dc5c8.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bb1b4ed65a46f9d06f043b2e0ac9dd27fe8df3a01a53d011f230e2dfd7ec8bdc.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39fb10ae5e7b4f64049588d50c4bd5d6c02e9809075cdc0896043d5f2fc09208.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d5f723b4ae468ecec33bba2b77d2029e1d63dd51bdc439acc7f339e1fdc7b0de.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3f39ee9da3c9ed9968ce3fa74a2a50ec9471a6ab44c6a8fcc095979e0719f381.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/802f21964ba2b487dd30541c2c7155cc6509320af0f81652f06db04403decf13.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b0f2047af6c0642333d523e9cc359b6a65fe1c381743e73e2cebd2eaf5d4303.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2497543ebc52a24c74dfc60b6c1e7c2d0d9d957b31cd24694db56ba19c61f29d.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fea12758671d5f5f9ffaf46de7546b1dec6b641a5b0cf87bf4787eab70eab0e6.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da941a5eff5739394f4cc2dfd7d23911f3402586d3c26c848843adb477c2b41a.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5fccc823b534793c62874b3a05ea2adf199fc73d406063258fbec43d43b6cbf4.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/384ed8a38e41811579b73fede6238cf8334b871a4ff826f4b449d9f31a71331a.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e5334ab39dc711fd7afd1aafc522ab63526da2455c7e8dc1cc6416288b82719.png"
+    },
+    "cardNameSlug": "CosmicAnomaly",
+    "cardRevealTime": "2018-07-27T16:45:17.000Z",
+    "id": "49",
+    "unixTime": 1532709917
+  },
+  {
+    "miniGUID": "270",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/52ffafac03c1888f437f455f9f0b6be49738e335a39fe7c539716f89b7db00e6.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/235200a32e046e2c6bcde4b90aef4fd4aebd6ab20ba6d534864c943ba296a185.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/41473a88d0d1c1f27dcfe5b871ac6548de571151350a6b4d28a1c4d5f8c1eca6.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c358082abae4e310d3b455d0cb92d3c3da61c0c7f261c775f2ab3f53c29dafdf.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb0e964737352098e9fb34007d5eb505edae0c39e2a10f3cf041c6b17a1ce8f3.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebc18bdbb80ff95aed528a1bb7c4c9d807f9826ac12c1322934fdba73d84a61b.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ccac91f649e49e2973e50a92cbdca61511d675711e5d4b63cb673a2810b236b2.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94f70a67890b34413abbd481a62788b5deed1e823dda982a98a6ad4322c7e62d.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb57c89e96d45f87af4cdca44c321e29b79a0fe68e02682984744b719a43b78d.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b73a484df2f17f246652311ffcb0bd30f709fc5462f6b05a9c009aed49224306.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c1e55c70bddea7023f44bf662bd70e8e01c8ae1fc7897e7eb0fa327f15bba52f.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62dfb620af9aab1e5ba0bc1ce1316f75fa71363c678fdbb6f4078ef6ff38312c.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ceb4d9e7c9478986ca1d621003de3ac1f854e38dc567e2f9c798fea8ff0c1737.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7d88357bd4fa7ff8141e276ff2adbab9dcc830ae2fd6904f5ee181484db8625.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e7f89b61c7c4478b68673f2a2878bcda7701b9da9cf09f2f34ee6f76533184c.png"
+    },
+    "cardNameSlug": "GigglingInventor",
+    "cardRevealTime": "2018-07-24T17:13:09.000Z",
+    "id": "50",
+    "unixTime": 1532452389
+  },
+  {
+    "miniGUID": "552",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2c45a9d956299262505457626a8d8151473f31d978c12db82fb275cb7ebaa4d7.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0e1e25db186cd5c53ec1096f1c75c3e1a579d2d519b2992ab7c559c271fb2de0.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/df69ed6c2aa4e97e6b46736bd8f931ed987035d77a293ea938ea3df6445d7501.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d2425891c4359626e3ccee89339b312112cb56e3552e913c862a7be181362e75.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c21ad1135caa93ead333f890c1de5ec6e8fdc74c56460b609d85dc25b4edcb8b.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/633b2d63728262c87a5297720813f49ff9d8ed215a7abaf7c67da1b443d2479d.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cf394ba96c70049c8013af1bcb18034ec7a47950e05c1e9e6139c38365cf1015.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b34ec697dad9f4d2c805d60702dcebdf0c0b1b84614837528b77ee5a97d4e634.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5051c7a902826860551ca7a0aca6cd4ccb381fb7bac63242607ce6ddb47535ce.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/76941ad899b2fb375d62953ae2308600cce0952233ae0ba3cca125e27de8d404.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/515537ddd51e8403da60cd2bf0076f82b3ba70ebd25ea97a542c22b93ed40ef8.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7671d888cca87fd870856a60d5e60bbc107e98c2f1443006a68fd5d4b9170929.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e2e5ce10803f908ad8f5075df6e8c71e6740a333a45a976a247a44d27c3773cd.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6588fb24e7199dc0f239872d61b9099b5b1c81bf6078f8631a18a4718d4905c5.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/25a65924ebfc77944bc47ec02ae84fef530349e43e415f34d0b527e10c41a175.png"
+    },
+    "cardNameSlug": "StarAligner",
+    "cardRevealTime": "2018-07-25T15:36:46.000Z",
+    "id": "51",
+    "unixTime": 1532533006
+  },
+  {
+    "miniGUID": "034",
+    "class": "HUNTER",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e3476d3ad1559191b95dddd86d7c2bfadd30d48e9acbcb2c35d4a825a31b5f15.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aac3f2cdc45d34e6829f1d97169d6e85524d98a4ab496518e33be80333cc9d38.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/40164920f6bc93281cbc26f8edb7ddda683b81050ecddb12e637ccd00b1fa949.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63758fec4e461250b886521aca2b01c915d3fdf9661aa0e7cfd0c0adec7a86ec.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/35c62500528805de46a9115c2453b757af4e53e5cbf45732ff29616bfe850f10.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a5ffd94660c688949de8a33ded59ca293acbf2d2d41f12cf04a5d3d90071e93d.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/018efc9edcb6fe430f3ec2b4b963aae0f74583edf5391ed077277ebf03ae4790.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/540e078e3fe33e1d29c35db37ddaed7026dce65b306c4ebd725da5ffc80af216.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/006c2a51bfe513c1271f0c42c1a55277908d81b5dcb54b33ac44e33b9ba19dc9.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/314df9b3c9774a251d5c84a8012ddd8ecba16ce10b333cba2b9ee89c575961d5.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/075bee21c2df0065cdacb66698ff90508e2f242a41dec75c24811ce64028796c.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7537f975486522a9c6356d4525d7e7f4c22f0bbd74f6362743cf31d6ec996ca3.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/74ad81d885d62d5c76a94c1c342265a281cddd6e7b8f0f00c371865ecd6f852e.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/00475ddea357e22d923d498acb19d8d16e2088be01ef1d5f7b2401bc9645d021.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ed6e1a35435fb36713b57780ad74274902a61d570434f7a39cc8db20c472190f.png"
+    },
+    "cardNameSlug": "BoommasterFlark",
+    "cardRevealTime": "2018-07-26T18:14:50.000Z",
+    "id": "52",
+    "unixTime": 1532628890
+  },
+  {
+    "miniGUID": "435",
+    "class": "PRIEST",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a8120229f2a8b7b237439e173534ffedb134831fcecd8547aefc834f4fe8705.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9e3e677061b805c74f89b87c83f7b2cb0a1876c1d76ab25cf999ec2221c6f047.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/645cb632f016de837aefd9c0be492ff010d03930467c6cbde24bb5e8473f39d5.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2132125ab3d76cd055e8cc5c7fef4447d6a4feb07cbd596824fe37ed3d195b4b.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/14924a6b26a290e6a3da4425ed85ebf49f5b18b7a9b8aee16c2b534d1b8bb61f.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cb7b924f8ce6e2368ffcd7e30e696cdb8a9f0368af3d62e55cd8183bac14dc6d.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f9dda61d0af2ac69260428bb1b163109943cd34c589fb0cfdc9ddc6ba223f490.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/28eb48f0bcd37e0137a50baab6f5c6875c8eab951d0d4a56cca7cb31bc71c753.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5ef5c4f42f2f730dbaf87f58586beeb5f7efefe58e9e4d11784a1c5590f28cc2.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ab8adf721e63037093b708407e88ca5922793640b3486f2c671b5401fd762107.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d93e52e4fa023eed710938062dd8d06ac173c84dab90ec37e868eb45ab490e1.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67d88ed3c41bcf73487d0b8300ff11d01c39464ea3b00d8660a807253f2f4212.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cbbc556ebe5bf87fc6d1535acba8aa8ccb08a415b6f08a9ac219337cbdaa7206.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b718a1ad2ef869dc4070624f2de6fd03ae48fb61f3b4f44fde970b4797b1244.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03ee198bcac87a33f854360377a678b79ca0abeb50a910578cf470d7bbfb25f9.png"
+    },
+    "cardNameSlug": "CloningDevice",
+    "cardRevealTime": "2018-07-24T15:12:56.000Z",
+    "id": "53",
+    "unixTime": 1532445176
+  },
+  {
+    "miniGUID": "312",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/88d67950d9d6211f16ca4b2b189b1362e535d4f62e2d89679de7b5de50a9cc12.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81c96eccc890bac049d7c8d5f18f72c1b0976d1723ea832522f4b91441bd243a.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c14502320d5e319709e67d16e4077ae71af090dc05ebfa86f7c6934541b456a.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/beb41595c4a6deef0e338d623483961c1d95e0a5e49af0833aed6b3bc78c54d9.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/51fdadbf9d1a11fe8a7b7ae2b38258bf5f2276623bfae822f7842ea1979cfc33.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8418dd016df53d4ea7fea762e1b63265c11e90e5d7a27c11d8bc8d9372705ad7.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8cdde6f9e92b3dfa391363c95ded86f064e2dd51fa1cbc017f5c34d56358e714.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a88ad99b390ba9810bf61e32d52cc6b9a1dfb483815130c324c7ce3697cab17d.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/65efa257a08d02753d54554445ab103ab211467158be171a96a4345d7652e57f.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/868dc533f85019ade7a11bf912ae1e663254db3219a2c3ff83c182e9a137689f.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/43291dd5a642b50132b9a02e22f44cfb8d998553233860152ba42cc7efb942b5.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0681fd1948b527443791a89ae37f8ea904f7353f9228a98b0bd6d6189abf4f65.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5c86db462a464184d136c6be47bf77c7c0a3e0d79043e3185d730145ad7eab67.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/161108397279d64d4cd1462869cb3e6cd8bba4193b5788c30ad69b19fbc2f26a.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd9e0ef8f452588ee21505537ff30de0df4b284d18113b95fb9211af27600a90.png"
+    },
+    "cardNameSlug": "ReplicatingMenace",
+    "cardRevealTime": "2018-07-30T15:12:28.000Z",
+    "id": "54",
+    "unixTime": 1532963548
+  },
+  {
+    "miniGUID": "038",
+    "class": "HUNTER",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d3d98b041ff73b1f0d483dd9f9e02d3652a562778170e24cdf03f1419558ef9e.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/71d75436e342d86ab4de7495e70891bd415f4b2a00116cf7618dafbc1dc6adfb.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/118273fff788e698afe0117363f1751120ec3ecbbaf5d3a8433990e0fafe3fa7.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e82889fa80eed74e0c5c0e3bf48a0894dddf489f3ecdb04f467b6cf53d9fde32.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/364296c667743553510b24df2cf8fedec9c3a4a37d56d230b550a0f448e8e517.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4be4669d4391b21a2c6fe6f1102568fcf83afc9850d6af616aceb791cbb9657b.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3c42a1e9bc8e89f3acaabe885843fd166d93b993310b8802b46518efcbe3f955.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4a9af5f492aee899bed7db62f5b407aad855f842515f5ad72c59d96c7c7178ec.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/401f6a5585a50bc7ca10d64e58cf004591c34bd6be1557c02896adf7f154e4d6.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f5223922061f2a52740f24e94292f305f5957da1b1a575671e669c09e9beee92.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15474fc72c3f7a926b9f821182586ab5e87f4824e690b5de857e9c46211c340e.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/088b6859bc199cb411e278685f56c805dbca1b5f893d8f4a381b072b5a98818c.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3bd4c72b6ff74d0bf1704b250d51ea94252f9fe4852a526236fc5d18ba62f8e4.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d272a0d351b04e068fa1d98b26e64f4715c2592ea8dcb0d744154b0e0480bb7d.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b8eb848f71174a653ce27b0001639fccfbbc86cf2ec111aa4c3ba258cd09c441.png"
+    },
+    "cardNameSlug": "FireworksTech",
+    "cardRevealTime": "2018-07-26T18:15:32.000Z",
+    "id": "55",
+    "unixTime": 1532628932
+  },
+  {
+    "miniGUID": "433",
+    "class": "WARLOCK",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ab477af20903018e528999ce5bf147c505b7401d13e7922f9d0756fbf8deef05.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b73c792fedb6fa62ea7685dc319419c7a8b424e615f5881586959395f3404a6.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/41ca4851eb434f694ea37905792575c0c0538e629a35263a8abed92cd39d5fa4.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1980f0d05339d5175ffbdd5aadfabd7233a220ff59bfbf8c40feff374383411b.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/55e4a02a8e9e73d48d80c8011a095d2916816b937cd11da21ebba303f4bbc84a.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e5a0c60bda2fe5f0d814d5ded3f048e2c7205b59c7f3739b04c70fa31395ea4.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/05221d3a2e49e0b7970bae58d39b1f2b85b891fcff0b7b5bec7100fc884e537b.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1b8c2f106d84514f9cc4b183aca7a233c556f07858f871ae7818c72cbc3dba3f.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/03170cecc8eed210fbadcf49c534fea7b7093e87de05f8569d43c5177150c699.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7dd55aae1c2048650ea67d7335b3b804c55144b4cf7b756c2708c53f7952119b.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7b40f4cf6b8a47af4bc14b5bd65ec6d0eef45ed8c6f151fdd33748cd050c7cd1.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ecf37ef071fd035992f9291bf640f34f2f4046ed85254757bc99c86aeeee000.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6a77c7a61086071bfe77277e85531d59ecc3e23be7c171013fce3cbaa94f50f8.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6f48f13223139076fc7e7074e5a66712df490b76ec96ffc765b4089146447e70.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6908b6b8087c4af5e6e484c1341639397a52f31a8fd21a9fc7db5ff130d22524.png"
+    },
+    "cardNameSlug": "DrMorrigan",
+    "cardRevealTime": "2018-07-31T14:32:13.000Z",
+    "id": "56",
+    "unixTime": 1533047533
+  },
+  {
+    "miniGUID": "434",
+    "class": "DRUID",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ac96872d4a3e67673b3cf48283c0d54e395e90b0a8189ddb5d3619226bdcea82.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2de9a6aaf235a8bbabfeca2add71bc53a8730c4a3e0f6e2c52d5960c1eca5f23.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c76d9ee4f74592ec64af8cc1c969bbada15c4eae3c85a0f66d5af35629f514a.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eb89f5b0a0b340f0c24a27d349ec4aa134ed4f5698e64f39928e7de7b438bc5e.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eaff0d02cdc2f44e447f30042d2a3fbe644d393d23e4d5d23197a61618635bd8.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67c48acb426ef8baf2fbdeb04eb82736f5be20977aa8195805a5e68e0d37a953.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b3910ace70074bfc435487e33e7268f1dbe9c05e4ac89575f686764dd856c74.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d58c7d7cc20f96e965398c93e2a230d3226ccfe5b8407982d2b42fe29b58622.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/02b1d4e0309fc388ee54026e1cdb3aa32ceea60647393fbdcf7df4da9d4e0d43.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/388fce8f8b47c06230fdc939f6cb9f47cc400b688363772f13b2376b2f9509da.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c1347169363a52b3918b5a039d7b4c75fc804c45474dbddecabfcda37d06159f.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3aadd93de519b760171fb645652d7738fb3b1981efb2c4412a4a1ba2ccc05e0a.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59a9c5525f446e3c42a62e262a4bbe974d12c45ffa36ffa60b6055f2d213a616.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/976d0741b5da2ce4392dae3bf4bb06712f0c04ce4045814d1a7c9118177df1fc.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f7b4b7c8e671b342fc3a5703d2a26729bf3a7b935c6990a9510e888bfacb8bc7.png"
+    },
+    "cardNameSlug": "FlobbidinousFloop",
+    "cardRevealTime": "2018-07-19T17:35:05.000Z",
+    "id": "57",
+    "unixTime": 1532021705
+  },
+  {
+    "miniGUID": "066",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b8371e1698eea07dee0851885ed8dff3783148ce6404fce50ebb386314ed8b33.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7390cc133e7585cbe9d25bbc0e839a5c346fe940c4a044a40e4d381ae46c2490.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4f569a53156210209eb195334fd4b4b4614ca2ab450cbffb81d83c94aab290c2.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c96ba349365d3e5c1c40d36b9d831085b3bbb2eb5fffbf7ef6ddbc08de483cac.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4a21f4c5500be4856f44520c639aa026252b087808e294d1567fd86d8b362e1.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1dc715ecdade4ccb2e86012378d6d4a3489fae13428616d91851656138720f5d.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/68be19782793c0414281d91368a5a595a6823b778e824da646efedc2b27a9fb7.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b49a3bd515dcf93b81eb62d314efdacf015682e51d62037a28adeab33bed9abb.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d26cf8c221b3dfbf05203f75f5d2863ceb8e31b90ba1df8266426282150adc7.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1581c9f9776ac3f1954555a8cfd4be3c708348ee663704c62f2ae639bf57b5d3.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a7f3fae9d245c5e2eb3893060c39ad177fb7b6e4cd45195b4b2b1a70b236a35.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9eb0bd9f147bdf18eb631cfd696eb39819306495a602fdb719f003b91c739b9b.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/72248552a5aa598f1fd1164a2fd802ca3c0326f6d8c70fac9bac28499d181328.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7b022b831c3a4a21c46a6a4c8ab796298622ef22e53d12f0fb7bd037a6d4dac.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8c2173f71c88566b925ca17d1909c8296021f977214fc37e71a5aaaf48728221.png"
+    },
+    "cardNameSlug": "MechanicalWhelp",
+    "cardRevealTime": "2018-07-26T18:15:20.000Z",
+    "id": "58",
+    "unixTime": 1532628920
+  },
+  {
+    "miniGUID": "438",
+    "class": "HUNTER",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dbf98c49abfa9a05855f04a15adcf01221fe07977d69d375993dcacc81ea4a0e.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/17c4f4274b67cec114661813f14e7a1518a75db016af450f2010aaf43bbfbc49.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ce7fe44572b4330d307c851c17bb814cd9fe14ba445159a7bc2e0e860f0f9f1.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94ab952755df6c6d0e41c34664d1e992d2873be7f401f973de14a6772c36fb62.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/621b47a6639491d3b43cc5051c826ec0ef48ba6e2042ef0b237c2cd75c79addc.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a6ea7d9ac6d39f327c12ac930a8dc83001efd063cb131fe68d13467b4ee302c0.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b7c5566efd9196fc3ad53729703a70ec74f14a380728eb1e7c52667b12890661.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a05b8707e24fb76649b40fd5401edd31bc85837589ebd0d8976bf892210f10c.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/df8b9ab16f2e1c074984253b6872d4e5ca55d5a8dfe5603f59771f36720a036f.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ebb2535772bce30eda837516fa11d232c86df7b8b83fc4b7b479892576de25d.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0ef4617815ff490f6315088e56f0fb16fea4607539d4c8eadd43795f15e71e99.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b7f16440875ff58d7a2c41c7491e623687a6de9752fba3ef6206304ac0433f1.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/925f403ff923e5ff4dc5c2790d7bd9ca418b92c85578ea24433eb9e5c585de19.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c97336d198464e7a79d6fd98eb03a2d3c98f77d8429dff387fac1526aaf6b77f.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e511844960ac7de799f2ffc4171ca5752bd892b094b38cb88e6e404766f3b681.png"
+    },
+    "cardNameSlug": "CybertechChip",
+    "cardRevealTime": "2018-07-25T15:37:04.000Z",
+    "id": "59",
+    "unixTime": 1532533024
+  },
+  {
+    "miniGUID": "559",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/872b440f3903c2aa0f7ec13e5b3ea969f023c6b197df1e26d5c00d752cd9642d.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c44147c737391fceaf414de2bfb935c261137c074b6adabcbb78c62dc039f18.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/11a2e45735b90f6039d0d88bda8cb53e7d8ba2c3cf41a348697ab87e6726e9df.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e3ffec351a57690bb2ff04f61060c1d8494a2f5966e76c28c657eb6c6051ed6e.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bbef999d2ae2d814fd55db03690d23c55f9c3ac995c7e33bcb82059731967611.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5de885807a480edda3f1e16d03bf79b140f713d5710c1c71bdd763ee8918cf9c.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/19456cee1d97976119fcd936bd4d60d68eba31be93334b7b1d90cc16aece1995.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a8e49ea616126f737a13965a5863d584642ac5f4a7d7a49d7218440a50d40230.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7fa6788d6ad3f7b284250b8977b67c853b94c3b4b7b9d80453900d908c7a0e40.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f42bec2a110ec3440442571ef86ac15151622af94f7362ff9a7ff542023a415e.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7fee9e484f94525f73699b06c9c53f0e1076c22ee4f90c3d7e2e7412e40d1267.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8befe3747f8d0c826a2d42226a2f672462c7c1f9d1ea39d09623601f483dcb34.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/81e721f2c5369362397fc7bfc6a3cc57106c2a8b00ebec496db0d2ba4ebffce3.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b6228ced7637ee448524ffe70d61196f8eb83c4e5f6e386e69efb6c42878a44.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f24108a1b6ceea2e083651c80d38dbf89ddd2688e9db77fe979a4c200856ed5c.png"
+    },
+    "cardNameSlug": "AugmentedElekk",
+    "cardRevealTime": "2018-07-30T15:11:12.000Z",
+    "id": "60",
+    "unixTime": 1532963472
+  },
+  {
+    "miniGUID": "069",
+    "class": "WARRIOR",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b3330e9050b0ce7296a0f24bc3a424055cb1284a933b3a4ad0d63a35ea79c17.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f6052df5820fe9de23d3fdd503268c93cd9f8625fa1c8feaeddea9b3a5dbfe67.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ecbbc5c1857a269dc96b5d484a4145aa95725091c1e7a0e716b22f8cd209b6a0.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0aebd820bad4cd292a715169210960dde8e429be97bbb5b494b6decd2e722fdd.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e94ca6bfc5ef1d184d77c2c67ebe391dafbfad0f097ff13b390213ac88d324cd.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a8b977e2deb98b03d4ed62101b7ab0ed9d12ac6f04bb58eafec3fed66b01cb44.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0a05accbe3f2ab6f9e87f97e05250565ba1d076de433c348d614fcaa59ce3243.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9163f883701e70d386b3b2f3bb34e654188b7eb5b57c9b8d2f6637779d83c3e9.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1200796cce90c0e83f7ab6895b157d67e7eee8c96e09133012c5e746d14f70dc.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/30c8148549c5ffc0e225821c11595ce3cf245fb805e6343b597fbee34b3be456.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f0739c46e640472713a4721c5cdb6d8e1a1393be94c00801f685daf5c6134103.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/acf9022476ead49a600352b3fea54660265552ced286bb37dd72d37745160e37.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e0050591907d4787c5e453fd0e8f40aa2aa8365ba78c1dc5f0e916f22b1efecc.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2391b7c30703e863e3a26b7f37efb169079c1a65431ff6de9e9f0bbb95eab84.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d2a502e362eed7cbdfa46e7cee2d7b11cdfe36e2dd450d749188edba2ea74a0.png"
+    },
+    "cardNameSlug": "TheBoomship",
+    "cardRevealTime": "2018-07-26T18:16:08.000Z",
+    "id": "61",
+    "unixTime": 1532628968
+  },
+  {
+    "miniGUID": "103",
+    "class": "MAGE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d96861c8dacb95dc215781795703a98ff6dbb27a1f96e67c4ca3adc91bf45b4.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e119ef802e94af234d9b160bad73b6e9a4dc609b327ab2a2e403fa88d0c8327.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ed18c8e39b794f2e874dde7a3e7dbbf17dd0182cc45e1f18ccc6216e72c65f7.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a3cc57a8f51622eea6bb90c726cbacdd993cfdc183ef6c89461dbcfada07c0bd.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc6d26c42ffc7318122152f82cd735102cf9650b8f32151910bccf0d09001d80.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e2177da8aa6950019e23cd801b0ec2bac5fdfa2d52b3c4077a3b2220db42d057.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2eff650e200bc477a5abf044e7098d4da7b99ab86f79cdae883d2044974dcb59.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/acbe688bec54a1016619c019fc6e6bd179746c3a176350b6d3af962093c885ee.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da435b5a8e1f5319cdb478dc3cc3c41f3fbef48f44cef14a1ad97235e1a1be81.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b12ed0f9760b42647d3f088c94da8bbf648e57407445b05973fbea8b24386529.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f9002ef953f30b1e28172c085551d285467027e71dc5994f631e14cc5ffe8318.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/527af7ac369ce9ba2ef928ff6806931e99a006b33612d76c49c64d0bc92ff070.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c1ae9e702354672047830d0532e765d8b4aa002cd5126d8be651f20b1bca20e9.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/687292a2036fa0d32dfe8851fdea33576b8a8dd1416e203a4078e2fa06defdcf.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/319725b68c2e769960b39b836fb1a13e86a007c38789d8e7251a499db5a21eea.png"
+    },
+    "cardNameSlug": "StargazerLuna",
+    "cardRevealTime": "2018-07-11T18:08:22.000Z",
+    "id": "62",
+    "unixTime": 1531332502
+  },
+  {
+    "miniGUID": "107",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/64062cc725eb90dd74bd8d022b689bbf959fa497d64bb55df7aa0e716d704913.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a60b95ac493737593bba7ddf888d9e13b6cc04c098cc886f64ba6e379fcef80.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9445c1f01685d8a1a1999ba190b3d927f5298439eb8cfc0464e54139954d7a7b.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/063cc3b3bed51da42f88cb35d52c55b51fafe72528ef4b8780d3ee800cbf34b7.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/186919892218ec81ec46da6d9528bd057b5806fe3e1db85ddc093d372916d971.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/74be692d805bac370afa07d588d673633abe141476cff726c77c4833101ee1f8.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d6d623b31da277ae405d957991126673bad2d2f22c1cf2ab22ec492bb4905dd.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc2b27726e03699650e55ab444c71b2268f521a311a1f2f9ca1fc48e694d6a15.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/47f4ee96435ee260205d052217ef7415d95c3bad29994882d755dd08654a4a23.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/99d2ce48cee6e1fef1623f2d12174fd4dbdb2606c29f6b5462d99d945f474ab8.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6ad034824c7bb40ed30b4b1310779ebea562a04db15d83e7f172e98846cdf1ec.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8bfd66b7c84e4a05517d5a286aaa7494970a4b63f2dd34894494fb82cfd908f5.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ccd6fcd32c741aa15c3e8678d1640bd1983bf9f83434863d666b33ebcfc5e43.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/33ac0d54f0bbc6a47f3a1c4893369bb9ee469ab430d74a0ef36c3cc2ae0af8de.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3ce063019a2634c98f09edb873cc91955b64cf27bf822e3b13f6add558604e61.png"
+    },
+    "cardNameSlug": "MissileLauncher",
+    "cardRevealTime": "2018-07-26T18:16:39.000Z",
+    "id": "63",
+    "unixTime": 1532628999
+  },
+  {
+    "miniGUID": "508",
+    "class": "ROGUE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e48f2972f284b8b4608979d4e6995c4e5703351e1e6cc3eea1c16d3cbc513153.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af106d68763bb8e920d1d90af199f79fc08983cb7fc4dfe07a69ebcc5fdf47a9.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e1de8b9a2fa12fb1c2f4ac997d7edea46371c637e1f82591661273db55fecc71.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fadd0d6fafa4ecb5b0ebcc51ed89e6c29c69a8233cd139cc0fab388ffc4f5790.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4bd4a1b506a286aaf4e0c45156bf35d0b359b1b354d105ff55954143baa1db3.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5e1f832cf465c4e1e2ddc70d6e007fb931da632bc7cc9e59aca6b43d9de0cf3c.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ab5186e1b0e7da2e39aed06a4c167b35b6e1de6dc0adec9f031c9f35b9c1cfa2.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7a5a9630f2db21b2bb7595b2699cbefa04ae6444e5162f52d92c742937322b69.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f091e68ae3d12c262ce3d150c8af2f7f3eaaf71da05c54a465a5700461e18b98.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/63213c52f2101ed2e6f5df15daaa75181f0170884a628446091db6266d855086.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/eacbde2ceddd2fa27185ae1b7cdf3b97d31ebabe239fda54721f88c2f73d7bfe.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c244c34a89ba8abe409cca4666662093dd06340284672581cf9482858f69b7e.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3aa327ac9363affd489349af308266c2413c190eedc1d3b209f9a4619ab6a434.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/992c0905bca5cafe58a2f449a38d73ca1898317877dc25886ba9f6384e354ea1.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1d956ca141ec9d92cc9944f1eb204b8ec671c0329dbe6f0e8cabc9f0744c3f6a.png"
+    },
+    "cardNameSlug": "NecriumVial",
+    "cardRevealTime": "2018-07-30T15:13:31.000Z",
+    "id": "64",
+    "unixTime": 1532963611
+  },
+  {
+    "miniGUID": "509",
+    "class": "PRIEST",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/91c0ab34d240c375fde04332da7a53c86c6d2ad0fb4c5cc4f9a69b59e2a101dc.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b2c4c31ffe807ef3cd3ff8a9055a463d7d128887ef20798812a83bb030917fb8.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/af8033177ffb2058973b70d5fe85576daf60dec094f67cf0b8a5161b24aeb7f9.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fc036c1b70088842a295562e854b7140cf7ebb8543d8bbe41fa9bf198332364a.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9a9bac745059ae8caf3cb390c3db10376cb866895847b188db985150963680de.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d64ebe1c04841b427b6c7cd2711471f66bf2eb1791f4edac35d7da216531029f.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6b8927b3c43f8fe4c294c9928e691df5563ae5abacff76e3ed8000d98c7ebe48.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0d71473f1f6bec4a544372d58b159e5f4c59a2e1ad02991a31d986d7ed4febfe.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bf984abaaecd744aca68cccb2b23416e92116f47023f4ef5eb98271c772d6328.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c0249c3067383557c82a28f7bcd5994ee1797c3f7770b294f7ba6b25695abaa.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84f2d8b825ad1cf3e580240229e57573662b7c3b72108f0d878b43a0b0424c9b.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d574a0e1eed7bee7867bd4e5063e5c9f3efe398dd5c07ea7453a15482385684.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3f4782457b3edcb351a07f4765e25572780fcbe66d09d88c0b8d1ed67cfc0181.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fcc0c0c892e944fd20cbac3a4652e08d9ebd511e515a3ebc3a445581b41b4b31.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/047c18d303136e234f2e035bc8ad3f7d01a9f1b4d916ec116e3b426c1929b346.png"
+    },
+    "cardNameSlug": "DeadRinger",
+    "cardRevealTime": "2018-07-23T17:42:13.000Z",
+    "id": "65",
+    "unixTime": 1532367733
+  },
+  {
+    "miniGUID": "507",
+    "class": "DRUID",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67140b75fb58ac9aca5a2ccc7792ed6a473b01f8ad69767174bcdba6d4cf1f7c.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1b7abbb4fdd50eb2a86b70d5b3a6c2da205939558c19f465fa61cfdece9a0c10.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ff82fbe5c10aba3ece888d52d9ac894f941045d3b47a448188864a6879f79de8.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e09899bb995e14652cde54d3467315bce61cc38ad4527c65709dfa27c2beebb.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c9bf318425ebbbe0d0f3d550071f00466c9244dc12cc12f9a7f82f3db126d07c.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a27e0f49183ac7b3f2d3e95c9001140ef33447ad04f0d96c47db7ae2007d9be1.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c7acab5d8b2a85c1cbd7cd9232fb34e831dd921ce877410c18e08362aac2a182.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2b05631082407a2651d7e8a311f5c6e9d0101bcc069ab56c63511b68d5728cf6.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7256471ba326004c198bc1f57d2063d365b156ddb539f6131872a049f8b33e26.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da9ee49330dadad066223f571657645fa71c032526c1f81a49002695f70ccb5d.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/39bbde35f0e5098deb47ea344f447c78f12021fead0f1a9f8100cd65b965f4f2.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0f9d811b436937241f482248e60832c3c04674e0040c354cc807d1b2af7e21c.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/29592a658bf9a4a15b0aed691e145c38e28673b550aa3d5190827250bcebc884.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7ecb9a4dd0e824f61d88e21392d4b02d99bf945350a6d8aff2ddc8cd6c71d61.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e690132dd81278761066e27fea156a6c2adb9c12a92526b2b06907b7334e4949.png"
+    },
+    "cardNameSlug": "GloopSprayer",
+    "cardRevealTime": "2018-07-25T19:29:23.000Z",
+    "id": "66",
+    "unixTime": 1532546963
+  },
+  {
+    "miniGUID": "054",
+    "class": "DRUID",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aadd8ce5206deebe7af56ed5b975994b92c0bcfa58b4507001036ae98da76b75.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/936b56f139510ac94a09c659370c5ec50f915712a01c137e8b8c22cdf5d4c01c.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f2dfe3e5c57a339c67e59a53aba53b9408aed068c6233173005b4fddfe8b96b2.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2d65732fb95c62ee9aa3c7e206850ba139d3fd71a349dbb9907cf1e3729e52e5.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f668f5966f33b1e9725b28f97c41f33581b02b2f941f30fba74bd5a77eb31a3b.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d2e90172bd22ce5389ef02db167bbc4650fa8221ff368746e6d0a0381efaa635.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ef5a593dd133dab58bb29b5bb9326be31fe83a52d3ef316b8a0e3f201ba9a21d.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0adba26f16e76c7d5391e841c3655c4c8512787a6a82977a8e4be93f55114611.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ab205f45cc6e376b1ac7c87d1cc069e5010c619568c54e466872e3b25a25c315.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6947c84dcf588203869df7c2d7cee9a5fc9c5b0d45d5bbd233c276a70105bf78.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b71a80079a824aa969e6741ef345d2a41de3eedf6110c890f7f8d41ed667f054.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/819e8e93cd9d2efd995296bb16ebaf8e959109a0dd76c938045d45dd3c3b409d.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bfe2b6cdae6526607a42c82a785bf40cf1515f448929cd92782c379e992f11c5.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f05905951f859300c875d21bb792c90fd1a0ac87dde62695af5bd83874dacf7e.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8a2aa5d004c58f1bea511b2fa9361b1a3ba92d35c1eb929cf9a89bdee03ef4de.png"
+    },
+    "cardNameSlug": "BiologyProject",
+    "cardRevealTime": "2018-07-06T20:15:37.000Z",
+    "id": "67",
+    "unixTime": 1530908137
+  },
+  {
+    "miniGUID": "909",
+    "class": "PALADIN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2965dd64180f9958b2a8a5162481191a964a2b9cdea9f541e09608b4b8c164be.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d0063e86ac163b331e6906196d40bcc23770fd9c3dd06b769a3eb7e97f0c8c7.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b26319a949880fba3985e10225578201dd6e7852ac6c0d4f370973ab9ea7443c.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b80cbaf87a223f0d9e5c28bbd4917c020a2ae5fc91a078e1f463089ee83215ca.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dc6443125f3150567e51f69f8d17f3223f38b8fc18790a88689ce68dd0109869.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/703177c9d81e39302382dfc8fb0601293cdfbfcd29ccabfe875b30dc9ecd1f1d.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e80fe712bdf5e127ef01e6ca32552a811d42332503d031f7444c9733d673e092.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/985bd34706af5961538101ef27653beb05f9ffefa2179f0659a4e671ff2d16d6.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9c2ad8fc2b9e3a0dd58d268fc743bf83a94e9c4273879ed7c0342c38e494322e.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59b5406acd8215ce9f8ef84ae534f4075f434772d917bc93cb351f0c0ba9b1a2.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/da5922f2d3ca8a355ad758d8feed627dee0259b6f0456cd28e9d9cba0947e9af.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/62e20c5317efe7c9c11b3d5031598bfc8a6c8d9180a73e968301ca22db8d0d41.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/89250d13cfcc607d741df6d58d94c773faab87feb54b0ebadd11097207da7bdb.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d3f7ac93f2ad07982daacd32d1fb13ceb453a0c7641cd7bce7f90bb62267dab.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d592f9149b3fe04418d22a83109787bcaa3efee292bcca875c06884e292c96b9.png"
+    },
+    "cardNameSlug": "Crystology",
+    "cardRevealTime": "2018-07-26T18:14:35.000Z",
+    "id": "68",
+    "unixTime": 1532628875
+  },
+  {
+    "miniGUID": "907",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/781b47d92c7e081f2d9d3a88be4419c79f2c71c037cd2a0117b34fd146494322.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1472e391df7eebcc7713495497cabae4a997b8032ab8f3cc9080701d9c92a9e9.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/98fad1fe620374dde179eb5fb4ead4e035ee5fea2bfba2068e2737943a607296.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6c6daee0199e09919e78bb99f7261f77d4d889c8ef1a05a52a29d5f4d2f84040.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c95e0d562ee884b73e6ebbb1bb8a6af5cc7a7124c2b7172dfc3f56a4fd17d637.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d07c68580f8ef81b321e99fbd436189aa6f707093cad02c8010190f4171540a5.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d2206837cbbe60eb2798eeef9bc8be7070381123c88f217f559f6becfa99e206.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7be206a892c09e41c63f970fdcf88697c11b0e0b35cac358d64497201788741e.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5adbcaa4bbeb3cc04625fbcaf2e6cd8a8a006f9ac99649c0f1f86e2d503af942.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/15a152c5f8cda07e517635f40143a541ee0067dd928bbd96b1b97838dbfe8cf8.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/22b522d78277ae210cb9e5a82166bcf017f6b93b22bb7a4992560938294bf76c.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5f8cfe9d49f7b532aadbe9b09e9a4b4d7e8c17c49d7d1001ff0fb0fe9bffdb23.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c7a7c56d403fc11b947c86f804d6b41b737fb48ea82b0a05c759490703d7da4.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6fcf31afc97bb620dae0e45cd9109e85da2e044e2f7944126b50f14090890759.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d7e4e6b14de5ec836955d233d6517f480e51aa7817068aac7e6a654e390697ee.png"
+    },
+    "cardNameSlug": "Galvanizer",
+    "cardRevealTime": "2018-07-31T14:32:51.000Z",
+    "id": "69",
+    "unixTime": 1533047571
+  },
+  {
+    "miniGUID": "451",
+    "class": "SHAMAN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9b4fe46fb950823cd71e637b1a37a03a451b16b4da6ebff2a1daa1c04aa6c5ef.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/155ce4d5d2e3357b71062469bfb8be252af1dac63c8641df9577c05f485f554c.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3b580198f26a95cd8072e9ebeaab98c57c7a5ac24d3a019f0f30ef112ce0f9b4.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8dabfa8d05c83916827f338750b70cd037e05a57bf88742eb2b312ec0fea8e4.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b7ee46ae74cafa2aead060abc26d8cf31f76cd1799b9de85b26a7c1238a8c9d.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85acdab7d94473bbd8c8d93a7930dfe934aefb12ae64250b7057c4c73d915c64.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d17f61905b1c9b5cfbaec3b51247b6884230b046c620f68069183a07c7efb65a.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/84319307c46e13018fb54f3faa06a3f5a7bbdfbf7e27bae62e8a9bd5b4104102.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37af8a0910a89d6acfde6477f894a5a7dbdb611f68a768f3fa42c37365b8fc39.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/654fee964e5811b27954a63b9060956248e92b35656832a79876fd6646cda9ba.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7e102ad398e16bbebd2d68ebb1742cefe2a9648fbfc2e7588e5f61f03b3add99.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/48948d949987b3ed82ed4447872fdfa453200ab803491f94aa6ae551e6e431b5.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0c6a3f44e53917569ed1772f350672b8a7f902468f224857b4417d8de259d87a.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/508642603a656388f5afce25a6fe408a4bf40f633524a9d98b54ba31046178ed.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/66dc27e567dbd241c379681d011b34edd6d40840857f04cdba125ba55ad171a2.png"
+    },
+    "cardNameSlug": "VoltaicBurst",
+    "cardRevealTime": "2018-07-30T15:10:46.000Z",
+    "id": "70",
+    "unixTime": 1532963446
+  },
+  {
+    "miniGUID": "291",
+    "class": "SHAMAN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7fa214ce5ce589b54bcba91445f9a5e677457a88c3f3504f4296e371c702b932.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/22a7d79f68ab2838c26e1482fe981f5af9a9efb793b4a4b81c22f17120fcf41a.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/67c6b3e6c712acd87d730a937e9d8c642d0521ff4356b16bef7a0cf09a320bba.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/95d1709f2fd63c1c10ef179ccb6e2aa88218e168fc78564ca8d47e3d165f45a9.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c0b80f9c272a2bf9b40753e18f076318f06fdebe099a4a88744b34af25a8db18.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7ee126bfe0d3f6bf948b593b6be479d1c78a929e3d0ffdb3768e515439b0e436.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c6de68d6de13d605e4bf357e390ff5867fdcb25425e3627508fe3f2ba299d581.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1c47e4b63a039faff86cc3d1df4a765676535ba532f749cd9fc871adb7908900.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c573c0d9ca27cf3f963667711519fff969b28684d0d7b86affc9cfdb0d5a0221.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6292b6fe16858753136c4d51d31972b1cbab463188fb28577722e846f642a2fd.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d0d6043b82af269c2f4dc71ca1e0644995b7391d8c0773c290c34f17e4d2ab9.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c333a31ad6997510e76178f878b2116c8e748e9c1e8b012ab12b0b6fa1a51927.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2648b70da292345771cfe5ca2da97db233aaae7c7f21dfa971a2001f489da5b4.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/688f8e6440f9a7d2711f2ddc843c8a9a0ecf42ee819ad10655fa74058785a861.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ebffc41b20e54a4cbceab23883daf273aca85311a1c3329f5f7d034b68653c1e.png"
+    },
+    "cardNameSlug": "StormChaser",
+    "cardRevealTime": "2018-07-30T15:12:07.000Z",
+    "id": "71",
+    "unixTime": 1532963527
+  },
+  {
+    "miniGUID": "299",
+    "class": "WARRIOR",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/33abf176681a8e6a816745815ec096dad67b267ec06bfece6326c67137358925.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3dafb9046548f7f79dace2e93f65a62d477f58a2bad92953a63fa267a58737ce.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/996d23af22691b199b980d82273d73b148d740c8c15db12354682187998b7217.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ef965736c66e2395eb71731b069fccbf8ecc775072ee58d0f6cf8166175b521d.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4dc804388fdf53f160d2c92ce9137420ecd3be7fdf1fc213ec9f3e5996a0f3c.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ece2948b453f8156c0c744faa15d6266cbf62078f63e4380407eef08e9ca719f.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/70f675219f519424aaf2e43d1286af23d1796d97c3f8178a05766ddaea66d218.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/09dafb8e9c7aa733312b3146bcfcd5364425fd4c1654494a82c4402a3b701f65.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b4301f8f3bbe39ab50fc1a7b24e73ea354b6cc7bdb8341ede139a0952cd3a5e5.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c9a8e6049e3177804a679a56b9caab270c8135acf07e60ea0b59aa5feba5da25.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/16d956f7ab53d76971a2c0f936f83db74a9b0f591f23710c723104e047e202bc.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c4f2ad8f1cb36498b7ffd7532ffefc54600d0f0d5f9d6ec6f722cb453e30d53b.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9d84e3fa87388587ff8727ef7cbea7c9e05645671b32cfa30aaf2cf4925acb47.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8061e4103a7bfa2c4089f88b3ec5d03097e3b16de7a8cf66b783f41a0b2c6bd8.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/256ea996bf99526f0152c9d819e7efd2c2993250ea6b189692d16f5d6cc410a3.png"
+    },
+    "cardNameSlug": "OmegaAssembly",
+    "cardRevealTime": "2018-07-25T17:07:26.000Z",
+    "id": "72",
+    "unixTime": 1532538446
+  },
+  {
+    "miniGUID": "908",
+    "class": "PALADIN",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/708efb451d11eeec87520944be0d2a4b717908a5415f9ef6435a34f1207a2802.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/94a6b8206f6c71f9b763da716ddd260d6357e2194dfbc08e5d518b205686f5bc.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1e9067fd91d9fddba18678d3103e2b704a8de566e4fa969623166c05b8167e96.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/088af2f96d8c1d8529f49756a7bb3d03497d53ef2ee30b7bf171671b09f5641d.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ef530c7b0fd78c39dfb7dcf9085a0ea8aeb77187c66fc24081444077c6c14087.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0956fc3fd0c9249a1642236a0792c82995e039e097f525e6fdec9648f4d2108d.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9fa7529a980beffd22e3ba66f342420fe9b2789741fe8e42439e01f3f4896fba.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4c99a7929fbb7590470c629cf555f66e151a0e0493b275cf697c6e7104776164.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c27f332ec0a4e081db85fa7434a502530e7c80922852687a285ef4ab7adc222c.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37f3d32eca2f4b6ab6fcf3d0830dd1dbd1df21a0d03be425ed2d0fd5a80d6d31.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/48ae4c7615d842ae042129e0a4ecb1dbe2637d1702d9baec90380befd8e00437.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/99ffa16131b0d20e484c899784c45472b78756fddfb5c1f28f1f994f6362dad8.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a8a0f2a750ba771ff2c27dc5ff690b0b48a377c096bb9311ce37ac17f9bfa7ce.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8b8a9b6162c3eaf15312c1319e85a6147ec60045bbde48ec0492d1a42d105413.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e9c5f7280fb6411e5793ccf05f152aad23b3857707b4bbbb67582eff3d8f6db9.png"
+    },
+    "cardNameSlug": "AutodefenseMatrix",
+    "cardRevealTime": "2018-07-23T17:48:03.000Z",
+    "id": "73",
+    "unixTime": 1532368083
+  },
+  {
+    "miniGUID": "296",
+    "class": "NEUTRAL",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3a57b72af1cc92b4c561f8f9384fcb57f96674797ee5ff18b940f1c38af9a9cf.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c586289d02eb2c2292634769c40ccaf22cec4ba9abccacaa2b271754fca21396.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a7770a9fac63f7dca76861d902f4657dd6334e5010b1c7d8421471a32a569a9.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2cc7246dd3c9035cf3e449994ba79dd61c9400914d82b0c3596c852b4e89d93d.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7daa863e5736cf347f2b02f91074de5cf694e87ad96ffea1f50d378f98008678.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/aef86d97d02f3d57c66df5311a4694835c50952d12b17c5f2714fcce8045b44b.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c6a6c661b109d05db8e4d7862b5ba96c4820a385665f4be5fd5fa19fd31320ee.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/64174fbc19904291a3425d19ba21b380884f05d21ab7e64b2fdfd689fa217608.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1a2e1fb76b6944341e23b0b9d8800b07460a0b59361a4d15bed447aefe03506.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/659b9fdc11700ed3d2166939163cf88db38da9be07b806b10bc2bf8ac2603487.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0aaa82bbd05a36e92586f8305a43751e1bd0df1ce9ffa227780793184b63f204.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8d0605f7d58291e4847f4055a5c5333b5b272106c8d97ecbff9676cacee8e00c.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8ac789d77c863f15642b9463a3af57406a7ca28dee3b164155920cbc3c2626e8.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f74f457b8db0d82b6deaec6b9e2eb9ead01962ae4b33af73e65245a8d2a9cf48.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0c4dbf7730d024fb6aa61141bd16fe2d7a6bb8b2f5b2d85452e4c361c2661ba.png"
+    },
+    "cardNameSlug": "OmegaDefender",
+    "cardRevealTime": "2018-07-06T20:14:38.000Z",
+    "id": "74",
+    "unixTime": 1530908078
+  },
+  {
+    "miniGUID": "059",
+    "class": "WARRIOR",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/19a97e547b6f411ff06988017cb6925000f47fcd6c8890dde3e42a93d52a625a.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a1dcc7d0ba93985c9162885f1642de424cd63d3c469a38c4059b7bb36e5d6066.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a4700876b067b8d043ab99b9b3ed5c22c07036f0bb245a0a5e8f50d28130218e.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6dfb5db7404faddc87ea5c6b6093a6b4d19a8316c889049cc605c00588239bfb.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5fec73f50aca7b5a98bbef2cb08891290a85a0a465bb574a98cf55796b4f6fd5.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0e67172069080016f3df953b4fb4f4474956c33910c4dd35016942791739b93.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a70ebbbb28ebe831cae6c4bddb95b3363f63755a776d9a8efe6d75054791bd8e.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f3a96276120ec73fde05d9978d23ff2d092e103c22f0cd7086d3f6c67e4a04d3.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d35f87732f96294dc20cbb3f399c85bfcef8d898571746cee40dc5cf0885128.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/222dd8222fbae1721e2826afb4bf1b4b1b7e1d1a9ecaf72e36f8ddf1258301ad.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/23e9ac256b77261385b341c8601e91f3738079fa8f3cb59b3be75ed208bfa18a.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/575c48e769519eb0e0cdfe760b1766c1803e0ed2ea967f5a1f8bef1f1431301b.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e4071fac5308ea0dd31c65b2468616fc9fd7a2f1a4c4f9eb6db10627feafee54.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/dd79d94b247a1f1babc5a4c426c4d21ebf98dab1a1fb7694f832d18b25a5f576.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/7d146c7a2a594e6d6d8ef6a2507819888c3536c4fe16cf32682a57805d93de35.png"
+    },
+    "cardNameSlug": "EterniumRover",
+    "cardRevealTime": "2018-07-26T18:15:03.000Z",
+    "id": "75",
+    "unixTime": 1532628903
+  },
+  {
+    "miniGUID": "218",
+    "class": "WARRIOR",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b0c3ea9dbc8f0f593aa77981d031abf481fa3f463bf6c127bdae2e644a3c7d0f.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59ef878a43d7d519744d46e89ac9135bd999f300a3c044a2cddd7f194db28559.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f7b933fade43b974e00786c0de158a62c1907994be6012b461b2db0011905d94.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d1bdec05912401e50b5e9bc2a5ec05b6b733d30e9d8e0faf7b9307ee49760df3.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/d4bbcb0fc4376840a22757dcf01f9784c2ccbe7aa9f3155d940dbec07aa14c66.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/59670f42e3bbc05b6baa798aa4e98ac05c2bf02b19f9e6158fcebe7a028756c5.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/503d26affb66effb04318c2539d38a9a66d3a2c29e7a94c49eaedb2623bfb8d6.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/9fc7be5e66b17f64310df7ad0a4c60170541f0af731d9aa1613d011ae3a041e7.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/96b25436cceefcb12b9720e583e4c7f329d22af88dc01d8fda3e40df6fd1b61c.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/cd9258329e7db8196790dd6d5d99efc2fc9b82722248d204958b059e0d4b2c78.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5b19a31dbf40fbed251ecdeb77b3dd782c5083b33c4980600d79cb624285b032.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/8e236f0387e7fec69dcd436af537d42c2310adb01dc537effff77ed83a9007ae.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0948b01328dc00838ab54f4aea993adb86f7947ae8d26801f707691fa045b6f6.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6d1502c2dc8fefd4cd450fc554f1313e6f7f30e38baa3e1d91f468593375e486.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/928f8feab07988c2d039c7c18784eb34d2d0d543d114633aff7cf742db682d7c.png"
+    },
+    "cardNameSlug": "SecurityRover",
+    "cardRevealTime": "2018-07-30T15:12:43.000Z",
+    "id": "76",
+    "unixTime": 1532963563
+  },
+  {
+    "miniGUID": "453",
+    "class": "MAGE",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f241007d7a1d6c60c07180c4129ee1b5cf4a9784c8fbfe67445afbc5f070938.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/50649b33d2a0a83d2c5df7ca2e5f953c645bfba7a5f68307a2451e513269c408.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/85477b51a456b3e1b6c1e98880ce5485da3f617e60b5f2c1674b270a892ceb53.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a7964d73439e050af89b33bb9539bac85ea8e80151a988746509ba46dd029394.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2be4acf415b1dce8e6af73300735dc68749629145af02142fa69ee3bc4d7d696.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/c75a9692d84b98934b6820a90e6434bcd43b2967987af79bf51bb01c82dcce5a.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/65ca3b8e4354b294a62e116ae497cbdc6970cab4d780d1151198948f9ceae261.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e8822abbd0c72fddb60640a1480041ecd2f0106c08f451303b1c960a6627a6ec.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/834847f548968ce6e48c51e422e4267fe8ff0ae01c2a68e1f042ded23d29562c.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/3d183a10c22299e0b540721130fbe5d35bd56dfe0227425e79090f92224781fe.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/08eccf7ba1c010a01562546469ecd16e73512a1ca04fea1aea6b033ddeca43bf.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/fd34ccc681067416db8e602a7ddf3c685f94ed28c8d1ceec9cf197c62c9bec49.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/274642085dfbd04b8373b6ae250b25c356f328795bc908b26636e2f455f146f7.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e30cff59b3f6b7c3d91c016d54ae402de9906b4b09e69a9d5eb0b7c24d583fc5.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/0f988ef7e684fdd68f03997de4d7a374da7d24a06dfd75938696da9c5a6e4723.png"
+    },
+    "cardNameSlug": "ShootingStar",
+    "cardRevealTime": "2018-07-27T16:47:39.000Z",
+    "id": "77",
+    "unixTime": 1532710059
+  },
+  {
+    "miniGUID": "216",
+    "class": "PRIEST",
+    "cardSet": "BOT",
+    "localizedImage": {
+      "en_US":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/4bd3ba9f497eba1a1f632584058a03d7d90cf95867ba2ee7f6f3dc417a8c326a.png",
+      "es_MX":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e53273bc8f3f30329d2ec9d0f31874212388d2dce9bdaa1accc38d34d904cb36.png",
+      "pt_BR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/ae57c9a60a10d0587451b928144a3ed38158b81719752512a35ddc82a15b50cb.png",
+      "de_DE":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2a30a5e2e94ac39daaa22dd71b679450ad9181d456c09d5cf20a885bacb18f19.png",
+      "en_GB":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/37cd6f50abf122927eb76d48304ee9683965377fca9e419376c1674539bcd546.png",
+      "es_ES":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/b36dbadd57826654161ca548ea025a7019da280089e96e567a34693a4a33e8fb.png",
+      "fr_FR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e2dd74f45567e9bd6c73b8eba94be1939a294d82d2b4763357664c8a87c40943.png",
+      "it_IT":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/a0c358180161b0d1d69b8e1a76b3a2958f795fb5c915ad3fba4f65dea62bac27.png",
+      "pl_PL":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/128f1c94ceffd696a4924448400dfdea7b7cc5858026dc7e5c3e54f04e6cad32.png",
+      "ru_RU":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/6a4cdb4ca2f855244a417e24b9c7b3785ec08cb0c198d5efd9525b581ec9a900.png",
+      "ko_KR":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/bce2909a4ce0531454a8b9a058ada4bad27cdb1657a1da36ab42df0ef56de0ea.png",
+      "zh_TW":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/f041f79453f86c84580a7720762a255e74646f918c4cea6b0779b9bc34629b1c.png",
+      "zh_CN":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/e0ec82ee1845761a9043a5d46f2e3a7ed5372a1e4cb7f7c6527c7b8c974872e1.png",
+      "ja_JP":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/2eefb8846c60d0d1fa1740d9175b88e0fb2255adf522755dca104b4fc1be606e.png",
+      "th_TH":
+        "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/5c9a0ed3c72b313e93f0f2eea3de8fb53006aa65e168b7ec97ded19b9e031208.png"
+    },
+    "cardNameSlug": "OmegaMedic",
+    "cardRevealTime": "2018-07-24T15:09:35.000Z",
+    "id": "78",
+    "unixTime": 1532444975
+  }
+]

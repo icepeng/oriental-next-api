@@ -1,0 +1,44 @@
+[
+  {
+    "id": "power-word-replicate",
+    "class": "PRIEST",
+    "rarity": "EPIC",
+    "cost": "5"
+  },
+  {
+    "id": "zerek-master-cloner",
+    "class": "PRIEST",
+    "rarity": "LEGENDARY",
+    "cost": "6"
+  },
+  {
+    "id": "zereks-cloning-gallery",
+    "class": "PRIEST",
+    "rarity": "LEGENDARY",
+    "cost": "9"
+  },
+  {
+    "id": "reckless-experimenter",
+    "class": "PRIEST",
+    "rarity": "EPIC",
+    "cost": "5"
+  },
+  {
+    "id": "cloning-device",
+    "class": "PRIEST",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "dead-ringer",
+    "class": "PRIEST",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "omega-medic",
+    "class": "PRIEST",
+    "rarity": "RARE",
+    "cost": "3"
+  }
+]

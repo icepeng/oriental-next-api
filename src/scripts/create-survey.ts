@@ -8,9 +8,9 @@ async function createSurvey() {
   const app = await NestFactory.create(ApplicationModule);
   const surveyService = app.select(SurveyModule).get(SurveyService);
   surveyService.create({
-    expansion: 'the-witchwood',
+    expansion: 'boomsday-project',
     startTime: new Date().toISOString(),
-    isPreRelease: false,
+    isPreRelease: true,
   });
 }
 

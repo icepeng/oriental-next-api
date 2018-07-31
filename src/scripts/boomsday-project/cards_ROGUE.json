@@ -1,0 +1,50 @@
+[
+  {
+    "id": "academic-espionage",
+    "class": "ROGUE",
+    "rarity": "EPIC",
+    "cost": "4"
+  },
+  {
+    "id": "myras-unstable-element",
+    "class": "ROGUE",
+    "rarity": "LEGENDARY",
+    "cost": "5"
+  },
+  {
+    "id": "myra-rotspring",
+    "class": "ROGUE",
+    "rarity": "LEGENDARY",
+    "cost": "5"
+  },
+  {
+    "id": "pogo-hopper",
+    "class": "ROGUE",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
+    "id": "lab-recruiter",
+    "class": "ROGUE",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "blightnozzle-crawler",
+    "class": "ROGUE",
+    "rarity": "RARE",
+    "cost": "4"
+  },
+  {
+    "id": "necrium-blade",
+    "class": "ROGUE",
+    "rarity": "RARE",
+    "cost": "3"
+  },
+  {
+    "id": "necrium-vial",
+    "class": "ROGUE",
+    "rarity": "EPIC",
+    "cost": "5"
+  }
+]

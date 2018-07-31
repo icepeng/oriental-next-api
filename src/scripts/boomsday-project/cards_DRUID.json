@@ -1,0 +1,50 @@
+[
+  {
+    "id": "juicy-psychmelon",
+    "class": "DRUID",
+    "rarity": "EPIC",
+    "cost": "4"
+  },
+  {
+    "id": "mulchmuncher",
+    "class": "DRUID",
+    "rarity": "RARE",
+    "cost": "10"
+  },
+  {
+    "id": "dreampetal-florist",
+    "class": "DRUID",
+    "rarity": "EPIC",
+    "cost": "7"
+  },
+  {
+    "id": "landscaping",
+    "class": "DRUID",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  {
+    "id": "dendrologist",
+    "class": "DRUID",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
+    "id": "flobbidinous-floop",
+    "class": "DRUID",
+    "rarity": "LEGENDARY",
+    "cost": "4"
+  },
+  {
+    "id": "gloop-sprayer",
+    "class": "DRUID",
+    "rarity": "COMMON",
+    "cost": "8"
+  },
+  {
+    "id": "biology-project",
+    "class": "DRUID",
+    "rarity": "COMMON",
+    "cost": "1"
+  }
+]

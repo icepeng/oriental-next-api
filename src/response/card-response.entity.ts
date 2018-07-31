@@ -16,9 +16,12 @@ import { SurveyResponse } from './survey-response.entity';
 export class CardResponse {
   @PrimaryGeneratedColumn() id: number;
 
+  @Column() responseId: number;
+
   @ManyToOne(type => SurveyResponse, response => response.cardResponses, {
     nullable: false,
   })
+  @JoinColumn({ name: 'responseId' })
   response: SurveyResponse;
 
   @Column() cardId: string;
