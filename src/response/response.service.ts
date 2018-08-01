@@ -20,7 +20,13 @@ export class ResponseService {
 
   async getOne(id: number) {
     return this.responseRepository.findOne(id, {
-      relations: ['user', 'cardResponses', 'expansionResponse', 'cardResponses.archives'],
+      relations: [
+        'user',
+        'cardResponses',
+        'expansionResponse',
+        'cardResponses.archives',
+        'cardResponses.archives.user',
+      ],
     });
   }
 

@@ -47,7 +47,7 @@ export class CardService {
       .where('cardResponse.cardId = :cardId', { cardId: card.id })
       .andWhere('char_length(cardResponse.description) > 0')
       .andWhere('survey.isPreRelease = true')
-      .skip(Math.floor(Math.random() * (count - 3)))
+      .skip(Math.floor(Math.random() * Math.max(count - 3, 0)))
       .take(4)
       .getMany();
   }

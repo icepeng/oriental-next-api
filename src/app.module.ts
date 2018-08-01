@@ -1,5 +1,6 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { ArchiveModule } from './archive/archive.module';
 import { AuthModule } from './auth/auth.module';
 import { CardModule } from './card/card.module';
 import { ExpansionModule } from './expansion/expansion.module';
@@ -18,6 +19,7 @@ import { UserModule } from './user/user.module';
     SurveyModule,
     ResponseModule,
     StatModule,
+    ArchiveModule,
   ],
   controllers: [],
   components: [],

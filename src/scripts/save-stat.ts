@@ -7,7 +7,7 @@ async function saveStat() {
   try {
     const app = await NestFactory.create(ApplicationModule);
     const statService = app.select(StatModule).get(StatService);
-    await statService.generateStat(2);
+    await statService.generateStat(3);
   } catch (err) {
     console.error(err);
     return;

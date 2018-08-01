@@ -35,6 +35,8 @@ export class UserService {
       relations: [
         'responses',
         'responses.cardResponses',
+        'responses.cardResponses.archives',
+        'responses.cardResponses.archives.user',
         'responses.expansionResponse',
       ],
     });

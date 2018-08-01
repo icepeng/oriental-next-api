@@ -21,4 +21,14 @@ export class ExpansionController {
       expansion,
     };
   }
+
+  @Get('/:id/responses')
+  public async getRandomResponses(@Param('id') id: string) {
+    const expansionResponses = await this.expansionService.getRandomResponses(
+      id,
+    );
+    return {
+      expansionResponses,
+    };
+  }
 }

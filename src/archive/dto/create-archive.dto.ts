@@ -1,7 +1,7 @@
-import { IsString, MaxLength } from 'class-validator';
+import { IsInt, IsString, MaxLength } from 'class-validator';
 
 export class CreateArchiveDto {
-  @IsString() readonly cardResponseId: number;
+  @IsInt() readonly cardResponseId: number;
 
   @IsString()
   @MaxLength(2000)
