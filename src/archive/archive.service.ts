@@ -52,4 +52,17 @@ export class ArchiveService {
       };
     });
   }
+
+  async getRecent() {
+    return this.archiveRepository.find({
+      take: 6,
+      order: { createTime: 'DESC' },
+      relations: [
+        'user',
+        'cardResponse',
+        'cardResponse.response',
+        'cardResponse.response.user',
+      ],
+    });
+  }
 }
