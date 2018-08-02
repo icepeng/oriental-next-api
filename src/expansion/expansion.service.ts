@@ -21,14 +21,14 @@ export class ExpansionService {
   }
 
   async findAll() {
-    return this.expansionRepository.find({
-      relations: [
-        'cards',
-        'surveys',
-        'surveys.expansionStat',
-        'surveys.cardStats',
-      ],
-    });
+    return this.expansionRepository
+      .createQueryBuilder('expansion')
+      .leftJoinAndSelect('expansion.cards', 'card')
+      .leftJoinAndSelect('expansion.surveys', 'survey')
+      .leftJoinAndSelect('survey.expansionStat', 'expansionStat')
+      .leftJoinAndSelect('survey.cardStats', 'cardStat')
+      .orderBy('card.class', 'ASC')
+      .getMany();
   }
 
   async findOne(id: string) {
