@@ -1,5 +1,23 @@
 [
   {
+    "id": "weapons-project",
+    "class": "WARRIOR",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "rocket-boots",
+    "class": "WARRIOR",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "dynomatic",
+    "class": "WARRIOR",
+    "rarity": "RARE",
+    "cost": "5"
+  },
+  {
     "id": "supercollider",
     "class": "WARRIOR",
     "rarity": "EPIC",

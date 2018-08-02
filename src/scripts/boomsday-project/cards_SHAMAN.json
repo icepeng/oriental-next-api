@@ -1,5 +1,17 @@
 [
   {
+    "id": "beakered-lightning",
+    "class": "SHAMAN",
+    "rarity": "COMMON",
+    "cost": "0"
+  },
+  {
+    "id": "elementary-reaction",
+    "class": "SHAMAN",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
     "id": "the-storm-bringer",
     "class": "SHAMAN",
     "rarity": "LEGENDARY",

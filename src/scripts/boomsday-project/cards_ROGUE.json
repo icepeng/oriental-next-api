@@ -1,5 +1,17 @@
 [
   {
+    "id": "violet-haze",
+    "class": "ROGUE",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  {
+    "id": "crazed-chemist",
+    "class": "ROGUE",
+    "rarity": "COMMON",
+    "cost": "5"
+  },
+  {
     "id": "academic-espionage",
     "class": "ROGUE",
     "rarity": "EPIC",

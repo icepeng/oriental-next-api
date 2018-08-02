@@ -1,5 +1,17 @@
 [
   {
+    "id": "tending-tauren",
+    "class": "DRUID",
+    "rarity": "RARE",
+    "cost": "6"
+  },
+  {
+    "id": "floops-glorious-gloop",
+    "class": "DRUID",
+    "rarity": "LEGENDARY",
+    "cost": "1"
+  },
+  {
     "id": "juicy-psychmelon",
     "class": "DRUID",
     "rarity": "EPIC",

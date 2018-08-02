@@ -1,5 +1,17 @@
 [
   {
+    "id": "research-project",
+    "class": "MAGE",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "astral-rift",
+    "class": "MAGE",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
     "id": "unexpected-results",
     "class": "MAGE",
     "rarity": "EPIC",

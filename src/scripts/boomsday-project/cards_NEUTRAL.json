@@ -1,5 +1,167 @@
 [
   {
+    "id": "toxicologist",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "skaterbot",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "1"
+  },
+  {
+    "id": "piloted-reaper",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "4"
+  },
+  {
+    "id": "bronze-gatekeeper",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  {
+    "id": "loose-specimen",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "5"
+  },
+  {
+    "id": "spring-rocket",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  {
+    "id": "unpowered-mauler",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
+    "id": "explodinator",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "4"
+  },
+  {
+    "id": "cloakscale-chemist",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "spark-engine",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "2"
+  },
+  {
+    "id": "bull-dozer",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "9"
+  },
+  {
+    "id": "brainstormer",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  {
+    "id": "microtech-controller",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  {
+    "id": "holomancer",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "5"
+  },
+  {
+    "id": "coppertail-imposter",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "4"
+  },
+  {
+    "id": "mecharoo",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "1"
+  },
+  {
+    "id": "crystallizer",
+    "class": "NEUTRAL",
+    "rarity": "EPIC",
+    "cost": "1"
+  },
+  {
+    "id": "kaboom-bot",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  {
+    "id": "damaged-stegotron",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "6"
+  },
+  {
+    "id": "steel-rager",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "4"
+  },
+  {
+    "id": "goblin-bomb",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "1"
+  },
+  {
+    "id": "electrowright",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  {
+    "id": "whirliglider",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "harbinger-celestia",
+    "class": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "cost": "4"
+  },
+  {
+    "id": "spark-drill",
+    "class": "NEUTRAL",
+    "rarity": "RARE",
+    "cost": "6"
+  },
+  {
+    "id": "rusty-recycler",
+    "class": "NEUTRAL",
+    "rarity": "COMMON",
+    "cost": "5"
+  },
+  {
+    "id": "subject9",
+    "class": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "cost": "5"
+  },
+  {
     "id": "weaponized-piata",
     "class": "NEUTRAL",
     "rarity": "EPIC",

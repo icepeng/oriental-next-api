@@ -1,5 +1,35 @@
 [
   {
+    "id": "ectomancy",
+    "class": "WARLOCK",
+    "rarity": "EPIC",
+    "cost": "6"
+  },
+  {
+    "id": "soul-infusion",
+    "class": "WARLOCK",
+    "rarity": "RARE",
+    "cost": "1"
+  },
+  {
+    "id": "nethersoul-buster",
+    "class": "WARLOCK",
+    "rarity": "RARE",
+    "cost": "3"
+  },
+  {
+    "id": "spirit-bomb",
+    "class": "WARLOCK",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "doubling-imp",
+    "class": "WARLOCK",
+    "rarity": "COMMON",
+    "cost": "3"
+  },
+  {
     "id": "demonic-project",
     "class": "WARLOCK",
     "rarity": "COMMON",

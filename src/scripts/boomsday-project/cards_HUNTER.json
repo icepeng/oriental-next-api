@@ -1,5 +1,41 @@
 [
   {
+    "id": "secret-plan",
+    "class": "HUNTER",
+    "rarity": "COMMON",
+    "cost": "1"
+  },
+  {
+    "id": "flarks-boom-zooka",
+    "class": "HUNTER",
+    "rarity": "LEGENDARY",
+    "cost": "8"
+  },
+  {
+    "id": "bomb-toss",
+    "class": "HUNTER",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "venomizer",
+    "class": "HUNTER",
+    "rarity": "COMMON",
+    "cost": "2"
+  },
+  {
+    "id": "necromechanic",
+    "class": "HUNTER",
+    "rarity": "EPIC",
+    "cost": "5"
+  },
+  {
+    "id": "goblin-prank",
+    "class": "HUNTER",
+    "rarity": "EPIC",
+    "cost": "2"
+  },
+  {
     "id": "spider-bomb",
     "class": "HUNTER",
     "rarity": "RARE",

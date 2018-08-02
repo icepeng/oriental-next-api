@@ -1,5 +1,23 @@
 [
   {
+    "id": "topsy-turvy",
+    "class": "PRIEST",
+    "rarity": "COMMON",
+    "cost": "0"
+  },
+  {
+    "id": "test-subject",
+    "class": "PRIEST",
+    "rarity": "RARE",
+    "cost": "1"
+  },
+  {
+    "id": "extra-arms",
+    "class": "PRIEST",
+    "rarity": "RARE",
+    "cost": "3"
+  },
+  {
     "id": "power-word-replicate",
     "class": "PRIEST",
     "rarity": "EPIC",
