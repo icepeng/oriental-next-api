@@ -31,12 +31,17 @@ export class ResponseService {
   }
 
   async getRandom(surveyId: number) {
-    return this.responseRepository
-      .createQueryBuilder('response')
-      .where('response.surveyId = :surveyId', { surveyId })
-      .orderBy('random()')
-      .take(1)
-      .getOne();
+    const randomId = await this.responseRepository
+      .query(
+        `SELECT r.*
+      FROM survey_response r INNER JOIN
+           card_response c
+           ON c."responseId" = r.id
+      GROUP BY r.id
+      HAVING COUNT(*) >= 10 ORDER BY random() LIMIT 1;`,
+      )
+      .then(res => res[0].id);
+    return this.responseRepository.findOne(randomId);
   }
 
   async create(surveyId: number, user: User) {
